@@ -1,0 +1,20 @@
+[1]
+Active=0
+Tabs=[{"Orientation":"Horizontal","Widgets":[{"Columns":131,"Command":"","Lines":38,"SessionRestoreId":1,"WorkingDirectory":""}]}]
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=Locale
+LocalTab=%d : %n
+Profile[$e]=FALLBACK/
+RemoteTab=(%u) %H
+SessionGuid={9da98d90-7357-4fed-93a7-78a821f2c06b}
+TabColor=
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+MenuBar=Disabled
+ObjectName=MainWindow#1

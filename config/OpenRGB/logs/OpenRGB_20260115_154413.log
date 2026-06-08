@@ -1,0 +1,74 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20260115_154413
+====================================================================================================
+
+1009  |Info:    Saving detector settings
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Start device detection               |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    Initializing HID interfaces: Success
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    |             Detecting I2C interfaces               |
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-20 Device 0000:0000 Subsystem: 0000:0000
+1015  |Info:    Registering I2C interface: /dev/i2c-10 Device 1002:150E Subsystem: 1043:39A8
+1015  |Info:    Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-19 Device 0000:0000 Subsystem: 0000:0000
+1015  |Info:    Registering I2C interface: /dev/i2c-27 Device 1022:790B Subsystem: 1043:1024
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1015  |Info:    Registering I2C interface: /dev/i2c-CSC3556:00-cs35l56-hda.1 Device 0000:0000 Subsystem: 0000:0000
+1015  |Info:    Registering I2C interface: /dev/i2c-25 Device 10DE:2F58 Subsystem: 1043:39A8
+1015  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1015  |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-6 Device 1002:150E Subsystem: 1043:39A8
+1016  |Info:    Registering I2C interface: /dev/i2c-23 Device 10DE:2F58 Subsystem: 1043:39A8
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-13 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:150E Subsystem: 1043:39A8
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-21 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-11 Device 1002:150E Subsystem: 1043:39A8
+1016  |Info:    Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-28 Device 1022:790B Subsystem: 1043:1024
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-18 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-CSC3556:00-cs35l56-hda.2 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-26 Device 1022:790B Subsystem: 1043:1024
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-16 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-CSC3556:00-cs35l56-hda.0 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-24 Device 10DE:2F58 Subsystem: 1043:39A8
+1016  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1016  |Info:    Registering I2C interface: /dev/i2c-14 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-ASCE1206:00 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-22 Device 10DE:2F58 Subsystem: 1043:39A8
+1016  |Info:    Registering I2C interface: /dev/i2c-12 Device 1002:150E Subsystem: 1043:39A8
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C devices                |
+1016  |Info:    ------------------------------------------------------
+2287  |Info:    ------------------------------------------------------
+2287  |Info:    |               Detecting I2C PCI devices            |
+2287  |Info:    ------------------------------------------------------
+2288  |Info:    ------------------------------------------------------
+2288  |Info:    |               Detecting HID devices                |
+2288  |Info:    ------------------------------------------------------
+2288  |Info:    [EVision Keyboard] Registering RGB controller
+2295  |Info:    [Asus Aura Core Laptop] Registering RGB controller
+2717  |Info:    [G502 HERO Gaming Mouse] Registering RGB controller
+2717  |Info:    ------------------------------------------------------
+2717  |Info:    |            Detecting libusb HID devices            |
+2717  |Info:    ------------------------------------------------------
+2717  |Info:    ------------------------------------------------------
+2717  |Info:    |              Detecting other devices               |
+2717  |Info:    ------------------------------------------------------
+2727  |Info:    [ASUS TUF Keyboard] Registering RGB controller
+2727  |Info:    ------------------------------------------------------
+2727  |Info:    |                Detection completed                 |
+2727  |Info:    ------------------------------------------------------
+2727  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>

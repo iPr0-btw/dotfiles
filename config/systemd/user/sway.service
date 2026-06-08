@@ -1,0 +1,12 @@
+[Unit]
+Description=Sway Window Manager
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/env DRI_PRIME=0 sway
+Environment=DISPLAY=:0
+Restart=always
+User=<your_username> 
+
+[Install]
+WantedBy=default.target

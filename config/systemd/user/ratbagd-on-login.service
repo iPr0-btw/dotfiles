@@ -1,0 +1,9 @@
+[Unit]
+Description=Mouse control daemon
+
+[Service]
+ExecStart=/usr/bin/ratbagd
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

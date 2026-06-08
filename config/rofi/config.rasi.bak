@@ -1,0 +1,18 @@
+/** Basic config file **/
+
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus";
+  display-drun: "  ";
+  display-window: "﩯 ";
+  display-combi: "  ";
+}
+//@theme "themes/sidetab-nord.rasi"
+
+//@theme "/home/bruh/.config/rofi/themes/nord.rasi"
+
+//@theme "/home/bruh/.config/rofi/themes/sidetab-nord.rasi"
+
+//@theme "/home/bruh/.config/rofi/themes/powermenu.rasi"
+
+@theme "/home/bruh/.config/rofi/themes/nord.rasi"

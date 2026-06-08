@@ -1,0 +1,14 @@
+2025/10/21-17:06:07.001 133b Reusing MANIFEST /home/bruh/.config/chromium/Default/IndexedDB/https_ng.cengage.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/21-17:06:07.001 133b Recovering log #6
+2025/10/21-17:06:07.001 133b Reusing old log /home/bruh/.config/chromium/Default/IndexedDB/https_ng.cengage.com_0.indexeddb.leveldb/000006.log 
+2025/10/21-17:06:07.004 134e Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/21-17:06:07.010 133b Level-0 table #10: started
+2025/10/21-17:06:07.010 133b Level-0 table #10: 695 bytes OK
+2025/10/21-17:06:07.011 133b Delete type=0 #6
+2025/10/21-17:06:07.011 133b Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 231 : 1
+2025/10/21-17:06:07.011 133b Compacting 1@0 + 1@1 files
+2025/10/21-17:06:07.011 133b Generated table #11@0: 64 keys, 1036 bytes
+2025/10/21-17:06:07.011 133b Compacted 1@0 + 1@1 files => 1036 bytes
+2025/10/21-17:06:07.012 133b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/21-17:06:07.012 133b Delete type=2 #10
+2025/10/21-17:06:07.012 133b Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 231 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

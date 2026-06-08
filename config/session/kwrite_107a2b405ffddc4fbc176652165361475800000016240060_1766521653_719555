@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=$HOME/asus-armoury/README.md
+File10[$e]=/etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+File2[$e]=$HOME/grub.txt
+File3[$e]=/boot/grub/grub.cfg
+File4[$e]=$HOME/.xinitrc
+File5[$e]=$HOME/.x.sj
+File6[$e]=$HOME/.x.sh
+File7[$e]=/etc/X11/Xsession
+File8[$e]=/etc/X11/xorg.conf.backup/30-nvidia.conf.bak
+File9[$e]=/etc/X11/xorg.conf.backup/20-amdgpu.conf.bak
+Name1[$e]=README.md
+Name10[$e]=90-nvidia-screen-G05.conf
+Name2[$e]=grub.txt
+Name3[$e]=grub.cfg
+Name4[$e]=.xinitrc
+Name5[$e]=.x.sj
+Name6[$e]=.x.sh
+Name7[$e]=Xsession
+Name8[$e]=30-nvidia.conf.bak
+Name9[$e]=20-amdgpu.conf.bak
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

@@ -1,0 +1,43 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="HDMI-0">
+      </output>
+      <output name="DP-0">
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="DP-2">
+      </output>
+      <output name="eDP-1-0">
+          <vendor>SDC</vendor>
+          <product>0x419c</product>
+          <serial>0x00000000</serial>
+          <width>2880</width>
+          <height>1800</height>
+          <rate>120.000000</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DisplayPort-1-0">
+      </output>
+      <output name="DisplayPort-1-1">
+      </output>
+      <output name="DisplayPort-1-2">
+      </output>
+      <output name="DisplayPort-1-3">
+      </output>
+      <output name="DisplayPort-1-4">
+      </output>
+      <output name="DisplayPort-1-5">
+      </output>
+      <output name="DisplayPort-1-6">
+      </output>
+      <output name="DisplayPort-1-7">
+      </output>
+  </configuration>
+</monitors>

@@ -1,0 +1,14 @@
+[Unit]
+Description=Hyprsunset on Login (if time is 20:00-07:30)
+After=graphical-session-started.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=hyprsunset
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
+

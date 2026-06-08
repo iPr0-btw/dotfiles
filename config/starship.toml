@@ -1,0 +1,27 @@
+# ~/.config/starship.toml
+# Global format: exactly the character, no surrounding whitespace
+format = "$character"
+
+[character]
+# Use only the symbol and no added spacing
+format = "$symbol"
+success_symbol = "█"
+error_symbol = "█"
+vicmd_symbol = "█"
+
+[character.symbol]
+text = "█"
+
+# Disable all modules so nothing else appears
+[battery]    disabled = true
+[git_branch] disabled = true
+[git_status] disabled = true
+[directory]  disabled = true
+[time]        disabled = true
+[username]    disabled = true
+[hostname]    disabled = true
+[line_break]  disabled = true
+[env_var]     disabled = true
+[custom]      disabled = true
+# (add others as desired)
+

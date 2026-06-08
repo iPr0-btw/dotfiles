@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///home/bruh/.config/fastfetch/config1.jsonc
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=/etc/X11/xorg.conf.d/10-radeon.conf
+File10[$e]=$HOME/.config/fastfetch/config1.jsonc
+File2[$e]=/etc/X11/xorg.conf.d/10-amdgpu.conf
+File3[$e]=$HOME/asus-armoury/Makefile
+File4[$e]=$HOME/backup.txt
+File5[$e]=$HOME/refpolicy/README
+File6[$e]=$HOME/Debian-Hyprland/README.md
+File7[$e]=$HOME/Debian-Hyprland/dry-run-build.sh
+File8[$e]=$HOME/.config/fastfetch/config.jsonc.bak
+File9[$e]=$HOME/.config/fastfetch/config.jsonc
+Name1[$e]=10-radeon.conf
+Name10[$e]=config1.jsonc
+Name2[$e]=10-amdgpu.conf
+Name3[$e]=Makefile
+Name4[$e]=backup.txt
+Name5[$e]=README
+Name6[$e]=README.md
+Name7[$e]=dry-run-build.sh
+Name8[$e]=config.jsonc.bak
+Name9[$e]=config.jsonc
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

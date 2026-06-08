@@ -1,0 +1,16 @@
+window {
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 12pt;
+  color: #cdd6f4;
+  background-color: rgba(0, 0, 0, 100);
+}
+
+button {
+  border-style: solid;
+  border-width: 3px;
+  background-color: rgba(100, 100, 100, 0);
+  border-color: #313244;
+  margin: 5px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///home/bruh/Debian-Hyprland/README.md
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=/etc/X11/xorg.conf.backup/30-nvidia.conf.bak
+File10[$e]=$HOME/Debian-Hyprland/README.md
+File2[$e]=/etc/X11/xorg.conf.backup/20-amdgpu.conf.bak
+File3[$e]=/etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+File4[$e]=/etc/X11/xorg.conf.d/nvidia-drm-outputclass.conf
+File5[$e]=/etc/X11/xorg.conf.d/10-radeon.conf
+File6[$e]=/etc/X11/xorg.conf.d/10-amdgpu.conf
+File7[$e]=$HOME/asus-armoury/Makefile
+File8[$e]=$HOME/backup.txt
+File9[$e]=$HOME/refpolicy/README
+Name1[$e]=30-nvidia.conf.bak
+Name10[$e]=README.md
+Name2[$e]=20-amdgpu.conf.bak
+Name3[$e]=90-nvidia-screen-G05.conf
+Name4[$e]=nvidia-drm-outputclass.conf
+Name5[$e]=10-radeon.conf
+Name6[$e]=10-amdgpu.conf
+Name7[$e]=Makefile
+Name8[$e]=backup.txt
+Name9[$e]=README
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

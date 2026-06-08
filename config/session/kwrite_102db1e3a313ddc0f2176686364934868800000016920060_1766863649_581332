@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///home/bruh/refpolicy/README
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=/etc/X11/Xsession
+File10[$e]=$HOME/refpolicy/README
+File2[$e]=/etc/X11/xorg.conf.backup/30-nvidia.conf.bak
+File3[$e]=/etc/X11/xorg.conf.backup/20-amdgpu.conf.bak
+File4[$e]=/etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+File5[$e]=/etc/X11/xorg.conf.d/nvidia-drm-outputclass.conf
+File6[$e]=/etc/X11/xorg.conf.d/10-radeon.conf
+File7[$e]=/etc/X11/xorg.conf.d/10-amdgpu.conf
+File8[$e]=$HOME/asus-armoury/Makefile
+File9[$e]=$HOME/backup.txt
+Name1[$e]=Xsession
+Name10[$e]=README
+Name2[$e]=30-nvidia.conf.bak
+Name3[$e]=20-amdgpu.conf.bak
+Name4[$e]=90-nvidia-screen-G05.conf
+Name5[$e]=nvidia-drm-outputclass.conf
+Name6[$e]=10-radeon.conf
+Name7[$e]=10-amdgpu.conf
+Name8[$e]=Makefile
+Name9[$e]=backup.txt
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

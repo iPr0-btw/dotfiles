@@ -1,0 +1,25 @@
+2025/10/21-17:11:20.865 78a Reusing MANIFEST /home/bruh/.config/chromium/Default/IndexedDB/https_ng.cengage.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/21-17:11:20.865 78a Recovering log #9
+2025/10/21-17:11:20.865 78a Reusing old log /home/bruh/.config/chromium/Default/IndexedDB/https_ng.cengage.com_0.indexeddb.leveldb/000009.log 
+2025/10/21-17:11:20.865 78a Delete type=2 #7
+2025/10/21-17:11:20.868 79b Level-0 table #14: started
+2025/10/21-17:11:20.869 79b Level-0 table #14: 511 bytes OK
+2025/10/21-17:11:20.869 79b Delete type=0 #9
+2025/10/21-17:11:20.869 79b Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 249 : 1
+2025/10/21-17:11:20.869 79b Compacting 1@0 + 1@1 files
+2025/10/21-17:11:20.870 79b Generated table #15@0: 64 keys, 1041 bytes
+2025/10/21-17:11:20.870 79b Compacted 1@0 + 1@1 files => 1041 bytes
+2025/10/21-17:11:20.870 79b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/21-17:11:20.870 79b Delete type=2 #14
+2025/10/21-17:11:20.870 78a Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 249 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/21-17:11:20.876 79b Level-0 table #17: started
+2025/10/21-17:11:20.876 79b Level-0 table #17: 506 bytes OK
+2025/10/21-17:11:20.877 79b Delete type=2 #11
+2025/10/21-17:11:20.877 79b Delete type=0 #13
+2025/10/21-17:11:20.877 788 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 265 : 1
+2025/10/21-17:11:20.877 788 Compacting 1@0 + 1@1 files
+2025/10/21-17:11:20.878 788 Generated table #18@0: 64 keys, 1047 bytes
+2025/10/21-17:11:20.878 788 Compacted 1@0 + 1@1 files => 1047 bytes
+2025/10/21-17:11:20.878 788 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/21-17:11:20.878 788 Delete type=2 #17
+2025/10/21-17:11:20.878 788 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 265 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

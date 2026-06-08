@@ -1,0 +1,27 @@
+[Keyboard]
+NumLock=0
+RepeatDelay=250
+RepeatRate=40
+
+[Libinput][1133][49291][Logitech G502 HERO Gaming Mouse]
+LeftHanded=false
+MiddleButtonEmulation=true
+PointerAcceleration=-0.500
+PointerAccelerationProfile=1
+ScrollMethod=4
+
+[Libinput][1267][13077][ASCE1206:00 04F3:3315 Touchpad]
+ClickMethod=2
+DisableEventsOnExternalMouse=false
+DisableWhileTyping=false
+LeftHanded=true
+NaturalScroll=true
+PointerAcceleration=0.200
+PointerAccelerationProfile=1
+ScrollFactor=0.3
+ScrollMethod=1
+
+[Mouse]
+X11LibInputXAccelProfileFlat=true
+cursorSize=48
+cursorTheme=Bibata-Modern-Ice

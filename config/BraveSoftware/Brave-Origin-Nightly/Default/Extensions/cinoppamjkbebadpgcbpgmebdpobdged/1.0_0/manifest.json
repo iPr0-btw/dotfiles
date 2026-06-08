@@ -1,0 +1,36 @@
+{
+   "description": "Blackest Black made for OLED screens",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqVqmIPbB/lpbmbNe4Y/40T7yKrZuESWHE49iYFE+9tfsrwQA415YQaVsMAyoMmCtyp1vnGyDp1wxkqsi/KRcof+tOLW1UHu3LhmPtNh0tJNqhdAfariyMtlBPyuczVOfCFWsC8+H/AQeBz3YGjCQyz1EXA+YRw5KTrzIkyOhHv76u5qsbPU7grdWD37uCNKuDUHWFQf6pMYROsg8Rf1/uO0AueR9yEzIPl1hYexZIa16vmOf0BC//pIUK5vhhrJOh10b856K1VBcWRNo6YZaln5UJxpBapRbV85WD5JlMxGAEW7Cw610czsAEGjrEyba1xpbKDvWuoLkwnsEqnYxVQIDAQAB",
+   "manifest_version": 3,
+   "name": "Blackest Black (OLED)",
+   "theme": {
+      "colors": {
+         "background_tab": [ 0, 0, 0 ],
+         "background_tab_inactive": [ 0, 0, 0 ],
+         "background_tab_incognito": [ 63, 63, 63 ],
+         "background_tab_incognito_inactive": [ 0, 0, 0 ],
+         "bookmark_text": [ 63, 63, 63 ],
+         "button_background": [ 0, 0, 0 ],
+         "frame": [ 0, 0, 0 ],
+         "frame_inactive": [ 0, 0, 0 ],
+         "frame_incognito": [ 63, 63, 63 ],
+         "frame_incognito_inactive": [ 0, 0, 0 ],
+         "ntp_background": [ 0, 0, 0 ],
+         "ntp_header": [ 63, 63, 63 ],
+         "ntp_link": [ 95, 95, 95 ],
+         "ntp_text": [ 63, 63, 63 ],
+         "omnibox_background": [ 0, 0, 0 ],
+         "omnibox_text": [ 127, 127, 127 ],
+         "tab_background_text": [ 63, 63, 63 ],
+         "tab_background_text_inactive": [ 63, 63, 63 ],
+         "tab_background_text_incognito": [ 63, 63, 63 ],
+         "tab_background_text_incognito_inactive": [ 63, 63, 63 ],
+         "tab_text": [ 127, 127, 127 ],
+         "toolbar": [ 0, 0, 0 ],
+         "toolbar_button_icon": [ 63, 63, 63 ],
+         "toolbar_text": [ 127, 127, 127 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

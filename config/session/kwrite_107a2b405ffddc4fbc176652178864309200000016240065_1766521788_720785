@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///etc/X11/xorg.conf.d/10-amdgpu.conf
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=$HOME/.xinitrc
+File10[$e]=/etc/X11/xorg.conf.d/10-amdgpu.conf
+File2[$e]=$HOME/.x.sj
+File3[$e]=$HOME/.x.sh
+File4[$e]=/etc/X11/Xsession
+File5[$e]=/etc/X11/xorg.conf.backup/30-nvidia.conf.bak
+File6[$e]=/etc/X11/xorg.conf.backup/20-amdgpu.conf.bak
+File7[$e]=/etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+File8[$e]=/etc/X11/xorg.conf.d/nvidia-drm-outputclass.conf
+File9[$e]=/etc/X11/xorg.conf.d/10-radeon.conf
+Name1[$e]=.xinitrc
+Name10[$e]=10-amdgpu.conf
+Name2[$e]=.x.sj
+Name3[$e]=.x.sh
+Name4[$e]=Xsession
+Name5[$e]=30-nvidia.conf.bak
+Name6[$e]=20-amdgpu.conf.bak
+Name7[$e]=90-nvidia-screen-G05.conf
+Name8[$e]=nvidia-drm-outputclass.conf
+Name9[$e]=10-radeon.conf
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

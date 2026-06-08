@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="19">
+    <extensionMap>
+      <mapping pattern=".springBeans" type="Eclipse" />
+      <mapping pattern="jest.config" type="JSON" />
+      <mapping pattern=".eslintrc" type="JSON" />
+      <mapping pattern=".stylelintrc" type="JSON" />
+      <mapping pattern=".babelrc" type="JSON" />
+      <mapping pattern=".ws-context" type="JSON" />
+      <mapping pattern=".prettierrc" type="JSON" />
+      <mapping ext="jsb2" type="JSON" />
+      <mapping ext="jsb3" type="JSON" />
+      <mapping pattern=".devcontainer.json" type="JSON5" />
+      <mapping pattern="devcontainer.json" type="JSON5" />
+      <mapping pattern="spring.handlers" type="Properties" />
+      <mapping pattern="spring.schemas" type="Properties" />
+      <mapping ext="wadl" type="XML" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///home/bruh/.config/fastfetch/config.jsonc.bak
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=/etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+File10[$e]=$HOME/.config/fastfetch/config.jsonc.bak
+File2[$e]=/etc/X11/xorg.conf.d/nvidia-drm-outputclass.conf
+File3[$e]=/etc/X11/xorg.conf.d/10-radeon.conf
+File4[$e]=/etc/X11/xorg.conf.d/10-amdgpu.conf
+File5[$e]=$HOME/asus-armoury/Makefile
+File6[$e]=$HOME/backup.txt
+File7[$e]=$HOME/refpolicy/README
+File8[$e]=$HOME/Debian-Hyprland/README.md
+File9[$e]=$HOME/Debian-Hyprland/dry-run-build.sh
+Name1[$e]=90-nvidia-screen-G05.conf
+Name10[$e]=config.jsonc.bak
+Name2[$e]=nvidia-drm-outputclass.conf
+Name3[$e]=10-radeon.conf
+Name4[$e]=10-amdgpu.conf
+Name5[$e]=Makefile
+Name6[$e]=backup.txt
+Name7[$e]=README
+Name8[$e]=README.md
+Name9[$e]=dry-run-build.sh
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

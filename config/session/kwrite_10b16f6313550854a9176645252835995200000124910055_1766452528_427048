@@ -1,0 +1,46 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Count=0
+Documents=
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=0
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/confs/wg-CA-FREE-5.conf
+File10[$e]=/etc/X11/xorg.conf.backup/20-amdgpu.conf.bak
+File2[$e]=$HOME/asus-armoury/README.md
+File3[$e]=$HOME/grub.txt
+File4[$e]=/boot/grub/grub.cfg
+File5[$e]=$HOME/.xinitrc
+File6[$e]=$HOME/.x.sj
+File7[$e]=$HOME/.x.sh
+File8[$e]=/etc/X11/Xsession
+File9[$e]=/etc/X11/xorg.conf.backup/30-nvidia.conf.bak
+Name1[$e]=wg-CA-FREE-5.conf
+Name10[$e]=20-amdgpu.conf.bak
+Name2[$e]=README.md
+Name3[$e]=grub.txt
+Name4[$e]=grub.cfg
+Name5[$e]=.xinitrc
+Name6[$e]=.x.sj
+Name7[$e]=.x.sh
+Name8[$e]=Xsession
+Name9[$e]=30-nvidia.conf.bak
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1

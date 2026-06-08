@@ -1,0 +1,514 @@
+13:06:01.556: Crash or unclean shutdown detected
+13:06:05.618: [Safe Mode] Normal launch selected, loading third-party plugins is enabled
+13:06:05.619: Platform: Wayland
+13:06:05.619: CPU Name: AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+13:06:05.619: CPU Speed: 2019.806MHz
+13:06:05.619: Physical Cores: 12, Logical Cores: 24
+13:06:05.619: Physical Memory: 29678MB Total, 16588MB Free
+13:06:05.619: Kernel Version: Linux 6.17.9-1-cachyos
+13:06:05.619: Distribution: "Arch Linux" Unknown
+13:06:05.619: Desktop Environment: KDE
+13:06:05.619: Session Type: wayland
+13:06:05.621: Current Date/Time: 2025-12-04, 13:06:05
+13:06:05.621: Browser Hardware Acceleration: true
+13:06:05.621: Qt Version: 6.10.1 (runtime), 6.10.1 (compiled)
+13:06:05.621: Portable mode: false
+13:06:05.649: OBS 32.0.2 (linux)
+13:06:05.649: ---------------------------------
+13:06:05.657: ---------------------------------
+13:06:05.657: audio settings reset:
+13:06:05.657: 	samples per sec: 48000
+13:06:05.657: 	speakers:        2
+13:06:05.657: 	max buffering:   960 milliseconds
+13:06:05.657: 	buffering type:  dynamically increasing
+13:06:05.659: ---------------------------------
+13:06:05.659: Initializing OpenGL...
+13:06:05.659: Using EGL/Wayland
+13:06:05.659: Initialized EGL 1.5
+13:06:05.664: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 5070 Ti Laptop GPU/PCIe/SSE2
+13:06:05.664: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.105.08, shading language 3.30 NVIDIA via Cg compiler
+13:06:05.693: ---------------------------------
+13:06:05.693: video settings reset:
+13:06:05.693: 	base resolution:   2880x1800
+13:06:05.693: 	output resolution: 1728x1080
+13:06:05.693: 	downscale filter:  Bicubic
+13:06:05.693: 	fps:               60/1
+13:06:05.693: 	format:            NV12
+13:06:05.693: 	YUV mode:          Rec. 709/Partial
+13:06:05.693: NV12 texture support enabled
+13:06:05.693: P010 texture support not available
+13:06:05.693: Audio monitoring device:
+13:06:05.693: 	name: Default
+13:06:05.693: 	id: default
+13:06:05.736: ---------------------------------
+13:06:05.738: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:06:05.739: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:06:05.740: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:06:05.740: Failed to initialize module 'decklink.so'
+13:06:05.839: [pipewire] Available capture sources:
+13:06:05.839: [pipewire]     - Monitor source
+13:06:05.839: [pipewire]     - Window source
+13:06:05.874: VAAPI: API version 1.22
+13:06:05.875: FFmpeg VAAPI H264 encoding supported
+13:06:05.884: FFmpeg VAAPI AV1 encoding supported
+13:06:05.892: FFmpeg VAAPI HEVC encoding supported
+13:06:06.452: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: true
+13:06:07.498: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+13:06:07.498: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.1 | Qt version (run-time): 6.10.1
+13:06:07.498: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+13:06:07.503: [obs-websocket] [obs_module_load] Module loaded.
+13:06:07.507: ---------------------------------
+13:06:07.507:   Loaded Modules:
+13:06:07.507:     text-freetype2.so
+13:06:07.507:     rtmp-services.so
+13:06:07.507:     obs-x264.so
+13:06:07.507:     obs-websocket.so
+13:06:07.507:     obs-webrtc.so
+13:06:07.507:     obs-vst.so
+13:06:07.507:     obs-transitions.so
+13:06:07.507:     obs-qsv11.so
+13:06:07.507:     obs-outputs.so
+13:06:07.507:     obs-nvenc.so
+13:06:07.507:     obs-libfdk.so
+13:06:07.507:     obs-filters.so
+13:06:07.507:     obs-ffmpeg.so
+13:06:07.507:     linux-v4l2.so
+13:06:07.507:     linux-pulseaudio.so
+13:06:07.507:     linux-pipewire.so
+13:06:07.507:     linux-jack.so
+13:06:07.507:     linux-capture.so
+13:06:07.507:     linux-alsa.so
+13:06:07.507:     image-source.so
+13:06:07.507:     frontend-tools.so
+13:06:07.507:     decklink-output-ui.so
+13:06:07.507:     decklink-captions.so
+13:06:07.507: ---------------------------------
+13:06:07.507: ---------------------------------
+13:06:07.507: Available Encoders:
+13:06:07.507:   Video Encoders:
+13:06:07.507: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:06:07.507: 	- ffmpeg_aom_av1 (AOM AV1)
+13:06:07.507: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+13:06:07.507: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+13:06:07.507: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+13:06:07.507: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:06:07.507: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:06:07.507: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+13:06:07.507: 	- obs_x264 (x264)
+13:06:07.507:   Audio Encoders:
+13:06:07.507: 	- ffmpeg_aac (FFmpeg AAC)
+13:06:07.507: 	- ffmpeg_opus (FFmpeg Opus)
+13:06:07.507: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:06:07.507: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:06:07.507: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:06:07.507: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:06:07.507: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:06:07.507: 	- libfdk_aac (libfdk AAC)
+13:06:07.507: ==== Startup complete ===============================================
+13:06:07.537: All scene data cleared
+13:06:07.537: ------------------------------------------------
+13:06:07.542: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+13:06:07.542: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+13:06:07.542: pulse-input: Started recording from 'alsa_output.pci-0000_65_00.6.analog-stereo.monitor' (default)
+13:06:07.542: [Loaded global audio device]: 'Desktop Audio'
+13:06:07.542: PipeWire initialized
+13:06:07.544: Switched to scene 'Scene'
+13:06:07.544: ------------------------------------------------
+13:06:07.544: Loaded scenes:
+13:06:07.544: - scene 'Scene':
+13:06:07.544:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+13:06:07.544: ------------------------------------------------
+13:06:07.556: Device for 'Audio Output Capture' source is also used for audio monitoring:
+13:06:07.556: Deduplication logic is being applied to all monitored sources.
+13:06:07.556: 
+13:06:07.741: [pipewire] Screencast session created
+13:06:07.776: [pipewire] Asking for monitor and window
+13:06:07.934: [pipewire] source selected, setting up screencast
+13:06:07.954: [pipewire] Server version: 1.4.9
+13:06:07.954: [pipewire] Library version: 1.4.9
+13:06:07.954: [pipewire] Header version: 1.4.9
+13:06:08.090: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+13:06:08.090: 
+13:06:08.137: [pipewire] Created stream 0x55d1b72db480
+13:06:08.137: [pipewire] Stream 0x55d1b72db480 state: "connecting" (error: none)
+13:06:08.137: [pipewire] Playing stream 0x55d1b72db480
+13:06:08.138: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:06:08.178: [pipewire] Negotiated format:
+13:06:08.179: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:08.179: [pipewire]     Modifier: 0x0
+13:06:08.179: [pipewire]     Size: 2560x1505
+13:06:08.179: [pipewire]     Framerate: 0/1
+13:06:08.180: [pipewire] Negotiated format:
+13:06:08.180: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:08.180: [pipewire]     Modifier: 0x300000000606014
+13:06:08.180: [pipewire]     Size: 2560x1505
+13:06:08.180: [pipewire]     Framerate: 0/1
+13:06:08.182: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:06:12.627: [obs-nvenc: 'simple_video_stream'] settings:
+13:06:12.627: 	codec:        H264
+13:06:12.627: 	rate_control: CBR
+13:06:12.627: 	bitrate:      2000
+13:06:12.627: 	keyint:       250
+13:06:12.627: 	preset:       p4
+13:06:12.627: 	tuning:       hq
+13:06:12.627: 	multipass:    qres
+13:06:12.627: 	profile:      high
+13:06:12.627: 	width:        1728
+13:06:12.627: 	height:       1080
+13:06:12.627: 	b-frames:     2
+13:06:12.627: 	b-ref-mode:   0
+13:06:12.627: 	lookahead:    true (8 frames)
+13:06:12.627: 	aq:           true
+13:06:12.627: 
+13:06:12.664: libfdk_aac encoder created
+13:06:12.664: libfdk_aac bitrate: 320, channels: 2
+13:06:12.666: ==== Recording Start ===============================================
+13:06:12.666: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2025-12-04 13-06-12.mp4'...
+13:06:14.506: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:06:14.507: [pipewire] Negotiated format:
+13:06:14.507: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:14.507: [pipewire]     Modifier: 0x300000000606014
+13:06:14.507: [pipewire]     Size: 2880x1800
+13:06:14.507: [pipewire]     Framerate: 0/1
+13:06:14.508: [pipewire] Negotiated format:
+13:06:14.508: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:14.508: [pipewire]     Modifier: 0x300000000606014
+13:06:14.508: [pipewire]     Size: 2880x1800
+13:06:14.508: [pipewire]     Framerate: 0/1
+13:06:14.510: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:06:55.354: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:06:55.361: [pipewire] Negotiated format:
+13:06:55.361: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:55.361: [pipewire]     Modifier: 0x300000000606014
+13:06:55.361: [pipewire]     Size: 2560x1505
+13:06:55.361: [pipewire]     Framerate: 0/1
+13:06:55.362: [pipewire] Negotiated format:
+13:06:55.362: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:55.362: [pipewire]     Modifier: 0x300000000606014
+13:06:55.362: [pipewire]     Size: 2560x1505
+13:06:55.362: [pipewire]     Framerate: 0/1
+13:06:55.364: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:06:55.904: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:06:55.908: [pipewire] Negotiated format:
+13:06:55.908: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:55.908: [pipewire]     Modifier: 0x300000000606014
+13:06:55.908: [pipewire]     Size: 2880x1800
+13:06:55.908: [pipewire]     Framerate: 0/1
+13:06:55.908: [pipewire] Negotiated format:
+13:06:55.908: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:06:55.908: [pipewire]     Modifier: 0x300000000606014
+13:06:55.908: [pipewire]     Size: 2880x1800
+13:06:55.908: [pipewire]     Framerate: 0/1
+13:06:55.912: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:07:39.116: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:07:39.117: [pipewire] Negotiated format:
+13:07:39.117: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:07:39.117: [pipewire]     Modifier: 0x300000000606014
+13:07:39.117: [pipewire]     Size: 2560x1505
+13:07:39.117: [pipewire]     Framerate: 0/1
+13:07:39.118: [pipewire] Negotiated format:
+13:07:39.118: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:07:39.118: [pipewire]     Modifier: 0x300000000606014
+13:07:39.118: [pipewire]     Size: 2560x1505
+13:07:39.118: [pipewire]     Framerate: 0/1
+13:07:39.122: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:07:54.199: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:07:54.201: [pipewire] Negotiated format:
+13:07:54.201: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:07:54.201: [pipewire]     Modifier: 0x300000000606014
+13:07:54.201: [pipewire]     Size: 2880x1800
+13:07:54.201: [pipewire]     Framerate: 0/1
+13:07:54.202: [pipewire] Negotiated format:
+13:07:54.202: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:07:54.202: [pipewire]     Modifier: 0x300000000606014
+13:07:54.202: [pipewire]     Size: 2880x1800
+13:07:54.202: [pipewire]     Framerate: 0/1
+13:07:54.205: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:07:55.927: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:07:55.928: [pipewire] Negotiated format:
+13:07:55.928: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:07:55.928: [pipewire]     Modifier: 0x300000000606014
+13:07:55.928: [pipewire]     Size: 2560x1505
+13:07:55.928: [pipewire]     Framerate: 0/1
+13:07:55.944: [pipewire] Negotiated format:
+13:07:55.944: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:07:55.944: [pipewire]     Modifier: 0x300000000606014
+13:07:55.944: [pipewire]     Size: 2560x1505
+13:07:55.944: [pipewire]     Framerate: 0/1
+13:07:55.946: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:08:01.727: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:08:01.728: [pipewire] Negotiated format:
+13:08:01.728: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:01.728: [pipewire]     Modifier: 0x300000000606014
+13:08:01.728: [pipewire]     Size: 2880x1800
+13:08:01.728: [pipewire]     Framerate: 0/1
+13:08:01.729: [pipewire] Negotiated format:
+13:08:01.729: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:01.729: [pipewire]     Modifier: 0x300000000606014
+13:08:01.729: [pipewire]     Size: 2880x1800
+13:08:01.729: [pipewire]     Framerate: 0/1
+13:08:01.731: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:08:05.678: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:08:05.682: [pipewire] Negotiated format:
+13:08:05.682: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:05.682: [pipewire]     Modifier: 0x300000000606014
+13:08:05.682: [pipewire]     Size: 2560x1505
+13:08:05.682: [pipewire]     Framerate: 0/1
+13:08:05.683: [pipewire] Negotiated format:
+13:08:05.683: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:05.683: [pipewire]     Modifier: 0x300000000606014
+13:08:05.683: [pipewire]     Size: 2560x1505
+13:08:05.683: [pipewire]     Framerate: 0/1
+13:08:05.685: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:08:09.641: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:08:09.642: [pipewire] Negotiated format:
+13:08:09.642: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:09.642: [pipewire]     Modifier: 0x300000000606014
+13:08:09.642: [pipewire]     Size: 2880x1800
+13:08:09.642: [pipewire]     Framerate: 0/1
+13:08:09.643: [pipewire] Negotiated format:
+13:08:09.643: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:09.643: [pipewire]     Modifier: 0x300000000606014
+13:08:09.643: [pipewire]     Size: 2880x1800
+13:08:09.643: [pipewire]     Framerate: 0/1
+13:08:09.645: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:08:11.715: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:08:11.718: [pipewire] Negotiated format:
+13:08:11.718: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:11.718: [pipewire]     Modifier: 0x300000000606014
+13:08:11.718: [pipewire]     Size: 2560x1505
+13:08:11.718: [pipewire]     Framerate: 0/1
+13:08:11.719: [pipewire] Negotiated format:
+13:08:11.719: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:11.719: [pipewire]     Modifier: 0x300000000606014
+13:08:11.719: [pipewire]     Size: 2560x1505
+13:08:11.719: [pipewire]     Framerate: 0/1
+13:08:11.720: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:08:15.312: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:08:15.314: [pipewire] Negotiated format:
+13:08:15.314: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:15.314: [pipewire]     Modifier: 0x300000000606014
+13:08:15.314: [pipewire]     Size: 2880x1800
+13:08:15.314: [pipewire]     Framerate: 0/1
+13:08:15.315: [pipewire] Negotiated format:
+13:08:15.315: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:08:15.315: [pipewire]     Modifier: 0x300000000606014
+13:08:15.315: [pipewire]     Size: 2880x1800
+13:08:15.315: [pipewire]     Framerate: 0/1
+13:08:15.320: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:10:25.973: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:10:25.973: [pipewire] Negotiated format:
+13:10:25.973: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:10:25.973: [pipewire]     Modifier: 0x300000000606014
+13:10:25.973: [pipewire]     Size: 2560x1505
+13:10:25.973: [pipewire]     Framerate: 0/1
+13:10:25.974: [pipewire] Negotiated format:
+13:10:25.974: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:10:25.974: [pipewire]     Modifier: 0x300000000606014
+13:10:25.974: [pipewire]     Size: 2560x1505
+13:10:25.974: [pipewire]     Framerate: 0/1
+13:10:25.978: [pipewire] Stream 0x55d1b72db480 state: "streaming" (error: none)
+13:10:28.111: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+13:10:28.112: [mp4 muxer: 'simple_file_output'] Number of fragments: 63
+13:10:28.114: [mp4 muxer: 'simple_file_output'] Full moov size: 196 KiB
+13:10:28.114: [mp4 muxer: 'simple_file_output'] Final mdat size: 72431 KiB
+13:10:28.114: Output 'simple_file_output': stopping
+13:10:28.114: Output 'simple_file_output': Total frames output: 15309
+13:10:28.114: Output 'simple_file_output': Total drawn frames: 14967 (15327 attempted)
+13:10:28.114: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 360 (2.3%)
+13:10:28.114: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+13:10:28.114: [mp4 output: 'simple_file_output'] File output complete. Finalization took 2 ms.
+13:10:28.114: Video stopped, number of skipped frames due to encoding lag: 360/15325 (2.3%)
+13:10:28.115: ==== Recording Stop ================================================
+13:10:28.280: libfdk_aac encoder destroyed
+13:27:52.660: [pipewire] Stream 0x55d1b72db480 state: "paused" (error: none)
+13:36:38.400: Settings changed (stream 1, outputs)
+13:36:38.400: ------------------------------------------------
+13:36:48.128: [obs-nvenc: 'simple_video_stream'] settings:
+13:36:48.128: 	codec:        H264
+13:36:48.128: 	rate_control: CBR
+13:36:48.128: 	bitrate:      2000
+13:36:48.128: 	keyint:       120
+13:36:48.128: 	preset:       p4
+13:36:48.128: 	tuning:       hq
+13:36:48.128: 	multipass:    qres
+13:36:48.128: 	profile:      high
+13:36:48.128: 	width:        1728
+13:36:48.128: 	height:       1080
+13:36:48.128: 	b-frames:     2
+13:36:48.128: 	b-ref-mode:   0
+13:36:48.128: 	lookahead:    true (8 frames)
+13:36:48.128: 	aq:           true
+13:36:48.128: 
+13:36:48.163: libfdk_aac encoder created
+13:36:48.163: libfdk_aac bitrate: 160, channels: 2
+13:36:48.163: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+13:36:49.041: [rtmp stream: 'simple_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 (142.251.185.134) successful
+13:36:49.086: ==== Streaming Start ===============================================
+13:40:07.996: [rtmp stream: 'simple_stream'] User stopped the stream
+13:40:07.996: Output 'simple_stream': stopping
+13:40:07.996: Output 'simple_stream': Total frames output: 11325 (11917 attempted)
+13:40:07.996: Output 'simple_stream': Total drawn frames: 11922 (11990 attempted)
+13:40:07.996: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 68 (0.6%)
+13:40:07.996: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 592 (5.0%)
+13:40:07.996: Video stopped, number of skipped frames due to encoding lag: 66/11933 (0.6%)
+13:40:07.997: ==== Streaming Stop ================================================
+13:40:08.164: libfdk_aac encoder destroyed
+13:43:06.003: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene'
+13:43:06.044: [pipewire] Stream 0x55d1b72db480 state: "unconnected" (error: none)
+13:43:18.156: PipeWire initialized
+13:43:18.159: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+13:43:18.214: [pipewire] Screencast session created
+13:43:18.222: [pipewire] Asking for monitor and window
+13:43:20.074: [pipewire] source selected, setting up screencast
+13:43:20.088: [pipewire] Server version: 1.4.9
+13:43:20.088: [pipewire] Library version: 1.4.9
+13:43:20.088: [pipewire] Header version: 1.4.9
+13:43:20.102: [pipewire] Created stream 0x55d1b7318ef0
+13:43:20.103: [pipewire] Stream 0x55d1b7318ef0 state: "connecting" (error: none)
+13:43:20.103: [pipewire] Playing stream 0x55d1b7318ef0
+13:43:20.103: [pipewire] Stream 0x55d1b7318ef0 state: "paused" (error: none)
+13:43:20.155: [pipewire] Negotiated format:
+13:43:20.155: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:43:20.155: [pipewire]     Modifier: 0x0
+13:43:20.155: [pipewire]     Size: 2880x1800
+13:43:20.155: [pipewire]     Framerate: 0/1
+13:43:20.157: [pipewire] Negotiated format:
+13:43:20.157: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:43:20.157: [pipewire]     Modifier: 0x300000000606014
+13:43:20.157: [pipewire]     Size: 2880x1800
+13:43:20.157: [pipewire]     Framerate: 0/1
+13:43:20.159: [pipewire] Stream 0x55d1b7318ef0 state: "streaming" (error: none)
+13:43:21.172: [pipewire] Stream 0x55d1b7318ef0 state: "paused" (error: none)
+13:43:21.172: [pipewire] Stream 0x55d1b7318ef0 state: "unconnected" (error: none)
+13:43:21.193: PipeWire initialized
+13:43:21.201: [pipewire] Screencast session created
+13:43:21.209: [pipewire] Asking for monitor and window
+13:43:21.897: [pipewire] source selected, setting up screencast
+13:43:21.910: [pipewire] Server version: 1.4.9
+13:43:21.910: [pipewire] Library version: 1.4.9
+13:43:21.910: [pipewire] Header version: 1.4.9
+13:43:21.914: [pipewire] Created stream 0x55d1b7318ef0
+13:43:21.914: [pipewire] Stream 0x55d1b7318ef0 state: "connecting" (error: none)
+13:43:21.914: [pipewire] Playing stream 0x55d1b7318ef0
+13:43:21.914: [pipewire] Stream 0x55d1b7318ef0 state: "paused" (error: none)
+13:43:21.972: [pipewire] Negotiated format:
+13:43:21.972: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:43:21.972: [pipewire]     Modifier: 0x0
+13:43:21.972: [pipewire]     Size: 1920x1080
+13:43:21.972: [pipewire]     Framerate: 0/1
+13:43:21.974: [pipewire] Negotiated format:
+13:43:21.974: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:43:21.974: [pipewire]     Modifier: 0x300000000606014
+13:43:21.974: [pipewire]     Size: 1920x1080
+13:43:21.974: [pipewire]     Framerate: 0/1
+13:43:21.978: [pipewire] Stream 0x55d1b7318ef0 state: "streaming" (error: none)
+13:43:39.858: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene'
+13:43:39.859: [pipewire] Stream 0x55d1b7318ef0 state: "paused" (error: none)
+13:43:39.859: [pipewire] Stream 0x55d1b7318ef0 state: "unconnected" (error: none)
+13:44:04.271: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+13:44:04.273: Switched to Preview/Program mode
+13:44:04.273: ------------------------------------------------
+13:44:05.214: Switched to scene 'Scene'
+13:44:05.215: Switched to regular Preview mode
+13:44:05.215: ------------------------------------------------
+13:44:09.635: PipeWire initialized
+13:44:09.638: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+13:44:09.691: [pipewire] Screencast session created
+13:44:09.699: [pipewire] Asking for monitor and window
+13:44:17.015: [pipewire] source selected, setting up screencast
+13:44:17.022: [pipewire] Server version: 1.4.9
+13:44:17.022: [pipewire] Library version: 1.4.9
+13:44:17.022: [pipewire] Header version: 1.4.9
+13:44:17.037: [pipewire] Created stream 0x55d1b899daf0
+13:44:17.038: [pipewire] Stream 0x55d1b899daf0 state: "connecting" (error: none)
+13:44:17.038: [pipewire] Playing stream 0x55d1b899daf0
+13:44:17.039: [pipewire] Stream 0x55d1b899daf0 state: "paused" (error: none)
+13:44:17.100: [pipewire] Negotiated format:
+13:44:17.100: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:44:17.100: [pipewire]     Modifier: 0x0
+13:44:17.100: [pipewire]     Size: 2880x1800
+13:44:17.100: [pipewire]     Framerate: 0/1
+13:44:17.101: [pipewire] Negotiated format:
+13:44:17.101: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:44:17.101: [pipewire]     Modifier: 0x300000000606014
+13:44:17.101: [pipewire]     Size: 2880x1800
+13:44:17.101: [pipewire]     Framerate: 0/1
+13:44:17.103: [pipewire] Stream 0x55d1b899daf0 state: "streaming" (error: none)
+13:44:21.517: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene'
+13:44:21.518: [pipewire] Stream 0x55d1b899daf0 state: "paused" (error: none)
+13:44:21.518: [pipewire] Stream 0x55d1b899daf0 state: "unconnected" (error: none)
+13:44:26.519: PipeWire initialized
+13:44:26.522: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+13:44:26.579: [pipewire] Screencast session created
+13:44:26.594: [pipewire] Asking for monitor and window
+13:44:27.850: [pipewire] source selected, setting up screencast
+13:44:27.863: [pipewire] Server version: 1.4.9
+13:44:27.863: [pipewire] Library version: 1.4.9
+13:44:27.863: [pipewire] Header version: 1.4.9
+13:44:27.867: [pipewire] Created stream 0x55d1ba515e40
+13:44:27.867: [pipewire] Stream 0x55d1ba515e40 state: "connecting" (error: none)
+13:44:27.868: [pipewire] Playing stream 0x55d1ba515e40
+13:44:27.868: [pipewire] Stream 0x55d1ba515e40 state: "paused" (error: none)
+13:44:27.928: [pipewire] Negotiated format:
+13:44:27.928: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:44:27.928: [pipewire]     Modifier: 0x0
+13:44:27.928: [pipewire]     Size: 1920x1080
+13:44:27.928: [pipewire]     Framerate: 0/1
+13:44:27.929: [pipewire] Negotiated format:
+13:44:27.929: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:44:27.929: [pipewire]     Modifier: 0x300000000606014
+13:44:27.929: [pipewire]     Size: 1920x1080
+13:44:27.929: [pipewire]     Framerate: 0/1
+13:44:27.931: [pipewire] Stream 0x55d1ba515e40 state: "streaming" (error: none)
+13:44:32.200: [pipewire] Stream 0x55d1ba515e40 state: "paused" (error: none)
+13:44:32.201: [pipewire] Stream 0x55d1ba515e40 state: "unconnected" (error: none)
+13:44:32.225: PipeWire initialized
+13:44:32.232: [pipewire] Screencast session created
+13:44:32.233: [pipewire] Asking for monitor and window
+13:44:37.860: [pipewire] source selected, setting up screencast
+13:44:37.867: [pipewire] Server version: 1.4.9
+13:44:37.867: [pipewire] Library version: 1.4.9
+13:44:37.867: [pipewire] Header version: 1.4.9
+13:44:37.867: [pipewire] Created stream 0x55d1ba529c90
+13:44:37.868: [pipewire] Stream 0x55d1ba529c90 state: "connecting" (error: none)
+13:44:37.868: [pipewire] Playing stream 0x55d1ba529c90
+13:44:37.868: [pipewire] Stream 0x55d1ba529c90 state: "paused" (error: none)
+13:44:37.958: [pipewire] Negotiated format:
+13:44:37.958: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:44:37.958: [pipewire]     Modifier: 0x0
+13:44:37.958: [pipewire]     Size: 1920x1080
+13:44:37.958: [pipewire]     Framerate: 0/1
+13:44:37.960: [pipewire] Negotiated format:
+13:44:37.960: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:44:37.960: [pipewire]     Modifier: 0x300000000606014
+13:44:37.960: [pipewire]     Size: 1920x1080
+13:44:37.960: [pipewire]     Framerate: 0/1
+13:44:37.962: [pipewire] Stream 0x55d1ba529c90 state: "streaming" (error: none)
+13:45:13.563: [pipewire] Stream 0x55d1ba529c90 state: "paused" (error: none)
+13:45:21.857: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene'
+13:45:21.858: [pipewire] Stream 0x55d1ba529c90 state: "unconnected" (error: none)
+13:45:25.335: PipeWire initialized
+13:45:25.338: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+13:45:25.391: [pipewire] Screencast session created
+13:45:25.640: [pipewire] Asking for monitor and window
+13:45:26.753: [pipewire] source selected, setting up screencast
+13:45:26.760: [pipewire] Server version: 1.4.9
+13:45:26.760: [pipewire] Library version: 1.4.9
+13:45:26.760: [pipewire] Header version: 1.4.9
+13:45:26.761: [pipewire] Created stream 0x55d1b67e6500
+13:45:26.761: [pipewire] Stream 0x55d1b67e6500 state: "connecting" (error: none)
+13:45:26.761: [pipewire] Playing stream 0x55d1b67e6500
+13:45:26.762: [pipewire] Stream 0x55d1b67e6500 state: "paused" (error: none)
+13:45:26.822: [pipewire] Negotiated format:
+13:45:26.822: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:45:26.822: [pipewire]     Modifier: 0x0
+13:45:26.822: [pipewire]     Size: 1920x1080
+13:45:26.822: [pipewire]     Framerate: 0/1
+13:45:26.823: [pipewire] Negotiated format:
+13:45:26.823: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:45:26.823: [pipewire]     Modifier: 0x300000000606014
+13:45:26.823: [pipewire]     Size: 1920x1080
+13:45:26.823: [pipewire]     Framerate: 0/1
+13:45:26.825: [pipewire] Stream 0x55d1b67e6500 state: "streaming" (error: none)
+14:03:59.575: ==== Shutting down ==================================================

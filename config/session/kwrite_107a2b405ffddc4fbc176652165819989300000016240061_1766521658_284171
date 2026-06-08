@@ -1,0 +1,51 @@
+[1]
+Active ViewSpace=0
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=716
+
+[1-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+
+[Document 0]
+URL=file:///etc/X11/xorg.conf.d/nvidia-drm-outputclass.conf
+
+[General]
+Last Session=
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Recent Files]
+File1[$e]=$HOME/grub.txt
+File10[$e]=/etc/X11/xorg.conf.d/nvidia-drm-outputclass.conf
+File2[$e]=/boot/grub/grub.cfg
+File3[$e]=$HOME/.xinitrc
+File4[$e]=$HOME/.x.sj
+File5[$e]=$HOME/.x.sh
+File6[$e]=/etc/X11/Xsession
+File7[$e]=/etc/X11/xorg.conf.backup/30-nvidia.conf.bak
+File8[$e]=/etc/X11/xorg.conf.backup/20-amdgpu.conf.bak
+File9[$e]=/etc/X11/xorg.conf.d/90-nvidia-screen-G05.conf
+Name1[$e]=grub.txt
+Name10[$e]=nvidia-drm-outputclass.conf
+Name2[$e]=grub.cfg
+Name3[$e]=.xinitrc
+Name4[$e]=.x.sj
+Name5[$e]=.x.sh
+Name6[$e]=Xsession
+Name7[$e]=30-nvidia.conf.bak
+Name8[$e]=20-amdgpu.conf.bak
+Name9[$e]=90-nvidia-screen-G05.conf
+
+[WindowProperties1]
+ClassName=KateMainWindow
+ObjectName=MainWindow#1
