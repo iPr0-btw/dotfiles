@@ -1,0 +1,6 @@
+[Unit]
+Description=Auto-push dotfiles to GitHub
+
+[Service]
+Type=oneshot
+ExecStart=/home/bruh/.dotfiles-git/autopush
