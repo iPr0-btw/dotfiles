@@ -1,9 +1,9 @@
 [Unit]
-Description=Run dotfiles push every hour
+Description=push dotfiles to github every minute
 
 [Timer]
 OnBootSec=5min
-OnUnitActiveSec=1h
+OnUnitActiveSec=1min
 Persistent=true
 
 [Install]
