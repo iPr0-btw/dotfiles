@@ -23,5 +23,7 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - searXNG search engine
 
 ## installing it
+- clone this repo and copy the 'config' folder to ~/.config
+- 
 
 plain and simple, like it should be.
