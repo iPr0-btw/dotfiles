@@ -12,4 +12,5 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 
 - arch linux (OS)
 - hyprland (WM)
-
+- KDE Plasma (fallback DE)
+- no bar
