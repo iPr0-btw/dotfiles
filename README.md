@@ -15,5 +15,7 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - KDE Plasma (fallback DE)
 - no bar
 - no bloat
-
+- fish shell
+- kitty terminal
+- rofi app launcher
 plain and simple, like it should be.
