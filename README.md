@@ -24,6 +24,6 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 
 ## installing it
 - clone this repo and copy the 'config' folder to ~/.config
-- 
+- to install 
 
 plain and simple, like it should be.
