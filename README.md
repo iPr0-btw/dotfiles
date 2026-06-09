@@ -23,7 +23,7 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - searXNG search engine
 
 ## installing it
-- install the apps with your package manager
+- install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop'
 - clone this repo and copy the 'config' folder to ~/.config
 - to install searXNG, install the binary with your package manager, and then see services/searXNG for config details.
 
