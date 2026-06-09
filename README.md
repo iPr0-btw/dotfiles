@@ -22,4 +22,6 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - rofi app launcher
 - searXNG search engine
 
+## installing it
+
 plain and simple, like it should be.
