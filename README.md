@@ -1,2 +1,7 @@
 # dotfiles
-this is my personal conf
+
+This is my personal config for my arch+hyprland setup.
+
+## features
+
+
