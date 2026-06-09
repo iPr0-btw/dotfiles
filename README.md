@@ -24,6 +24,6 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 
 ## installing it
 - clone this repo and copy the 'config' folder to ~/.config
-- to install 
+- to install searXNG, install the binary with your package manager, and then see services/searXNG for config details.
 
 plain and simple, like it should be.
