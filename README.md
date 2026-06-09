@@ -1,1 +1,2 @@
-some boring dotfiles
+# dotfiles
+this is my personal conf
