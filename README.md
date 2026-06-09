@@ -18,5 +18,6 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - fish shell
 - kitty terminal
 - rofi app launcher
+- searXNG search engine
 
 plain and simple, like it should be.
