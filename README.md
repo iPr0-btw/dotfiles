@@ -14,3 +14,6 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - hyprland (WM)
 - KDE Plasma (fallback DE)
 - no bar
+- no bloat
+
+plain and simple, like it should be.
