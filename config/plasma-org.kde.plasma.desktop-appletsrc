@@ -153,6 +153,15 @@ knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 [Containments][2][General]
 AppletOrder=3;4;5;6;7;14;15
 
+[Containments][22]
+activityId=74ac43b4-bd84-44b3-9fba-1864e8089c90
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [ScreenMapping]
-itemsOnDisabledScreens=0,74ac43b4-bd84-44b3-9fba-1864e8089c90,11,desktop:/bg.png,desktop:/transcript.pdf,desktop:/Counter-Strike 2.desktop,desktop:/steam.desktop,desktop:/SERVER_EVAL_x64FRE_en-us.iso,desktop:/Why Politics Matters.pdf,desktop:/schedule.pdf,desktop:/BG.jpg,desktop:/bg1.png,desktop:/ventoy-1.1.07,desktop:/windows.sh
-screenMapping=
+itemsOnDisabledScreens=0,74ac43b4-bd84-44b3-9fba-1864e8089c90,11,desktop:/windows.sh,desktop:/bg.png,desktop:/ventoy-1.1.07,desktop:/BG.jpg,desktop:/Counter-Strike 2.desktop,desktop:/transcript.pdf,desktop:/SERVER_EVAL_x64FRE_en-us.iso,desktop:/bg1.png,desktop:/steam.desktop,desktop:/schedule.pdf,desktop:/Why Politics Matters.pdf
+screenMapping=desktop:/windows.sh,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/BG.jpg,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/ventoy-1.1.07,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/steam.desktop,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/SERVER_EVAL_x64FRE_en-us.iso,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/Counter-Strike 2.desktop,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/bg1.png,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/Why Politics Matters.pdf,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/schedule.pdf,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/bg.png,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/transcript.pdf,1,74ac43b4-bd84-44b3-9fba-1864e8089c90
