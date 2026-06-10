@@ -1,6 +1,6 @@
 # my dotfiles
 
-This is my personal config for my arch+hyprland setup.
+This is my personal config for my arch + hyprland setup.
 
 ## features
 
@@ -15,12 +15,13 @@ the 'autopush' script runs on a systemd timer to push updates every minute, maki
 - arch linux (OS)
 - hyprland (WM)
 - KDE Plasma (fallback DE)
-- no bar
-- no bloat
 - fish shell
 - kitty terminal
 - rofi app launcher
 - searXNG search engine
+- nvim IDE with lazyvim config
+- no bar
+- no unnecessary bloat
 
 ## installing it
 - install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop'
