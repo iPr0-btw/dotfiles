@@ -12,6 +12,8 @@ hl.monitor({
 	mode = "2880x1800@120",
 	position = "0x0",
 	scale = 2,
+	bitdepth = 10,
+	cm = "hdredid",
 })
 
 hl.monitor({
@@ -22,15 +24,8 @@ hl.monitor({
 })
 
 hl.monitor({
-	output = "DP-2",
-	mode = "1920x1080@60",
-	position = "0x-1080",
-	scale = 1,
-})
-
-hl.monitor({
 	output = "HDMI-A-1",
-	mode = "1920x1080@60",
+	mode = "1920x1080",
 	position = "0x-1080",
 	scale = 1,
 })
@@ -145,6 +140,18 @@ hl.workspace_rule({ workspace = "special:magic", layout = "master" })
 hl.workspace_rule({ workspace = 3, layout = "master" })
 hl.workspace_rule({ workspace = 2, layout = "lua:grid" })
 require("grid")
+
+hl.window_rule({
+	name = "osu on workspace 2",
+	match = { class = "^(osu!)$" },
+	workspace = "2 silent",
+})
+
+hl.window_rule({
+	name = "librewolf on workspace 1",
+	match = { class = "^(librewolf)$" },
+	workspace = "1 silent",
+})
 
 -- Layout configuration
 hl.config({
@@ -284,8 +291,7 @@ hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true 
 hl.bind("SUPER + S", hl.dsp.exec_cmd("hyprshot -m region"))
 
 -- Lock screen
-hl.bind("SUPER + L", hl.dsp.exec_cmd("hyprlock"))
-hl.bind("SUPER + SHIFT + L", hl.dsp.exec_cmd("swaylock -c 000000"))
+hl.bind("SUPER + L", hl.dsp.exec_cmd("swaylock -c 000000"))
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----

@@ -1,5 +1,14 @@
 [Greeter]
-WallpaperPlugin=org.kde.color
+WallpaperPlugin=obsidianreq.plasma.wallpaper.matrixrain
+
+[Greeter][Wallpaper][obsidianreq.plasma.wallpaper.matrixrain][General]
+colorMode=1
+direction=2
+glitchChance=0
+glowSize=30
+paletteIndex=1
+trailLength=10
+trailLengthMin=2
 
 [Greeter][Wallpaper][org.kde.color][General]
 Color=0,0,0

@@ -4,24 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][18]
-ItemGeometries-1405x878=
-ItemGeometriesHorizontal=
-activityId=74ac43b4-bd84-44b3-9fba-1864e8089c90
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.color
-
-[Containments][18][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][18][Wallpaper][org.kde.color][General]
-Color=0,0,0
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -153,15 +135,77 @@ knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 [Containments][2][General]
 AppletOrder=3;4;5;6;7;14;15
 
-[Containments][22]
+[Containments][23]
+formfactor=0
+immutability=1
+location=0
+plugin=org.kde.desktopcontainment
+
+[Containments][24]
+formfactor=0
+immutability=1
+location=0
+plugin=org.kde.plasma.folder
+
+[Containments][25]
 activityId=74ac43b4-bd84-44b3-9fba-1864e8089c90
 formfactor=0
 immutability=1
 lastScreen=1
 location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.color
+
+[Containments][25][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][25][Wallpaper][obsidianreq.plasma.wallpaper.matrixrain][General]
+charSetMask=63
+fontFamily=AnonymicePro Nerd Font Propo
+fontSize=32
+glitchChance=0
+paletteIndex=1
+
+[Containments][25][Wallpaper][org.kde.color][General]
+Color=0,0,0
+
+[Containments][26]
+formfactor=0
+immutability=1
+location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+
+[Containments][27]
+ItemGeometries-1405x878=
+ItemGeometriesHorizontal=
+activityId=74ac43b4-bd84-44b3-9fba-1864e8089c90
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=obsidianreq.plasma.wallpaper.matrixrain
+
+[Containments][27][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][27][Wallpaper][obsidianreq.plasma.wallpaper.matrixrain][General]
+bgColor=#0000000
+colorMode=1
+direction=3
+fontFamily=AnonymicePro Nerd Font Propo
+fontSize=24
+glitchChance=0
+glowSize=30
+paletteIndex=1
+trailLength=10
+trailLengthMin=2
+
+[Containments][27][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,74ac43b4-bd84-44b3-9fba-1864e8089c90,11,desktop:/windows.sh,desktop:/bg.png,desktop:/ventoy-1.1.07,desktop:/BG.jpg,desktop:/Counter-Strike 2.desktop,desktop:/transcript.pdf,desktop:/SERVER_EVAL_x64FRE_en-us.iso,desktop:/bg1.png,desktop:/steam.desktop,desktop:/schedule.pdf,desktop:/Why Politics Matters.pdf
-screenMapping=desktop:/windows.sh,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/BG.jpg,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/ventoy-1.1.07,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/steam.desktop,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/SERVER_EVAL_x64FRE_en-us.iso,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/Counter-Strike 2.desktop,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/bg1.png,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/Why Politics Matters.pdf,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/schedule.pdf,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/bg.png,1,74ac43b4-bd84-44b3-9fba-1864e8089c90,desktop:/transcript.pdf,1,74ac43b4-bd84-44b3-9fba-1864e8089c90
+itemsOnDisabledScreens=0,74ac43b4-bd84-44b3-9fba-1864e8089c90,11,desktop:/bg1.png,desktop:/ventoy-1.1.07,desktop:/Counter-Strike 2.desktop,desktop:/SERVER_EVAL_x64FRE_en-us.iso,desktop:/windows.sh,desktop:/schedule.pdf,desktop:/bg.png,desktop:/Why Politics Matters.pdf,desktop:/steam.desktop,desktop:/transcript.pdf,desktop:/BG.jpg
+screenMapping=
