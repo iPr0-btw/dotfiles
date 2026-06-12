@@ -3,7 +3,7 @@ Description=push dotfiles to github every minute
 
 [Timer]
 OnBootSec=5min
-OnUnitActiveSec=1min
+OnUnitActiveSec=30sec
 Persistent=true
 
 [Install]
