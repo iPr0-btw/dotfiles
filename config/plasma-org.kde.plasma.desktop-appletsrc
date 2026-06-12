@@ -135,18 +135,6 @@ knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 [Containments][2][General]
 AppletOrder=3;4;5;6;7;14;15
 
-[Containments][23]
-formfactor=0
-immutability=1
-location=0
-plugin=org.kde.desktopcontainment
-
-[Containments][24]
-formfactor=0
-immutability=1
-location=0
-plugin=org.kde.plasma.folder
-
 [Containments][25]
 activityId=74ac43b4-bd84-44b3-9fba-1864e8089c90
 formfactor=0
@@ -169,12 +157,6 @@ paletteIndex=1
 
 [Containments][25][Wallpaper][org.kde.color][General]
 Color=0,0,0
-
-[Containments][26]
-formfactor=0
-immutability=1
-location=0
-plugin=org.kde.plasma.folder
 
 [Containments][27]
 ItemGeometries-1405x878=
