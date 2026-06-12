@@ -1,5 +1,5 @@
 [Unit]
-Description=push dotfiles to github every minute
+Description=push dotfiles to github every 30s
 
 [Timer]
 OnBootSec=5min
