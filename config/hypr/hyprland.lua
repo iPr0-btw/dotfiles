@@ -58,7 +58,7 @@ end)
 
 hl.env("XCURSOR_SIZE", "48")
 hl.env("HYPRCURSOR_SIZE", "48")
-hl.env("DRI_PRIME", "0")
+-- hl.env("DRI_PRIME", "0")
 hl.env("QT_QPA_PLATFORM", "wayland")
 
 -----------------------
@@ -198,7 +198,6 @@ hl.config({
 })
 
 -- Per-device config
-
 
 ---------------------
 ---- KEYBINDINGS ----
