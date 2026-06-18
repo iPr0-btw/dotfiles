@@ -1,16 +1,13 @@
-# GIMP user context
+# GIMP gimp-paintbrush-tool options
 
-(tool "gimp-free-select-tool")
-(paint-info "gimp-paintbrush")
 (background
     (color "R'G'B'A float" 16 "\1\0\200\77\1\0\200\77\1\0\200\77\0\0\200\77" 0))
 (brush "2. Hardness 050")
 (dynamics "Pressure Size")
-(mybrush "100% Opaque")
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Colour History")
-(font "Sans-serif")
-(tool-preset "Core Pointer")
+(brush-size 51)
+(brush-hardness 0.5)
 
-# end of user context
+# end of gimp-paintbrush-tool options

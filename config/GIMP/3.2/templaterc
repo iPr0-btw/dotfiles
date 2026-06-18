@@ -1,3 +1,7 @@
+# GIMP templaterc
+# 
+# This file will be entirely rewritten each time you exit.
+
 (GimpTemplate "A0 (300 ppi)"
     (width 9933)
     (height 14043)
@@ -630,3 +634,5 @@
     (simulation-bpc no)
     (simulation-intent relative-colorimetric)
     (fill-type background))
+
+# end of templaterc
