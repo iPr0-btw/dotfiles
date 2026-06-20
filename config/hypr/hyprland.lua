@@ -150,7 +150,13 @@ hl.window_rule({
 hl.window_rule({
 	name = "librewolf on workspace 1",
 	match = { class = "^(librewolf)$" },
-	workspace = "1 silent",
+	workspace = "1",
+})
+
+hl.window_rule({
+	name = "kitty on workspace 3",
+	match = { class = "^(kitty)$" },
+	workspace = "3 silent",
 })
 
 -- Layout configuration
