@@ -26,7 +26,7 @@
 	"version": "12.6.0",
 	"requestsplitn": 150,
 	"completionrefreshtime": 7,
-	"maxconcurrentdownloads": 1,
+	"maxconcurrentdownloads": 50,
 	"bottomup": true,
 	"sudoloop": false,
 	"devel": true,
