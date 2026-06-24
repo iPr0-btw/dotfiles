@@ -16,7 +16,7 @@
 	"gitbin": "git",
 	"gpgbin": "gpg",
 	"gpgflags": "",
-	"mflags": "-j$(nproc)",
+	"mflags": "j$(nproc)",
 	"sortby": "",
 	"searchby": "name-desc",
 	"gitflags": "",
