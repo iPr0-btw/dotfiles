@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/cp -r $HOME/.config $HOME/.config1
+ExecStart=/usr/bin/cp -r %h/.config %h/.config1
 StandardOutput=journal
 StandardError=journal
 
