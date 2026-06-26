@@ -1,0 +1,12 @@
+[Unit]
+Description=Copy user config files to .config1
+After=network.target  # Ensures network is up if necessary
+#Wants=network-online.target  # Alternative for stricter online dependency
+
+[Service]
+Type=oneshot            # This service runs once and then exits.
+ExecStart=/bin/cp -r ~/.config/.config1
+TimeoutSec=0             # Set timeout to 0, as it's a one-shot service
+
+[Install]
+WantedBy=none
