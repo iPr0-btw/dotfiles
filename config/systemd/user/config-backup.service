@@ -9,4 +9,4 @@ ExecStart=/bin/cp -r /home/bruh/.config/ /home/bruh/.config1
 TimeoutSec=0             # Set timeout to 0, as it's a one-shot service
 
 [Install]
-WantedBy=none
+WantedBy=multi-
