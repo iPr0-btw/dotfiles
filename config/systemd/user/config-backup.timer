@@ -2,10 +2,10 @@
 Description=Run cp-config.service every minute
 
 [Timer]
-OnBootSec=1min         # Start the timer 1 minute after boot.  Adjust as needed.
-OnUnitActiveSec=60   # Run service every 60 seconds (1 minute).
-RandomizedDelaySec=0   # No randomized delay to ensure consistent timing.
-Persistent=true        # If the system was off, run it when it starts
+OnBootSec=1min
+OnUnitActiveSec=60  # Run service every 60 seconds (1 minute)
+RandomizedDelaySec=0
+Persistent=true
 
 [Install]
 WantedBy=timers.target
