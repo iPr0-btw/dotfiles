@@ -5,7 +5,7 @@ After=network.target  # Ensures network is up if necessary
 
 [Service]
 Type=oneshot            # This service runs once and then exits.
-ExecStart=/bin/cp -r ~/.config/ ~/.config1
+ExecStart=/bin/cp -r /home/bruh/.config/ /home/bruh/.config1
 TimeoutSec=0             # Set timeout to 0, as it's a one-shot service
 
 [Install]
