@@ -1,10 +1,10 @@
 [Unit]
-Description=Run cp-config.service every minute
+Description=Run config backup daily
+Requires=config-backup.service
 
 [Timer]
-OnBootSec=1min
-OnUnitActiveSec=60
-RandomizedDelaySec=0
+OnBootSec=5min
+OnUnitActiveSec=1d
 Persistent=true
 
 [Install]

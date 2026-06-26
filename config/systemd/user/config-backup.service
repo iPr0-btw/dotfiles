@@ -1,11 +1,12 @@
 [Unit]
-Description=Copy user config files to .config1
-After=network.target  # Ensures network is up if necessary
+Description=Backup .config directory
+After=network.target
 
 [Service]
-Type=oneshot            # This service runs once and then exits.
-ExecStart=/bin/cp -r /home/bruh/.config/ /home/bruh/.config1
-TimeoutSec=0             # Set timeout to 0, as it's a one-shot service
+Type=oneshot
+ExecStart=/usr/bin/cp -r $HOME/.config $HOME/.config1
+StandardOutput=journal
+StandardError=journal
 
 [Install]
 WantedBy=multi-user.target
