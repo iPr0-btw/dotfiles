@@ -219,6 +219,7 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
 
 -- Window management
 -- hl.bind(mainMod .. " + C", hl.dsp.window.close())
+hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("kill -9 $(hyprctl activewindow -j | jq -r '.pid')"))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 -- hl.bind(mainMod .. " + ENTER", hl.dsp.window.fullscreen({ all = false }))
