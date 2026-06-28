@@ -24,12 +24,14 @@ also started using dank-material-shell, on top of hyprland to have a clean looki
 - nvim IDE with lazyvim config
 - dank-material-shell bar
 - no unnecessary bloat
-![a boring desktop](./desktop.png)
 
 ## installing it
 - install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop dms'
 - clone this repo and copy the 'config' folder to ~/.config
 - to install searXNG, install the binary with your package manager, and then see services/searXNG for config details.
 - enable the 'autopush' user service and timer.
+
+## what it looks like:
+![a boring desktop](./desktop.png)
 
 plain and simple, like it should be.
