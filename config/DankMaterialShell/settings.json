@@ -390,7 +390,12 @@
   },
   "showOnLastDisplay": {},
   "niriOutputSettings": {},
-  "hyprlandOutputSettings": {},
+  "hyprlandOutputSettings": {
+    "eDP-1": {
+      "bitdepth": 10,
+      "colorManagement": "hdredid"
+    }
+  },
   "displayProfiles": {},
   "activeDisplayProfile": {},
   "displayProfileAutoSelect": false,
