@@ -39,7 +39,7 @@ hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 local terminal = "kitty -o linux_display_server=wayland"
 local fileManager = "thunar"
 local menu = "dms ipc launcher open"
--- local men
+-- local menu = "rofi -show drun" --uncomment if you use this
 -------------------
 ---- AUTOSTART ----
 -------------------
@@ -59,7 +59,7 @@ end)
 
 hl.env("XCURSOR_SIZE", "48")
 hl.env("HYPRCURSOR_SIZE", "48")
--- hl.env("DRI_PRIME", "0")
+-- hl.env("DRI_PRIME", "0") -- for dual GPU laptops
 hl.env("QT_QPA_PLATFORM", "wayland")
 
 -----------------------
