@@ -142,24 +142,6 @@ hl.workspace_rule({ workspace = 3, layout = "master" })
 hl.workspace_rule({ workspace = 2, layout = "lua:grid" })
 require("grid")
 
-hl.window_rule({
-	name = "osu on workspace 2",
-	match = { class = "^(osu!)$" },
-	workspace = "2 silent",
-})
-
-hl.window_rule({
-	name = "librewolf on workspace 1",
-	match = { class = "^(librewolf)$" },
-	workspace = "1",
-})
-
-hl.window_rule({
-	name = "kitty on workspace 3",
-	match = { class = "^(kitty)$" },
-	workspace = "3",
-})
-
 -- Layout configuration
 hl.config({
 	dwindle = {
@@ -323,6 +305,23 @@ hl.window_rule({
 	no_focus = true,
 })
 
+hl.window_rule({
+	name = "osu on workspace 2",
+	match = { class = "^(osu!)$" },
+	workspace = "2 silent",
+})
+
+hl.window_rule({
+	name = "librewolf on workspace 1",
+	match = { class = "^(librewolf)$" },
+	workspace = "1",
+})
+
+hl.window_rule({
+	name = "kitty on workspace 3",
+	match = { class = "^(kitty)$" },
+	workspace = "3",
+})
 -----------------------
 ----- XWAYLAND -----
 -----------------------
