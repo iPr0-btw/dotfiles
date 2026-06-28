@@ -24,6 +24,7 @@ also started using dank-material-shell, on top of hyprland to have a clean looki
 - nvim IDE with lazyvim config
 - dank-material-shell bar
 - no unnecessary bloat
+![a boring desktop](./desktop.png)
 
 ## installing it
 - install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop dms'
