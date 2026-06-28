@@ -38,7 +38,7 @@ hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 
 local terminal = "kitty -o linux_display_server=wayland"
 local fileManager = "thunar"
-local menu = "rofi -show drun"
+local menu = "dms ipc launcher open"
 
 -------------------
 ---- AUTOSTART ----
@@ -48,6 +48,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("nm-applet &")
 	hl.exec_cmd("swaybg -i ~/wall0.png")
 	hl.exec_cmd("dunst &")
+	hl.exec_cmd("dms run &")
 	hl.exec_cmd("sleep 1 && hyprpaper")
 	hl.exec_cmd("hypridle")
 end)

@@ -401,7 +401,7 @@
       "id": "default",
       "name": "Main Bar",
       "enabled": true,
-      "position": 0,
+      "position": 2,
       "screenPreferences": [
         "all"
       ],
@@ -426,8 +426,8 @@
         "controlCenterButton"
       ],
       "spacing": 0,
-      "innerPadding": 3,
-      "bottomGap": 0,
+      "innerPadding": 6,
+      "bottomGap": -19,
       "transparency": 0,
       "widgetTransparency": 1,
       "squareCorners": false,
@@ -435,7 +435,7 @@
       "maximizeWidgetIcons": false,
       "maximizeWidgetText": false,
       "removeWidgetPadding": false,
-      "widgetPadding": 12,
+      "widgetPadding": 24,
       "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
