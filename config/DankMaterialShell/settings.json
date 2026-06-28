@@ -1,5 +1,5 @@
 {
-  "currentThemeName": "purple",
+  "currentThemeName": "cyan",
   "currentThemeCategory": "generic",
   "customThemeFile": "",
   "registryThemeVariants": {},
@@ -283,7 +283,7 @@
   "matugenTemplateKitty": true,
   "matugenTemplateFoot": true,
   "matugenTemplateAlacritty": true,
-  "matugenTemplateNeovim": false,
+  "matugenTemplateNeovim": true,
   "matugenTemplateWezterm": true,
   "matugenTemplateDgop": true,
   "matugenTemplateKcolorscheme": true,
@@ -425,8 +425,8 @@
         "battery",
         "controlCenterButton"
       ],
-      "spacing": 4,
-      "innerPadding": 4,
+      "spacing": 0,
+      "innerPadding": 9,
       "bottomGap": 0,
       "transparency": 1,
       "widgetTransparency": 1,
