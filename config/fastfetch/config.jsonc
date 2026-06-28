@@ -140,7 +140,6 @@
     "type": "custom",
     },
     {
-    {
             "type": "command",
             "key": "  ›  OS Age  ",
             "keyColor": "magenta",
@@ -158,4 +157,7 @@
         },
 
     ]
+    {
+"type": "colors"
+}
   }
