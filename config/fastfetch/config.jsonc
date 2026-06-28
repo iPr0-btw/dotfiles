@@ -152,12 +152,17 @@
         },
         {
             "type": "datetime",
-            "key": "  ›  DateTime  ",
+            "key": "DateTime",
             "keyColor": "magenta"
         },
     {
-    "type": "colors",
-},
+    "type": "custom",
+    },
+  {
+  "type": "colors",
+  },
+
+
 
   ]
   }
