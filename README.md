@@ -16,6 +16,8 @@ also started using dank-material-shell, on top of hyprland to have a clean looki
 - hyprland (WM)
 - KDE Plasma (fallback DE)
 - fish shell
+- swaybg (for wallpaper)
+- swaylock lockscreen
 - kitty terminal
 - rofi app launcher
 - searXNG search engine
