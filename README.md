@@ -8,6 +8,8 @@ started running a search engine locally with searXNG.
 
 the 'autopush' script runs on a systemd timer to push updates every 30s, making sure local changes also reflect in this repo.
 
+also started using dank-material-shell, on top of hyprland to have a clean looking bar
+
 ## my stack
 
 - arch linux (OS)
