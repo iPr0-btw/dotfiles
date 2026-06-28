@@ -188,7 +188,7 @@
   "spotlightSectionViewModes": {},
   "appDrawerSectionViewModes": {},
   "niriOverviewOverlayEnabled": true,
-  "dankLauncherV2Size": "compact",
+  "dankLauncherV2Size": "micro",
   "dankLauncherV2BorderEnabled": false,
   "dankLauncherV2BorderThickness": 2,
   "dankLauncherV2BorderColor": "primary",
@@ -545,7 +545,11 @@
   "desktopWidgetGroups": [],
   "builtInPluginSettings": {
     "dms_settings_search": {
-      "trigger": "?"
+      "trigger": "?",
+      "enabled": true
+    },
+    "dms_sysmon": {
+      "enabled": true
     }
   },
   "clipboardEnterToPaste": false,
