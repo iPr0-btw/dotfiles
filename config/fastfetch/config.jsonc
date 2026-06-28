@@ -142,7 +142,7 @@
     {
             "type": "command",
             "key": "OS Age",
-            "keyColor": "light_green",
+            "keyColor": "light_blue",
             "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
@@ -153,7 +153,7 @@
         {
             "type": "datetime",
             "key": "DateTime",
-            "keyColor": "red"
+            "keyColor": "light_blue"
         },
     {
     "type": "custom",
