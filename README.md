@@ -18,7 +18,7 @@ the 'autopush' script runs on a systemd timer to push updates every 30s, making 
 - rofi app launcher
 - searXNG search engine
 - nvim IDE with lazyvim config
-- no bar
+- dank-material-shell bar
 - no unnecessary bloat
 
 ## installing it
