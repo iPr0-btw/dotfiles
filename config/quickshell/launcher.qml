@@ -280,7 +280,7 @@ FloatingWindow {
                         font.family: fontFamily
                         visible: appList.model.length === 0
                     }
-                }~ cat .config/quickshell/shell.qml
+                  }
 import Quickshell
 import Quickshell.Wayland
 import Quickshell.Io
