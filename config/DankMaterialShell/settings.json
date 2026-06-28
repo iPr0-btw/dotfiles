@@ -406,7 +406,7 @@
       "id": "default",
       "name": "Main Bar",
       "enabled": true,
-      "position": 0,
+      "position": 1,
       "screenPreferences": [
         "all"
       ],
@@ -441,7 +441,7 @@
       "maximizeWidgetText": false,
       "removeWidgetPadding": false,
       "widgetPadding": 24,
-      "gothCornersEnabled": false,
+      "gothCornersEnabled": true,
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
       "borderEnabled": false,
