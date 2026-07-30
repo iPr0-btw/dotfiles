@@ -52,5 +52,4 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     set fish_greeting ""
 end
-source /usr/share/doc/find-the-command/ftc.fish
 export TERMINAL=kitty
