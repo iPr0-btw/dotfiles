@@ -586,7 +586,12 @@
         "memUsage",
         "notificationButton",
         "battery",
-        "controlCenterButton"
+        {
+          "id": "controlCenterButton",
+          "enabled": true,
+          "showDoNotDisturbIcon": true,
+          "showScreenSharingIcon": false
+        }
       ],
       "spacing": 0,
       "innerPadding": 13,
