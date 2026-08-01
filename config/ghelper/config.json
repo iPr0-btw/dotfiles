@@ -5,5 +5,8 @@
   "dgpu_pci_slot": "0-2",
   "dgpu_pci_bridge": "0000:00:03.1",
   "backlight_type": 4,
-  "matrix_brightness": 0
+  "matrix_brightness": 0,
+  "skip_update_prompt": 1,
+  "gpu_auto": 0,
+  "gpu_mode": "eco"
 }
