@@ -52,7 +52,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("dunst &")
 	hl.exec_cmd("dms run &")
 	hl.exec_cmd("sleep 1 && hyprpaper")
-	hl.exec_cmd("hypridle")
+	-- hl.exec_cmd("hypridle")
 end)
 
 -------------------------------
