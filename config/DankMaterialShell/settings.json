@@ -2,14 +2,21 @@
   "currentThemeName": "custom",
   "currentThemeCategory": "registry",
   "customThemeFile": "/home/bruh/.config/DankMaterialShell/themes/amoledBlack/theme.json",
-  "registryThemeVariants": {},
+  "registryThemeVariants": {
+    "amoledBlack": {
+      "dark": {
+        "flavor": "black",
+        "accent": "pink"
+      }
+    }
+  },
   "matugenScheme": "scheme-rainbow",
   "matugenContrast": 0,
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
   "dockTransparency": 1,
-  "widgetBackgroundColor": "primaryContainer",
+  "widgetBackgroundColor": "s",
   "widgetBackgroundCustomColor": "#000000",
   "widgetBackgroundCustomStrength": 0.5,
   "widgetColorMode": "colorful",
