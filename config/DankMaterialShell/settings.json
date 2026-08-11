@@ -270,7 +270,7 @@
   "dankLauncherV2IncludeFilesInAll": false,
   "dankLauncherV2IncludeFoldersInAll": false,
   "launcherUseOverlayLayer": false,
-  "launcherStyle": "full",
+  "launcherStyle": "spotlight",
   "spotlightBarShowModeChips": false,
   "keybindsFloatingWindow": false,
   "useAutoLocation": false,
@@ -318,7 +318,7 @@
       "cursorHideTimeout": 0
     }
   },
-  "launcherLogoMode": "os",
+  "launcherLogoMode": "compositor",
   "launcherLogoCustomPath": "",
   "launcherLogoColorOverride": "",
   "launcherLogoColorInvertOnMode": false,
@@ -714,6 +714,9 @@
     },
     "dms_sysmon": {
       "enabled": true
+    },
+    "dms_clipboard_search": {
+      "trigger": "cb"
     }
   },
   "clipboardClickToPaste": false,
