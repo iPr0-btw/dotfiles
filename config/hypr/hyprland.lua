@@ -320,6 +320,12 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "steam on workspace 1",
+	match = { class = "^(librewolf)$" },
+	workspace = "1",
+})
+
+hl.window_rule({
 	name = "kitty on workspace 3",
 	match = { class = "^(kitty)$" },
 	workspace = "3",
