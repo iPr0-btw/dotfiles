@@ -50,15 +50,15 @@ ForegroundVisited=155,89,182
 
 [Colors:Header]
 BackgroundAlternate=32,35,38
-BackgroundNormal=41,44,48
+BackgroundNormal=163,42,61
 DecorationFocus=233,61,88
 DecorationHover=233,61,88
 ForegroundActive=233,61,88
 ForegroundInactive=161,169,177
-ForegroundLink=246,189,194
+ForegroundLink=233,61,88
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=255,255,255
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
@@ -72,7 +72,7 @@ ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=153,153,153
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
@@ -135,7 +135,7 @@ ForegroundVisited=155,89,182
 [General]
 AccentColor=233,61,88
 ColorScheme=BreezeDark1
-ColorSchemeHash=25d9ab5677702349ced05126d295141332721d3f
+ColorSchemeHash=501b3b9ae9b92538d5bb427b870a20455a55f5b6
 LastUsedCustomAccentColor=233,61,88
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -172,9 +172,9 @@ View Style=DetailTree
 ScreenScaleFactors=eDP=1;DisplayPort-0=1;DisplayPort-1=1;DisplayPort-2=1;DisplayPort-3=1;DisplayPort-4=1;DisplayPort-5=1;DisplayPort-6=1;DisplayPort-7=1;
 
 [WM]
-activeBackground=39,44,49
+activeBackground=163,42,61
 activeBlend=252,252,252
-activeForeground=252,252,252
+activeForeground=255,255,255
 inactiveBackground=32,36,40
 inactiveBlend=161,169,177
 inactiveForeground=161,169,177
