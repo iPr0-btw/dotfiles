@@ -54,3 +54,4 @@ if status is-interactive
 end
 export TERMINAL=kitty
 export WLR_DRM_DEVICES=/dev/dri/card1
+export MOZ_ENABLE_WAYLAND 1

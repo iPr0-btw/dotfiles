@@ -202,4 +202,4 @@ input "1267:13077:ASCE1206:00_04F3:3315_Touchpad" {
 input "1267:13077:ASCE1206:00_04F3:3315_Mouse" {
   natural_scroll enabled
 }
-output * scale 1
+output * scale 2.15
