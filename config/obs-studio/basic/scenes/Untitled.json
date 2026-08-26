@@ -65,7 +65,13 @@
             "uuid": "5f8041e3-c5fa-4f47-aa02-32e80a8bc589",
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
-            "settings": {},
+            "settings": {
+                "device_id": "/dev/video0",
+                "input": 0,
+                "pixelformat": 842093913,
+                "resolution": -1,
+                "color_range": 0
+            },
             "mixers": 0,
             "sync": 0,
             "flags": 0,
