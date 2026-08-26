@@ -452,3 +452,39 @@
 11:23:29.258: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
 11:23:29.428: v4l2-input: /dev/video0: select timed out
 11:23:29.429: v4l2-input: /dev/video0: failed to log status
+11:23:41.981: v4l2-input: /dev/video3 seems to not support video capture
+11:23:41.981: v4l2-input: /dev/video1 seems to not support video capture
+11:23:41.981: v4l2-input: Found device 'USB2.0 FHD UVC WebCam: USB2.0 I' at /dev/video2
+11:23:41.982: v4l2-input: Found device 'USB2.0 FHD UVC WebCam: USB2.0 F' at /dev/video0
+11:23:41.982: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:23:41.983: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:23:41.983: v4l2-input: Pixelformat: Motion-JPEG (available)
+11:23:41.983: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+11:23:41.983: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+11:23:41.983: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+11:23:41.983: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+11:23:41.983: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+11:23:41.983: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:23:41.983: v4l2-input: Found input 'Camera 1' (Index 0)
+11:23:41.983: v4l2-controls: setting default for Power Line Frequency to 2
+11:23:41.984: v4l2-controls: setting default for Auto Exposure to 3
+11:23:41.984: v4l2-input: Pixelformat: Motion-JPEG (available)
+11:23:41.984: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+11:23:41.984: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+11:23:41.984: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+11:23:41.984: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+11:23:41.984: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+11:23:41.984: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+11:23:49.459: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene'
+11:24:16.229: ---------------------------------
+11:24:16.229: video settings reset:
+11:24:16.229: 	base resolution:   1920x1080
+11:24:16.229: 	output resolution: 1920x1080
+11:24:16.229: 	downscale filter:  Bicubic
+11:24:16.229: 	fps:               60/1
+11:24:16.229: 	format:            NV12
+11:24:16.229: 	YUV mode:          Rec. 709/Partial
+11:24:16.229: NV12 texture support enabled
+11:24:16.229: P010 texture support not available
+11:24:16.231: Settings changed (outputs, video)
+11:24:16.231: ------------------------------------------------
