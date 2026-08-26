@@ -53,3 +53,4 @@ if status is-interactive
     set fish_greeting ""
 end
 export TERMINAL=kitty
+export WLR_DRM_DEVICES=/dev/dri/card1
