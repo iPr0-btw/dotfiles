@@ -5,13 +5,12 @@
     "bar": {
         "persistent": false
     },
+    "border": {
+        "rounding": 25,
+        "smoothing": 20,
+        "thickness": 0
+    },
     "sidebar": {
         "enabled": true
-    },
-    
-    "border":{
-    "thickness": 0,
-    "rounding": 25,
-    "smoothing": 20
-  }
+    }
 }
