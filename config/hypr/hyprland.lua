@@ -320,9 +320,9 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "steam on workspace 3",
+	name = "steam on workspace 4",
 	match = { class = "^(steam)$" },
-	workspace = "3",
+	workspace = "4 silent",
 })
 
 hl.window_rule({
