@@ -19,5 +19,11 @@
     },
     "sidebar": {
         "enabled": true
+    },
+    "theme": {
+        "accent": "#000000",
+        "background": "#000000",
+        "colorScheme": "custom",
+        "foreground": "#ffffff"
     }
 }
