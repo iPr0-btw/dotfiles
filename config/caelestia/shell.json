@@ -74,6 +74,30 @@
                 "enabled": true,
                 "id": "vpn"
             }
-        ]
+        ],
+        "vpn": {
+            "enabled": true,
+            "provider": [
+                {
+                    "connectCmd": [
+                        "nmcli",
+                        "connection",
+                        "up",
+                        "la"
+                    ],
+                    "disconnectCmd": [
+                        "nmcli",
+                        "connection",
+                        "down",
+                        "la"
+                    ],
+                    "displayName": "la",
+                    "id": "vpn-mtdanswy-83j7y",
+                    "interface": "la",
+                    "name": "wireguard"
+                }
+            ],
+            "selectedProvider": "vpn-mtdanswy-83j7y"
+        }
     }
 }
