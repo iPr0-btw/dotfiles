@@ -49,7 +49,7 @@ local menu = "rofi -show drun" --uncomment if you use this
 hl.on("hyprland.start", function()
 	hl.exec_cmd("swaybg -i ~/wall0.png")
 	hl.exec_cmd("dunst")
-	hl.exec_cmd("caelestia shell")
+	hl.exec_cmd("caelestia shell -d")
 	hl.exec_cmd("sleep 1 && hyprpaper")
 	-- hl.exec_cmd("hypridle")
 end)
