@@ -4,7 +4,6 @@ After=default.target
 
 [Service]
 Type=simple
-BusName=org.freedesktop.Notifications
 ExecStart='/usr/bin/caelestia shell -d'
 ExecReload=/usr/bin/kill -9 qs
 Restart=on-failure
