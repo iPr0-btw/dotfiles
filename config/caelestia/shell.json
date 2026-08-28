@@ -13,7 +13,7 @@
             "showDate": true,
             "showIcon": false
         },
-        "persistent": false,
+        "persistent": true,
         "popouts": {
             "activeWindow": true,
             "statusIcons": true
@@ -24,6 +24,9 @@
         "smoothing": 20,
         "thickness": 0
     },
+    "dashboard": {
+        "enabled": true
+    },
     "general": {
         "apps": {
             "terminal": [
@@ -32,6 +35,6 @@
         }
     },
     "sidebar": {
-        "enabled": false
+        "enabled": true
     }
 }
