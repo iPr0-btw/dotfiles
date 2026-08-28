@@ -5,6 +5,7 @@
     "bar": {
         "activeWindow": {
             "compact": true,
+            "pos"
             "showOnHover": true
         },
         "clock": {
@@ -32,9 +33,6 @@
     },
     "sidebar": {
         "enabled": false
-    },
-
-    "bar": {
-    "position": "bottom"
     }
+
 }
