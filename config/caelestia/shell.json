@@ -3,7 +3,20 @@
         "wallpaperEnabled": false
     },
     "bar": {
-        "persistent": false
+        "activeWindow": {
+            "compact": true,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": false,
+            "showDate": true,
+            "showIcon": false
+        },
+        "persistent": false,
+        "popouts": {
+            "activeWindow": true,
+            "statusIcons": true
+        }
     },
     "border": {
         "rounding": 25,
@@ -18,7 +31,7 @@
         }
     },
     "sidebar": {
-        "enabled": true
+        "enabled": false
     },
     "theme": {
         "accent": "#000000",
@@ -26,4 +39,7 @@
         "colorScheme": "custom",
         "foreground": "#ffffff"
     }
+
+      "bar": {
+    "position": "bottom"
 }
