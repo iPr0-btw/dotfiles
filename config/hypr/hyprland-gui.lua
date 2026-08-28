@@ -6,7 +6,7 @@ hl.monitor({
     disabled = false,
     mode = "2880x1800@120.00Hz",
     position = "0x0",
-    scale = 2,
+    scale = 1.67,
     bitdepth = 10,
     vrr = 1,
     cm = "srgb",
