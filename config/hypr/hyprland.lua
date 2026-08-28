@@ -345,3 +345,6 @@ hl.config({
 
 -- DPI setting (note: this may need to be set via monitor config or display settings)
 -- hl.config({ misc = { dpi = 207 } })
+
+-- HyprMod managed settings
+require("hyprland-gui")
