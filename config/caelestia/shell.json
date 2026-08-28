@@ -36,6 +36,12 @@
             ]
         }
     },
+    "services": {
+        "audioIncrement": 0.04,
+        "gpuType": "",
+        "useFahrenheit": false,
+        "useTwelveHourClock": false
+    },
     "sidebar": {
         "enabled": false
     },
