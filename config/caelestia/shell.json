@@ -14,11 +14,12 @@
             "showDate": true,
             "showIcon": false
         },
-        "persistent": true,
+        "persistent": false,
         "popouts": {
             "activeWindow": true,
             "statusIcons": true
-        }
+        },
+        "showOnHover": true
     },
     "border": {
         "rounding": 0,
