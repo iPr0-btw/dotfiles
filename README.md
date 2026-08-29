@@ -26,9 +26,9 @@ also started using dank-material-shell, on top of hyprland to have a clean looki
 - no unnecessary bloat
 
 ## installing it
-- install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop dms'
+- install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop caelestia-shell'
 - clone this repo and copy the 'config' folder to ~/.config
-- to install searXNG, install the binary with your package manager, and then see services/searXNG for config details.
+- to install searXNG, install it with docker, and then see services/searXNG for config details.
 - enable the 'autopush' user service and timer.
 
 ## what it looks like:
