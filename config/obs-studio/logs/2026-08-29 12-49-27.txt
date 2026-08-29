@@ -1,0 +1,134 @@
+12:49:27.349: Platform: Wayland
+12:49:27.349: CPU Name: AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+12:49:27.349: CPU Speed: 2015.926MHz
+12:49:27.350: Physical Cores: 12, Logical Cores: 24
+12:49:27.350: Physical Memory: 31186MB Total, 21585MB Free
+12:49:27.350: Kernel Version: Linux 7.2.2-1-cachyos-server
+12:49:27.350: Distribution: "why ever use microslop in 2026?" Unknown
+12:49:27.350: Desktop Environment: Hyprland
+12:49:27.350: Session Type: wayland
+12:49:27.353: Current Date/Time: 2026-08-29, 12:49:27 PM
+12:49:27.353: Browser Hardware Acceleration: true
+12:49:27.353: Qt Version: 6.11.2 (runtime), 6.11.1 (compiled)
+12:49:27.353: Portable mode: false
+12:49:27.431: OBS 32.2.2 (linux)
+12:49:27.431: ---------------------------------
+12:49:27.434: ---------------------------------
+12:49:27.434: audio settings reset:
+12:49:27.434: 	samples per sec: 48000
+12:49:27.434: 	speakers:        2
+12:49:27.434: 	max buffering:   960 milliseconds
+12:49:27.434: 	buffering type:  dynamically increasing
+12:49:27.437: ---------------------------------
+12:49:27.437: Initializing OpenGL...
+12:49:27.437: Using EGL/Wayland
+12:49:27.523: Initialized EGL 1.5
+12:49:27.550: Loading up OpenGL on adapter AMD AMD Radeon 890M Graphics (radeonsi, strix1, ACO, DRM 3.64, 7.2.2-1-cachyos-server)
+12:49:27.551: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.2.1-arch3.1, shading language 4.60
+12:49:27.611: ---------------------------------
+12:49:27.611: video settings reset:
+12:49:27.611: 	base resolution:   1920x1080
+12:49:27.611: 	output resolution: 1920x1080
+12:49:27.611: 	downscale filter:  Bicubic
+12:49:27.611: 	fps:               60/1
+12:49:27.611: 	format:            NV12
+12:49:27.611: 	YUV mode:          Rec. 709/Partial
+12:49:27.611: NV12 texture support enabled
+12:49:27.611: P010 texture support not available
+12:49:27.614: Audio monitoring device:
+12:49:27.614: 	name: Default
+12:49:27.614: 	id: default
+12:49:27.617: ---------------------------------
+12:49:27.619: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:49:27.622: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:49:27.623: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:49:27.623: Failed to initialize module 'decklink.so'
+12:49:27.842: [pipewire] Available capture sources:
+12:49:27.842: [pipewire]     - Monitor source
+12:49:27.842: [pipewire]     - Window source
+12:49:27.925: [obs-browser]: Version 2.26.9
+12:49:27.925: [obs-browser]: CEF Version 151.0.7922.174 (runtime), 151.3.18+gbeff58d+chromium-151.0.7922.138 (compiled)
+12:49:27.978: VAAPI: API version 1.24
+12:49:27.979: FFmpeg VAAPI H264 encoding supported
+12:49:27.985: FFmpeg VAAPI AV1 encoding supported
+12:49:27.991: FFmpeg VAAPI HEVC encoding supported
+12:49:31.100: [NVENC] Test process failed: unknown
+12:49:31.100: NVENC not supported
+12:49:31.100: Failed to initialize module 'obs-nvenc.so'
+12:49:31.229: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+12:49:31.229: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.2
+12:49:31.229: [obs-websocket] [obs_module_load] Linked ASIO Version: 103802
+12:49:31.237: [obs-websocket] [obs_module_load] Module loaded.
+12:49:31.243: ---------------------------------
+12:49:31.243:   Loaded Modules:
+12:49:31.243:     text-freetype2.so
+12:49:31.243:     rtmp-services.so
+12:49:31.243:     obs-x264.so
+12:49:31.243:     obs-websocket.so
+12:49:31.243:     obs-webrtc.so
+12:49:31.243:     obs-vst.so
+12:49:31.243:     obs-transitions.so
+12:49:31.244:     obs-qsv11.so
+12:49:31.244:     obs-outputs.so
+12:49:31.244:     obs-libfdk.so
+12:49:31.244:     obs-filters.so
+12:49:31.244:     obs-ffmpeg.so
+12:49:31.244:     obs-browser.so
+12:49:31.244:     linux-v4l2.so
+12:49:31.244:     linux-pulseaudio.so
+12:49:31.244:     linux-pipewire.so
+12:49:31.244:     linux-jack.so
+12:49:31.244:     linux-capture.so
+12:49:31.244:     linux-alsa.so
+12:49:31.244:     image-source.so
+12:49:31.244:     frontend-tools.so
+12:49:31.244:     decklink-output-ui.so
+12:49:31.244:     decklink-captions.so
+12:49:31.244: ---------------------------------
+12:49:31.244: ---------------------------------
+12:49:31.244: Available Encoders:
+12:49:31.244:   Video Encoders:
+12:49:31.244: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:49:31.244: 	- ffmpeg_aom_av1 (AOM AV1)
+12:49:31.244: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+12:49:31.244: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+12:49:31.244: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+12:49:31.244: 	- obs_x264 (x264)
+12:49:31.244:   Audio Encoders:
+12:49:31.244: 	- ffmpeg_aac (FFmpeg AAC)
+12:49:31.244: 	- ffmpeg_opus (FFmpeg Opus)
+12:49:31.244: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:49:31.244: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:49:31.244: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:49:31.244: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:49:31.244: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:49:31.244: 	- libfdk_aac (libfdk AAC)
+12:49:31.244: ==== Startup complete ===============================================
+12:49:31.296: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+12:49:31.298: All scene data cleared
+12:49:31.298: ------------------------------------------------
+12:49:31.306: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:49:31.306: Deduplication logic is being applied to all monitored sources.
+12:49:31.306: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+12:49:31.306: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:49:31.306: pulse-input: Started recording from 'alsa_output.pci-0000_65_00.6.analog-stereo.monitor' (default)
+12:49:31.306: [Loaded global audio device]: 'Desktop Audio'
+12:49:31.307: v4l2-input: Start capture from /dev/video0
+12:49:31.358: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:49:31.358: Deduplication logic is being applied to all monitored sources.
+12:49:31.424: v4l2-input: Input: 0
+12:49:31.427: v4l2-input: Resolution: 1920x1080
+12:49:31.427: v4l2-input: Pixelformat: YU12
+12:49:31.427: v4l2-input: Linesize: 1920 Bytes
+12:49:31.427: v4l2-input: Framerate: 30.00 fps
+12:49:31.428: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+12:49:31.429: Switched to scene 'Scene'
+12:49:31.429: ------------------------------------------------
+12:49:31.429: Loaded scenes:
+12:49:31.429: - scene 'Scene':
+12:49:31.429:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+12:49:31.429: ------------------------------------------------
+12:49:31.598: v4l2-input: /dev/video0: select timed out
+12:49:31.598: v4l2-input: /dev/video0: failed to log status
+12:49:31.893: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:49:31.893: 
