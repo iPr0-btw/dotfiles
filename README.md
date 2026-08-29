@@ -22,7 +22,7 @@ also started using dank-material-shell, on top of hyprland to have a clean looki
 - rofi app launcher
 - searXNG search engine
 - nvim IDE with lazyvim config
-- dank-material-shell bar
+- caelestia shell
 - no unnecessary bloat
 
 ## installing it
