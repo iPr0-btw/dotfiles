@@ -1,5 +1,5 @@
 #!/bin/bash
 cd ~/.dotfiles-git
 git add .
-git commit -m "auto-committed at $(date)"
+git commit -m "auto-committed at $(date '+%a %d %b %H:%M:%S %Z %Y')"
 git push origin main
