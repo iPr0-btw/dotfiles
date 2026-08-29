@@ -13,12 +13,42 @@
             "showDate": true,
             "showIcon": false
         },
-        "persistent": true,
+        "persistent": false,
         "popouts": {
             "activeWindow": true,
             "statusIcons": true
         },
-        "showOnHover": true
+        "showOnHover": true,
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": false,
+                "id": "microphone"
+            },
+            {
+                "enabled": false,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "battery"
+            }
+        ]
     },
     "border": {
         "rounding": 0,
