@@ -165,7 +165,10 @@
   "type": "colors",
   },
 
-
+  {
+    "type": "logo",
+    "printColors": true
+  },
 
   ]
   }
