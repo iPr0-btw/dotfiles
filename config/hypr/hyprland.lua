@@ -40,7 +40,6 @@ hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 
 local terminal = "kitty -o linux_display_server=wayland"
 local fileManager = "thunar"
--- local menu = "dms ipc call spotlight-bar open"
 local menu = "rofi -show drun"
 -------------------
 ---- AUTOSTART ----
