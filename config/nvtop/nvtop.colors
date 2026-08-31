@@ -3,15 +3,15 @@
 # Colors must be specified as 6-digit hex values without # prefix
 
 # Background colors
-background = #0F0F14
-selected_bg = #161619
-header_bg = #1A1B26
+background = #000000
+selected_bg = {{ $surfaceContainer }}
+header_bg = #000000
 
 # Text colors
-text = #C0CAF5
-selected_text = #7AA2F7
-header_text = #A9B1D6
-inactive_text = #565F89
+text = #FFFFFF
+selected_text = #0080FF
+header_text = #CCCCCC
+inactive_text = #555555
 
 # GPU utilization colors (gradient from low to high)
 gpu_util_low = {{ $green }}
@@ -34,17 +34,17 @@ power_med = {{ $peach }}
 power_high = {{ $maroon }}
 
 # Process list colors
-process_normal = #C0CAF5
-process_highlight = #7AA2F7
+process_normal = #FFFFFF
+process_highlight = #0080FF
 process_killed = {{ $red }}
 
 # Border and separator colors
-border = #565F89
-separator = #2A2F41
+border = #555555
+separator = {{ $outlineVariant }}
 
 # Chart and graph colors
-chart_line = #BB9AF7
-chart_fill = #161619
+chart_line = #FF00FF
+chart_fill = {{ $surfaceContainer }}
 
 # Status indicators
 status_ok = {{ $green }}
