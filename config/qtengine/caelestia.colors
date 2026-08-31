@@ -1,5 +1,5 @@
 [ColorEffects:Disabled]
-Color={{ $surfaceContainer }}
+Color=#161619
 ColorAmount=0.5
 ColorEffect=3
 ContrastAmount=0
@@ -14,71 +14,71 @@ ColorAmount=0.025
 ColorEffect=0
 ContrastAmount=0.1
 ContrastEffect=0
-Enable=false
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=#000000
-BackgroundNormal={{ $surfaceContainerHigh }}
-DecorationFocus=#0080FF
-DecorationHover=#0080FF
-ForegroundActive=#FFFFFF
-ForegroundInactive=#555555
+BackgroundAlternate=#1A1B26
+BackgroundNormal=#1F1F24
+DecorationFocus=#7AA2F7
+DecorationHover=#7AA2F7
+ForegroundActive=#C0CAF5
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#FFFFFF
+ForegroundNormal=#C0CAF5
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
 [Colors:Complementary]
-BackgroundAlternate=#000000
-BackgroundNormal={{ $surfaceContainer }}
-DecorationFocus=#0080FF
-DecorationHover=#0080FF
+BackgroundAlternate=#0F0F14
+BackgroundNormal=#161619
+DecorationFocus=#7AA2F7
+DecorationHover=#7AA2F7
 ForegroundActive={{ $inverseSurface }}
-ForegroundInactive=#555555
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#CCCCCC
+ForegroundNormal=#A9B1D6
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
 [Colors:Header]
-BackgroundAlternate={{ $surfaceContainer }}
-BackgroundNormal={{ $surfaceContainer }}
-DecorationFocus=#0080FF
-DecorationHover=#0080FF
+BackgroundAlternate=#161619
+BackgroundNormal=#161619
+DecorationFocus=#7AA2F7
+DecorationHover=#7AA2F7
 ForegroundActive={{ $inverseSurface }}
-ForegroundInactive=#555555
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#CCCCCC
+ForegroundNormal=#A9B1D6
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
 [Colors:Header][Inactive]
-BackgroundAlternate={{ $surfaceContainer }}
-BackgroundNormal={{ $surfaceContainer }}
-DecorationFocus=#0080FF
-DecorationHover=#0080FF
+BackgroundAlternate=#161619
+BackgroundNormal=#161619
+DecorationFocus=#7AA2F7
+DecorationHover=#7AA2F7
 ForegroundActive={{ $inverseSurface }}
-ForegroundInactive=#555555
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#CCCCCC
+ForegroundNormal=#A9B1D6
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
 [Colors:Selection]
-BackgroundAlternate=#0080FF
-BackgroundNormal=#0080FF
-DecorationFocus=#0080FF
-DecorationHover=#00FF00
+BackgroundAlternate=#7AA2F7
+BackgroundNormal=#7AA2F7
+DecorationFocus=#7AA2F7
+DecorationHover=#9ECE6A
 ForegroundActive=#000000
 ForegroundInactive=#000000
 ForegroundLink={{ $klinkSelection }}
@@ -89,46 +89,46 @@ ForegroundPositive={{ $kpositiveSelection }}
 ForegroundVisited={{ $kvisitedSelection }}
 
 [Colors:Tooltip]
-BackgroundAlternate=#000000
-BackgroundNormal={{ $surfaceContainer }}
-DecorationFocus=#0080FF
-DecorationHover=#0080FF
-ForegroundActive=#FFFFFF
-ForegroundInactive=#555555
+BackgroundAlternate=#1A1B26
+BackgroundNormal=#161619
+DecorationFocus=#7AA2F7
+DecorationHover=#7AA2F7
+ForegroundActive=#C0CAF5
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#FFFFFF
+ForegroundNormal=#C0CAF5
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
 [Colors:View]
-BackgroundAlternate={{ $surfaceContainer }}
-BackgroundNormal={{ $surfaceBright }}
-DecorationFocus=#0080FF
+BackgroundAlternate=#161619
+BackgroundNormal=#000000
+DecorationFocus=#7AA2F7
 #-----------------------------------------------
-DecorationHover={{ $secondaryFixed }}
+DecorationHover={{ $inversePrimary }}
 ForegroundActive={{ $inverseSurface }}
-ForegroundInactive=#555555
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#FFFFFF
+ForegroundNormal=#C0CAF5
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
 [Colors:Window]
-BackgroundAlternate=#000000
-BackgroundNormal={{ $surfaceContainer }}
-DecorationFocus=#0080FF
-DecorationHover=#0080FF
+BackgroundAlternate=#1A1B26
+BackgroundNormal=#161619
+DecorationFocus=#7AA2F7
+DecorationHover=#7AA2F7
 ForegroundActive={{ $klink }}
-ForegroundInactive=#555555
+ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
 #--- Window titles, context icons
-ForegroundNormal=#CCCCCC
+ForegroundNormal=#A9B1D6
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
@@ -141,9 +141,9 @@ shadeSortColumn=true
 contrast=4
 
 [WM]
-activeBackground={{ $surfaceContainerHighest }}
-activeBlend=227,229,231
-activeForeground=#FFFFFF
-inactiveBackground={{ $secondaryContainer }}
-inactiveBlend=239,240,241
-inactiveForeground=#CCCCCC
+activeBackground=#2A2A30
+activeBlend=252,252,252
+activeForeground=#C0CAF5
+inactiveBackground=#2A2F41
+inactiveBlend=161,169,177
+inactiveForeground=#9ECE6A
