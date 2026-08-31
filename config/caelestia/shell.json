@@ -1,6 +1,11 @@
 {
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
     "background": {
-        "wallpaperEnabled": false
+        "wallpaperEnabled": true
     },
     "bar": {
         "activeWindow": {
