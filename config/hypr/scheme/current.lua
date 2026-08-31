@@ -1,5 +1,5 @@
 return {
-  primary = "000000",
+  primary = "7AA2F7",
   onPrimary = "000000",
   primaryContainer = "2A2F41",
   onPrimaryContainer = "7AA2F7",

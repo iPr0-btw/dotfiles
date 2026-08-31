@@ -8,13 +8,13 @@ theme[main_fg]=#C0CAF5
 theme[title]=#C0CAF5
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]=#000000
+theme[hi_fg]=#7AA2F7
 
 # Background color of selected item in processes box
 theme[selected_bg]=#161619
 
 # Foreground color of selected item in processes box
-theme[selected_fg]=#000000
+theme[selected_fg]=#7AA2F7
 
 # Color of inactive/disabled text
 theme[inactive_fg]=#565F89

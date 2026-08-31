@@ -9,7 +9,7 @@ header_bg = #1A1B26
 
 # Text colors
 text = #C0CAF5
-selected_text = #000000
+selected_text = #7AA2F7
 header_text = #A9B1D6
 inactive_text = #565F89
 
@@ -35,7 +35,7 @@ power_high = {{ $maroon }}
 
 # Process list colors
 process_normal = #C0CAF5
-process_highlight = #000000
+process_highlight = #7AA2F7
 process_killed = {{ $red }}
 
 # Border and separator colors
