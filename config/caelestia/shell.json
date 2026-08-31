@@ -1,11 +1,11 @@
 {
     "appearance": {
         "transparency": {
-            "enabled": false
+            "enabled": true
         }
     },
     "background": {
-        "wallpaperEnabled": true
+        "wallpaperEnabled": false
     },
     "bar": {
         "activeWindow": {
@@ -112,7 +112,7 @@
             }
         ],
         "vpn": {
-            "enabled": false,
+            "enabled": true,
             "provider": [
                 {
                     "connectCmd": [
