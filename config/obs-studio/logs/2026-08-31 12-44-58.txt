@@ -52,3 +52,86 @@
 12:44:59.314: FFmpeg VAAPI H264 encoding supported
 12:44:59.320: FFmpeg VAAPI AV1 encoding supported
 12:44:59.326: FFmpeg VAAPI HEVC encoding supported
+12:45:02.420: [NVENC] Test process failed: unknown
+12:45:02.420: NVENC not supported
+12:45:02.420: Failed to initialize module 'obs-nvenc.so'
+12:45:02.525: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+12:45:02.525: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.2
+12:45:02.526: [obs-websocket] [obs_module_load] Linked ASIO Version: 103802
+12:45:02.533: [obs-websocket] [obs_module_load] Module loaded.
+12:45:02.540: ---------------------------------
+12:45:02.540:   Loaded Modules:
+12:45:02.540:     text-freetype2.so
+12:45:02.540:     rtmp-services.so
+12:45:02.540:     obs-x264.so
+12:45:02.540:     obs-websocket.so
+12:45:02.540:     obs-webrtc.so
+12:45:02.540:     obs-vst.so
+12:45:02.540:     obs-transitions.so
+12:45:02.540:     obs-qsv11.so
+12:45:02.540:     obs-outputs.so
+12:45:02.540:     obs-libfdk.so
+12:45:02.540:     obs-filters.so
+12:45:02.540:     obs-ffmpeg.so
+12:45:02.540:     obs-browser.so
+12:45:02.540:     linux-v4l2.so
+12:45:02.540:     linux-pulseaudio.so
+12:45:02.540:     linux-pipewire.so
+12:45:02.540:     linux-jack.so
+12:45:02.540:     linux-capture.so
+12:45:02.540:     linux-alsa.so
+12:45:02.540:     image-source.so
+12:45:02.540:     frontend-tools.so
+12:45:02.540:     decklink-output-ui.so
+12:45:02.540:     decklink-captions.so
+12:45:02.540: ---------------------------------
+12:45:02.541: ---------------------------------
+12:45:02.541: Available Encoders:
+12:45:02.541:   Video Encoders:
+12:45:02.541: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:45:02.541: 	- ffmpeg_aom_av1 (AOM AV1)
+12:45:02.541: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+12:45:02.541: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+12:45:02.541: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+12:45:02.541: 	- obs_x264 (x264)
+12:45:02.541:   Audio Encoders:
+12:45:02.541: 	- ffmpeg_aac (FFmpeg AAC)
+12:45:02.541: 	- ffmpeg_opus (FFmpeg Opus)
+12:45:02.541: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:45:02.541: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:45:02.541: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:45:02.541: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:45:02.541: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:45:02.541: 	- libfdk_aac (libfdk AAC)
+12:45:02.541: ==== Startup complete ===============================================
+12:45:02.588: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+12:45:02.588: All scene data cleared
+12:45:02.588: ------------------------------------------------
+12:45:02.596: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:45:02.596: Deduplication logic is being applied to all monitored sources.
+12:45:02.597: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+12:45:02.597: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:45:02.597: pulse-input: Started recording from 'alsa_output.pci-0000_65_00.6.analog-stereo.monitor' (default)
+12:45:02.597: [Loaded global audio device]: 'Desktop Audio'
+12:45:02.597: v4l2-input: Start capture from /dev/video0
+12:45:02.606: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:45:02.606: Deduplication logic is being applied to all monitored sources.
+12:45:02.714: v4l2-input: Input: 0
+12:45:02.717: v4l2-input: Resolution: 1920x1080
+12:45:02.717: v4l2-input: Pixelformat: YU12
+12:45:02.717: v4l2-input: Linesize: 1920 Bytes
+12:45:02.717: v4l2-input: Framerate: 30.00 fps
+12:45:02.718: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+12:45:02.721: Switched to scene 'Scene'
+12:45:02.721: ------------------------------------------------
+12:45:02.721: Loaded scenes:
+12:45:02.721: - scene 'Scene':
+12:45:02.721:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+12:45:02.721: ------------------------------------------------
+12:45:02.889: v4l2-input: /dev/video0: select timed out
+12:45:02.889: v4l2-input: /dev/video0: failed to log status
+12:45:03.205: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:45:03.205: 
+12:45:23.112: User added scene 'Scene 2'
+12:45:23.114: User switched to scene 'Scene 2'
+12:45:24.514: User switched to scene 'Scene'
