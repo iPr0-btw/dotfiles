@@ -17,13 +17,13 @@ theme[selected_bg]={{ $surfaceContainer }}
 theme[selected_fg]=#7AA2F7
 
 # Color of inactive/disabled text
-theme[inactive_fg]=#000000
+theme[inactive_fg]=#565F89
 
 # Color of text appearing on top of graphs, i.e uptime and current network graph scaling
 theme[graph_text]=#BB9AF7
 
 # Background color of the percentage meters
-theme[meter_bg]=#000000
+theme[meter_bg]=#565F89
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]=#BB9AF7
@@ -35,7 +35,7 @@ theme[net_box]={{ $maroon }}
 theme[proc_box]={{ $blue }}
 
 # Box divider line and small boxes line color
-theme[div_line]=#3B4261
+theme[div_line]={{ $outlineVariant }}
 
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]={{ $green }}
