@@ -135,3 +135,82 @@
 12:45:23.112: User added scene 'Scene 2'
 12:45:23.114: User switched to scene 'Scene 2'
 12:45:24.514: User switched to scene 'Scene'
+12:45:40.322: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Scene'
+12:45:40.334: v4l2-input: /dev/video0: Stopped capture after 1110 frames
+12:45:41.531: User switched to scene 'Scene 2'
+12:45:41.984: User switched to scene 'Scene'
+12:45:46.503: PipeWire initialized
+12:45:46.506: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+12:45:46.516: [pipewire] Screencast session created
+12:45:48.736: [pipewire] Asking for monitor and window
+12:45:48.752: [pipewire] source selected, setting up screencast
+12:45:48.758: [pipewire] Server version: 1.6.8
+12:45:48.758: [pipewire] Library version: 1.6.8
+12:45:48.758: [pipewire] Header version: 1.6.8
+12:45:48.758: [pipewire] Created stream 0x55c065ff8120
+12:45:48.758: [pipewire] Stream 0x55c065ff8120 state: "connecting" (error: none)
+12:45:48.759: [pipewire] Playing stream 0x55c065ff8120
+12:45:48.759: [pipewire] Stream 0x55c065ff8120 state: "paused" (error: none)
+12:45:48.766: [pipewire] Negotiated format:
+12:45:48.766: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:48.766: [pipewire]     Modifier: 0x0
+12:45:48.766: [pipewire]     Size: 2880x1800
+12:45:48.766: [pipewire]     Framerate: 0/1
+12:45:48.771: [pipewire] Negotiated format:
+12:45:48.771: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:48.771: [pipewire]     Modifier: 0x200000010437b04
+12:45:48.771: [pipewire]     Size: 2880x1800
+12:45:48.771: [pipewire]     Framerate: 0/1
+12:45:48.773: [pipewire] Stream 0x55c065ff8120 state: "streaming" (error: none)
+12:45:48.784: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+12:45:48.784: [pipewire] Renegotiating stream
+12:45:48.785: [pipewire] Stream 0x55c065ff8120 state: "paused" (error: none)
+12:45:48.785: [pipewire] Negotiated format:
+12:45:48.785: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:48.785: [pipewire]     Modifier: 0x200000010437b04
+12:45:48.785: [pipewire]     Size: 2880x1800
+12:45:48.785: [pipewire]     Framerate: 0/1
+12:45:48.787: [pipewire] Negotiated format:
+12:45:48.787: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:48.787: [pipewire]     Modifier: 0x200000010401b04
+12:45:48.787: [pipewire]     Size: 2880x1800
+12:45:48.787: [pipewire]     Framerate: 0/1
+12:45:48.788: [pipewire] Stream 0x55c065ff8120 state: "streaming" (error: none)
+12:45:52.086: [pipewire] Stream 0x55c065ff8120 state: "paused" (error: none)
+12:45:52.086: [pipewire] Stream 0x55c065ff8120 state: "unconnected" (error: none)
+12:45:52.089: PipeWire initialized
+12:45:52.092: [pipewire] Screencast session created
+12:45:59.409: [pipewire] Asking for monitor and window
+12:45:59.416: [pipewire] source selected, setting up screencast
+12:45:59.423: [pipewire] Server version: 1.6.8
+12:45:59.423: [pipewire] Library version: 1.6.8
+12:45:59.423: [pipewire] Header version: 1.6.8
+12:45:59.423: [pipewire] Created stream 0x55c066bb0960
+12:45:59.424: [pipewire] Stream 0x55c066bb0960 state: "connecting" (error: none)
+12:45:59.424: [pipewire] Playing stream 0x55c066bb0960
+12:45:59.425: [pipewire] Stream 0x55c066bb0960 state: "paused" (error: none)
+12:45:59.430: [pipewire] Negotiated format:
+12:45:59.430: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:59.430: [pipewire]     Modifier: 0x0
+12:45:59.430: [pipewire]     Size: 2880x1800
+12:45:59.430: [pipewire]     Framerate: 0/1
+12:45:59.431: [pipewire] Negotiated format:
+12:45:59.431: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:59.431: [pipewire]     Modifier: 0x200000010437b04
+12:45:59.431: [pipewire]     Size: 2880x1800
+12:45:59.431: [pipewire]     Framerate: 0/1
+12:45:59.432: [pipewire] Stream 0x55c066bb0960 state: "streaming" (error: none)
+12:45:59.438: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+12:45:59.438: [pipewire] Renegotiating stream
+12:45:59.439: [pipewire] Stream 0x55c066bb0960 state: "paused" (error: none)
+12:45:59.439: [pipewire] Negotiated format:
+12:45:59.439: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:59.439: [pipewire]     Modifier: 0x200000010437b04
+12:45:59.439: [pipewire]     Size: 2880x1800
+12:45:59.439: [pipewire]     Framerate: 0/1
+12:45:59.440: [pipewire] Negotiated format:
+12:45:59.440: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:45:59.440: [pipewire]     Modifier: 0x200000010401b04
+12:45:59.440: [pipewire]     Size: 2880x1800
+12:45:59.440: [pipewire]     Framerate: 0/1
+12:45:59.441: [pipewire] Stream 0x55c066bb0960 state: "streaming" (error: none)
