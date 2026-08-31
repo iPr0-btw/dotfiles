@@ -29,6 +29,7 @@ x-scheme-handler/http=librewolf.desktop;userapp-Nightly-4IV0K3.desktop;xfce4-web
 x-scheme-handler/https=librewolf.desktop;userapp-Nightly-4IV0K3.desktop;xfce4-web-browser.desktop;
 text/x-systemd-unit=org.x.editor.desktop;
 audio/mpeg=audacity.desktop;
+application/typescript=org.x.editor.desktop;
 
 [Default Applications]
 application/json=nvim.desktop;
