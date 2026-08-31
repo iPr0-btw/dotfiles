@@ -39,7 +39,7 @@ color_scheme=6
 # Custom color definitions using template variables
 # Main interface colors
 color_background=#000000
-color_text=#C0CAF5
+color_text=#000000
 color_highlight=#7AA2F7
 color_selected={{ $surfaceContainer }}
 
@@ -55,7 +55,7 @@ color_mem_cache={{ $sapphire }}
 color_mem_available={{ $green }}
 
 # Process list colors
-color_process_normal=#C0CAF5
+color_process_normal=#000000
 color_process_running={{ $green }}
 color_process_sleeping=#565F89
 color_process_zombie={{ $red }}
@@ -68,7 +68,7 @@ color_separator={{ $outlineVariant }}
 
 # Function key colors
 color_function_key=#BB9AF7
-color_function_desc=#C0CAF5
+color_function_desc=#000000
 
 # Tree view colors
 color_tree_line=#565F89
@@ -82,7 +82,7 @@ color_load_high={{ $red }}
 
 # Priority colors
 color_priority_high={{ $red }}
-color_priority_normal=#C0CAF5
+color_priority_normal=#000000
 color_priority_low=#565F89
 
 # Swap meter colors

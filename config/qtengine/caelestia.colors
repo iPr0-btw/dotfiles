@@ -23,12 +23,12 @@ BackgroundAlternate=#000000
 BackgroundNormal={{ $surfaceContainerHigh }}
 DecorationFocus=#7AA2F7
 DecorationHover=#7AA2F7
-ForegroundActive=#C0CAF5
+ForegroundActive=#000000
 ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#C0CAF5
+ForegroundNormal=#000000
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
@@ -93,12 +93,12 @@ BackgroundAlternate=#000000
 BackgroundNormal={{ $surfaceContainer }}
 DecorationFocus=#7AA2F7
 DecorationHover=#7AA2F7
-ForegroundActive=#C0CAF5
+ForegroundActive=#000000
 ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#C0CAF5
+ForegroundNormal=#000000
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
@@ -113,7 +113,7 @@ ForegroundInactive=#565F89
 ForegroundLink={{ $klink }}
 ForegroundNegative={{ $knegative }}
 ForegroundNeutral={{ $kneutral }}
-ForegroundNormal=#C0CAF5
+ForegroundNormal=#000000
 ForegroundPositive={{ $kpositive }}
 ForegroundVisited={{ $kvisited }}
 
@@ -143,7 +143,7 @@ contrast=4
 [WM]
 activeBackground={{ $surfaceContainerHighest }}
 activeBlend=252,252,252
-activeForeground=#C0CAF5
+activeForeground=#000000
 inactiveBackground={{ $secondaryContainer }}
 inactiveBlend=161,169,177
 inactiveForeground={{ $onSecondaryContainer }}

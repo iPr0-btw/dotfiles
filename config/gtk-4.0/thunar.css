@@ -111,7 +111,7 @@
 }
 
 .thunar .sidebar .view:hover {
-    background: alpha(#C0CAF5, 0.1);
+    background: alpha(#000000, 0.1);
 }
 
 .thunar .sidebar .view:selected {
@@ -178,7 +178,7 @@
     border-radius: 15px;
     padding: 10px 10px;
     margin: 15px 5px 15px -10px;
-    color: #C0CAF5;
+    color: #000000;
 }
 
 

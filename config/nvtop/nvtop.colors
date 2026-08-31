@@ -8,7 +8,7 @@ selected_bg = {{ $surfaceContainer }}
 header_bg = #000000
 
 # Text colors
-text = #C0CAF5
+text = #000000
 selected_text = #7AA2F7
 header_text = #A9B1D6
 inactive_text = #565F89
@@ -34,7 +34,7 @@ power_med = {{ $peach }}
 power_high = {{ $maroon }}
 
 # Process list colors
-process_normal = #C0CAF5
+process_normal = #000000
 process_highlight = #7AA2F7
 process_killed = {{ $red }}
 

@@ -9,7 +9,7 @@ return {
   onTertiary = "000000",
   onBackground = "C0CAF5",
   surface = "000000",
-  onSurface = "C0CAF5",
+  onSurface = "000000",
   surfaceVariant = "000000",
   onSurfaceVariant = "A9B1D6",
   outline = "565F89",
