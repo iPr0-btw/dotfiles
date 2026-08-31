@@ -3,9 +3,9 @@
 # Colors must be specified as 6-digit hex values without # prefix
 
 # Background colors
-background = #0F0F14
-selected_bg = #161619
-header_bg = #1A1B26
+background = #000000
+selected_bg = {{ $surfaceContainer }}
+header_bg = #000000
 
 # Text colors
 text = #C0CAF5
@@ -40,11 +40,11 @@ process_killed = {{ $red }}
 
 # Border and separator colors
 border = #565F89
-separator = #2A2F41
+separator = {{ $outlineVariant }}
 
 # Chart and graph colors
 chart_line = #BB9AF7
-chart_fill = #161619
+chart_fill = {{ $surfaceContainer }}
 
 # Status indicators
 status_ok = {{ $green }}

@@ -1,5 +1,5 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]=#0F0F14
+theme[main_bg]=#000000
 
 # Main text color
 theme[main_fg]=#C0CAF5
@@ -11,7 +11,7 @@ theme[title]=#C0CAF5
 theme[hi_fg]=#7AA2F7
 
 # Background color of selected item in processes box
-theme[selected_bg]=#161619
+theme[selected_bg]={{ $surfaceContainer }}
 
 # Foreground color of selected item in processes box
 theme[selected_fg]=#7AA2F7
@@ -35,7 +35,7 @@ theme[net_box]={{ $maroon }}
 theme[proc_box]={{ $blue }}
 
 # Box divider line and small boxes line color
-theme[div_line]=#2A2F41
+theme[div_line]={{ $outlineVariant }}
 
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]={{ $green }}

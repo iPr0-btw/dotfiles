@@ -38,10 +38,10 @@ color_scheme=6
 
 # Custom color definitions using template variables
 # Main interface colors
-color_background=#0F0F14
+color_background=#000000
 color_text=#C0CAF5
 color_highlight=#7AA2F7
-color_selected=#161619
+color_selected={{ $surfaceContainer }}
 
 # CPU meter colors (gradient)
 color_cpu_low={{ $green }}
@@ -64,7 +64,7 @@ color_process_stopped={{ $yellow }}
 # Header and border colors
 color_header=#A9B1D6
 color_border=#565F89
-color_separator=#2A2F41
+color_separator={{ $outlineVariant }}
 
 # Function key colors
 color_function_key=#BB9AF7

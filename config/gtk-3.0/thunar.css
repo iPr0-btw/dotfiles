@@ -14,7 +14,7 @@
    ============================================================================= */
 
 .thunar.background {
-    background: #0F0F14;
+    background: #000000;
 }
 
 .thunar .titlebar {
@@ -45,7 +45,7 @@
     padding: 10px;
     margin: 10px 15px 0 0;
     border-radius: 15px;
-    background-color: #0A0A0D;
+    background-color: {{ $surfaceContainerLow }};
     animation: fading 400ms ease forwards;
     opacity: 0;
     animation-delay: 250ms;
@@ -138,7 +138,7 @@
 }
 
 .thunar .location-button.path-bar-button:not(:checked) {
-    background-color: #0A0A0D;
+    background-color: {{ $surfaceContainerLow }};
 }
 
 .thunar .location-button.path-bar-button:not(:checked):hover {
@@ -174,7 +174,7 @@
    ============================================================================= */
 
 .thunar statusbar {
-    background-color: #0A0A0D;
+    background-color: {{ $surfaceContainerLow }};
     border-radius: 15px;
     padding: 10px 10px;
     margin: 15px 5px 15px -10px;

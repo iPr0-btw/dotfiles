@@ -7,30 +7,30 @@
       "name": "Caelestia",
       "appearance": "dark",
       "style": {
-        "background": "#0F0F14",
-        "border": "#2A2F4140",
-        "border.variant": "#2A2F4160",
+        "background": "#000000",
+        "border": "#{{ outlineVariant.hex }}40",
+        "border.variant": "#{{ outlineVariant.hex }}60",
         "border.focused": "#7AA2F7",
         "border.selected": "#7AA2F780",
         "border.transparent": "#00000000",
-        "border.disabled": "#2A2F4130",
+        "border.disabled": "#{{ outlineVariant.hex }}30",
 
-        "elevated_surface.background": "#1F1F24",
-        "surface.background": "#0F0F14",
+        "elevated_surface.background": "#{{ surfaceContainerHigh.hex }}",
+        "surface.background": "#000000",
 
-        "element.background": "#2A2F4140",
-        "element.hover": "#2A2F4160",
+        "element.background": "#{{ outlineVariant.hex }}40",
+        "element.hover": "#{{ outlineVariant.hex }}60",
         "element.active": "#7AA2F730",
         "element.selected": "#7AA2F720",
-        "element.disabled": "#2A2F4120",
+        "element.disabled": "#{{ outlineVariant.hex }}20",
 
         "drop_target.background": "#7AA2F720",
 
         "ghost_element.background": "#00000000",
-        "ghost_element.hover": "#2A2F4140",
+        "ghost_element.hover": "#{{ outlineVariant.hex }}40",
         "ghost_element.active": "#7AA2F730",
         "ghost_element.selected": "#7AA2F720",
-        "ghost_element.disabled": "#2A2F4120",
+        "ghost_element.disabled": "#{{ outlineVariant.hex }}20",
 
         "text": "#C0CAF5",
         "text.muted": "#A9B1D6",
@@ -40,52 +40,52 @@
 
         "icon": "#C0CAF5",
         "icon.muted": "#A9B1D6",
-        "icon.disabled": "#2A2F4160",
+        "icon.disabled": "#{{ outlineVariant.hex }}60",
         "icon.placeholder": "#A9B1D6",
         "icon.accent": "#7AA2F7",
 
-        "status_bar.background": "#0F0F14",
-        "title_bar.background": "#0F0F14",
-        "title_bar.inactive_background": "#0F0F14",
-        "toolbar.background": "#0F0F14",
-        "tab_bar.background": "#0F0F14",
-        "tab.inactive_background": "#0F0F14",
-        "tab.active_background": "#1F1F24",
+        "status_bar.background": "#000000",
+        "title_bar.background": "#000000",
+        "title_bar.inactive_background": "#000000",
+        "toolbar.background": "#000000",
+        "tab_bar.background": "#000000",
+        "tab.inactive_background": "#000000",
+        "tab.active_background": "#{{ surfaceContainerHigh.hex }}",
 
         "search.match_background": "#{{ yellow.hex }}40",
 
-        "panel.background": "#0F0F14",
+        "panel.background": "#000000",
         "panel.focused_border": "#7AA2F7",
 
         "pane.focused_border": "#7AA2F7",
 
-        "scrollbar.thumb.background": "#2A2F4130",
-        "scrollbar.thumb.hover_background": "#2A2F4160",
-        "scrollbar.thumb.border": "#2A2F4120",
+        "scrollbar.thumb.background": "#{{ outlineVariant.hex }}30",
+        "scrollbar.thumb.hover_background": "#{{ outlineVariant.hex }}60",
+        "scrollbar.thumb.border": "#{{ outlineVariant.hex }}20",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
 
         "editor.foreground": "#C0CAF5",
-        "editor.background": "#0F0F14",
-        "editor.gutter.background": "#0F0F14",
-        "editor.subheader.background": "#161619",
-        "editor.active_line.background": "#1F1F2460",
+        "editor.background": "#000000",
+        "editor.gutter.background": "#000000",
+        "editor.subheader.background": "#{{ surfaceContainer.hex }}",
+        "editor.active_line.background": "#{{ surfaceContainerHigh.hex }}60",
         "editor.highlighted_line.background": "#7AA2F715",
         "editor.line_number": "#A9B1D6",
         "editor.active_line_number": "#C0CAF5",
-        "editor.invisible": "#2A2F4140",
-        "editor.wrap_guide": "#2A2F4130",
-        "editor.active_wrap_guide": "#2A2F4160",
+        "editor.invisible": "#{{ outlineVariant.hex }}40",
+        "editor.wrap_guide": "#{{ outlineVariant.hex }}30",
+        "editor.active_wrap_guide": "#{{ outlineVariant.hex }}60",
         "editor.document_highlight.read_background": "#7AA2F720",
         "editor.document_highlight.write_background": "#7AA2F730",
 
-        "terminal.background": "#0F0F14",
+        "terminal.background": "#000000",
         "terminal.foreground": "#C0CAF5",
         "terminal.bright_foreground": "#C0CAF5",
         "terminal.dim_foreground": "#A9B1D6",
-        "terminal.ansi.black": "#0F0F14",
+        "terminal.ansi.black": "#000000",
         "terminal.ansi.bright_black": "#A9B1D6",
-        "terminal.ansi.dim_black": "#0F0F1480",
+        "terminal.ansi.dim_black": "#00000080",
         "terminal.ansi.red": "#{{ red.hex }}",
         "terminal.ansi.bright_red": "#{{ maroon.hex }}",
         "terminal.ansi.dim_red": "#{{ red.hex }}80",
@@ -148,7 +148,7 @@
 
         "predictive": "#A9B1D6",
         "predictive.background": "#A9B1D615",
-        "predictive.border": "#2A2F4140",
+        "predictive.border": "#{{ outlineVariant.hex }}40",
 
         "renamed": "#{{ teal.hex }}",
         "renamed.background": "#{{ teal.hex }}15",
@@ -221,12 +221,12 @@
             "font_weight": null
           },
           "comment": {
-            "color": "#9AA5CE",
+            "color": "#{{ subtext0.hex }}",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#9AA5CE",
+            "color": "#{{ subtext0.hex }}",
             "font_style": "italic",
             "font_weight": null
           },
@@ -341,17 +341,17 @@
             "font_weight": null
           },
           "punctuation": {
-            "color": "#A9B1D6",
+            "color": "#{{ subtext1.hex }}",
             "font_style": null,
             "font_weight": null
           },
           "punctuation.bracket": {
-            "color": "#A9B1D6",
+            "color": "#{{ subtext1.hex }}",
             "font_style": null,
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#A9B1D6",
+            "color": "#{{ subtext1.hex }}",
             "font_style": null,
             "font_weight": null
           },
