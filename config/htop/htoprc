@@ -38,58 +38,58 @@ color_scheme=6
 
 # Custom color definitions using template variables
 # Main interface colors
-color_background=#000000
-color_text=#FFFFFF
-color_highlight=#FFFFFF
-color_selected=#1A1A1A
+color_background=#0F0F14
+color_text=#C0CAF5
+color_highlight=#7AA2F7
+color_selected=#161619
 
 # CPU meter colors (gradient)
-color_cpu_low=#55FF55
-color_cpu_med=#FFFF55
-color_cpu_high=#FF5555
+color_cpu_low={{ $green }}
+color_cpu_med={{ $yellow }}
+color_cpu_high={{ $red }}
 
 # Memory meter colors
-color_mem_used=#5555FF
-color_mem_buffers=#55FFFF
-color_mem_cache=#55FFFF
-color_mem_available=#55FF55
+color_mem_used={{ $blue }}
+color_mem_buffers={{ $teal }}
+color_mem_cache={{ $sapphire }}
+color_mem_available={{ $green }}
 
 # Process list colors
-color_process_normal=#FFFFFF
-color_process_running=#55FF55
-color_process_sleeping=#CCCCCC
-color_process_zombie=#FF5555
-color_process_stopped=#FFFF55
+color_process_normal=#C0CAF5
+color_process_running={{ $green }}
+color_process_sleeping=#565F89
+color_process_zombie={{ $red }}
+color_process_stopped={{ $yellow }}
 
 # Header and border colors
-color_header=#FFFFFF
-color_border=#CCCCCC
-color_separator=#666666
+color_header=#A9B1D6
+color_border=#565F89
+color_separator=#2A2F41
 
 # Function key colors
-color_function_key=#FFFFFF
-color_function_desc=#FFFFFF
+color_function_key=#BB9AF7
+color_function_desc=#C0CAF5
 
 # Tree view colors
-color_tree_line=#CCCCCC
-color_tree_collapsed=#FFFFFF
-color_tree_expanded=#FFFFFF
+color_tree_line=#565F89
+color_tree_collapsed=#7AA2F7
+color_tree_expanded=#9ECE6A
 
 # Load average colors
-color_load_low=#55FF55
-color_load_med=#FFFF55
-color_load_high=#FF5555
+color_load_low={{ $green }}
+color_load_med={{ $yellow }}
+color_load_high={{ $red }}
 
 # Priority colors
-color_priority_high=#FF5555
-color_priority_normal=#FFFFFF
-color_priority_low=#CCCCCC
+color_priority_high={{ $red }}
+color_priority_normal=#C0CAF5
+color_priority_low=#565F89
 
 # Swap meter colors
-color_swap_used=#FF8888
-color_swap_cache=#FFFFFF
+color_swap_used={{ $maroon }}
+color_swap_cache={{ $peach }}
 
 # Temperature colors (if enabled)
-color_temp_cool=#55FF55
-color_temp_warm=#FFFF55
-color_temp_hot=#FF5555
+color_temp_cool={{ $green }}
+color_temp_warm={{ $yellow }}
+color_temp_hot={{ $red }}
