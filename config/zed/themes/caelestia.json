@@ -34,8 +34,8 @@
 
         "text": "#C0CAF5",
         "text.muted": "#A9B1D6",
-        "text.placeholder": "#000000",
-        "text.disabled": "#00000080",
+        "text.placeholder": "#bbbbbb",
+        "text.disabled": "#bbbbbb80",
         "text.accent": "#7AA2F7",
 
         "icon": "#C0CAF5",
@@ -126,17 +126,17 @@
         "error.background": "#F7768E15",
         "error.border": "#F7768E",
 
-        "hidden": "#000000",
-        "hidden.background": "#00000015",
-        "hidden.border": "#000000",
+        "hidden": "#bbbbbb",
+        "hidden.background": "#bbbbbb15",
+        "hidden.border": "#bbbbbb",
 
         "hint": "#9ECE6A",
         "hint.background": "#9ECE6A15",
         "hint.border": "#9ECE6A",
 
-        "ignored": "#000000",
-        "ignored.background": "#00000015",
-        "ignored.border": "#000000",
+        "ignored": "#bbbbbb",
+        "ignored.background": "#bbbbbb15",
+        "ignored.border": "#bbbbbb",
 
         "info": "#{{ blue.hex }}",
         "info.background": "#{{ blue.hex }}15",
@@ -158,9 +158,9 @@
         "success.background": "#9ECE6A15",
         "success.border": "#9ECE6A",
 
-        "unreachable": "#000000",
-        "unreachable.background": "#00000015",
-        "unreachable.border": "#000000",
+        "unreachable": "#bbbbbb",
+        "unreachable.background": "#bbbbbb15",
+        "unreachable.border": "#bbbbbb",
 
         "warning": "#{{ yellow.hex }}",
         "warning.background": "#{{ yellow.hex }}15",
