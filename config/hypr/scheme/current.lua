@@ -1,7 +1,7 @@
 return {
   primary = "7AA2F7",
   secondary = "9ECE6A",
-  tertiary = "000000",
+  tertiary = "BB9AF7",
   background = "000000",
   foreground = "C0CAF5",
   onPrimary = "000000",

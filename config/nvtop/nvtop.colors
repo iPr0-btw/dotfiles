@@ -43,7 +43,7 @@ border = #ffffff
 separator = {{ $outlineVariant }}
 
 # Chart and graph colors
-chart_line = #000000
+chart_line = #BB9AF7
 chart_fill = {{ $surfaceContainer }}
 
 # Status indicators
