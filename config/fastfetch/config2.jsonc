@@ -2,10 +2,10 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo":{ 
   "color":{
-
-
+      "1": "#FFB6D1",
+      "2": "#FFB6D1",
     },
-  }
+  },
   "modules": [
     "title",
     "separator",
