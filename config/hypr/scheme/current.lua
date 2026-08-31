@@ -12,7 +12,7 @@ return {
   onSurface = "C0CAF5",
   surfaceVariant = "000000",
   onSurfaceVariant = "A9B1D6",
-  outline = "bbbbbb",
+  outline = "000000",
   error = "F7768E",
   onError = "000000",
   success = "9ECE6A",
