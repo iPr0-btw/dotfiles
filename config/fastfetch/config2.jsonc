@@ -6,6 +6,15 @@
       "2": "#FFB6D1",
     },
   },
+
+      "display": {
+        "color": {
+            "keys": "#FFB6D1",
+            "output": "#FFB6D1",
+            "title": "#FFB6D1"
+        }
+    },
+
   "modules": [
     "title",
     "separator",
