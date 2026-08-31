@@ -68,7 +68,7 @@
     },
     "services": {
         "audioIncrement": 0.04,
-        "gpuType": "",
+        "gpuType": "Auto",
         "useFahrenheit": false,
         "useTwelveHourClock": false
     },
