@@ -38,58 +38,58 @@ color_scheme=6
 
 # Custom color definitions using template variables
 # Main interface colors
-color_background=#131317
-color_text=#e5e1e7
-color_highlight=#c2c1ff
-color_selected=#201f23
+color_background=#000000
+color_text=#C0CAF5
+color_highlight=#7AA2F7
+color_selected={{ $surfaceContainer }}
 
 # CPU meter colors (gradient)
-color_cpu_low=#c8e3ff
-color_cpu_med=#ffecf3
-color_cpu_high=#c1a5fd
+color_cpu_low={{ $green }}
+color_cpu_med={{ $yellow }}
+color_cpu_high={{ $red }}
 
 # Memory meter colors
-color_mem_used=#b0b8ff
-color_mem_buffers=#d3dfff
-color_mem_cache=#b7c5ff
-color_mem_available=#c8e3ff
+color_mem_used={{ $blue }}
+color_mem_buffers={{ $teal }}
+color_mem_cache={{ $sapphire }}
+color_mem_available={{ $green }}
 
 # Process list colors
-color_process_normal=#e5e1e7
-color_process_running=#c8e3ff
-color_process_sleeping=#918f9a
-color_process_zombie=#c1a5fd
-color_process_stopped=#ffecf3
+color_process_normal=#C0CAF5
+color_process_running={{ $green }}
+color_process_sleeping=#ffffff
+color_process_zombie={{ $red }}
+color_process_stopped={{ $yellow }}
 
 # Header and border colors
-color_header=#c8c5d1
-color_border=#918f9a
-color_separator=#47464f
+color_header=#A9B1D6
+color_border=#ffffff
+color_separator={{ $outlineVariant }}
 
 # Function key colors
-color_function_key=#f5b2e0
-color_function_desc=#e5e1e7
+color_function_key=#000000
+color_function_desc=#C0CAF5
 
 # Tree view colors
-color_tree_line=#918f9a
-color_tree_collapsed=#c2c1ff
-color_tree_expanded=#c6c4e0
+color_tree_line=#ffffff
+color_tree_collapsed=#7AA2F7
+color_tree_expanded=#9ECE6A
 
 # Load average colors
-color_load_low=#c8e3ff
-color_load_med=#ffecf3
-color_load_high=#c1a5fd
+color_load_low={{ $green }}
+color_load_med={{ $yellow }}
+color_load_high={{ $red }}
 
 # Priority colors
-color_priority_high=#c1a5fd
-color_priority_normal=#e5e1e7
-color_priority_low=#918f9a
+color_priority_high={{ $red }}
+color_priority_normal=#C0CAF5
+color_priority_low=#ffffff
 
 # Swap meter colors
-color_swap_used=#c9b5ed
-color_swap_cache=#e0c2f9
+color_swap_used={{ $maroon }}
+color_swap_cache={{ $peach }}
 
 # Temperature colors (if enabled)
-color_temp_cool=#c8e3ff
-color_temp_warm=#ffecf3
-color_temp_hot=#c1a5fd
+color_temp_cool={{ $green }}
+color_temp_warm={{ $yellow }}
+color_temp_hot={{ $red }}
