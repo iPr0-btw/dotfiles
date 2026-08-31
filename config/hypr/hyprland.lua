@@ -40,7 +40,7 @@ hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 
 local terminal = "kitty -o linux_display_server=wayland"
 local fileManager = "thunar"
-local menu = "rofi -show drun"
+local menu = "caelestia shell drawers toggle lau"
 -------------------
 ---- AUTOSTART ----
 -------------------
