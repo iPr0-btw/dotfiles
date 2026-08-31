@@ -8,10 +8,10 @@ selected_bg = {{ $surfaceContainer }}
 header_bg = #000000
 
 # Text colors
-text = #000000
-selected_text = #7AA2F7
-header_text = #A9B1D6
-inactive_text = #565F89
+text = #B0B0B0
+selected_text = #5B7C99
+header_text = #808080
+inactive_text = #444444
 
 # GPU utilization colors (gradient from low to high)
 gpu_util_low = {{ $green }}
@@ -34,16 +34,16 @@ power_med = {{ $peach }}
 power_high = {{ $maroon }}
 
 # Process list colors
-process_normal = #000000
-process_highlight = #7AA2F7
+process_normal = #B0B0B0
+process_highlight = #5B7C99
 process_killed = {{ $red }}
 
 # Border and separator colors
-border = #565F89
+border = #444444
 separator = {{ $outlineVariant }}
 
 # Chart and graph colors
-chart_line = #BB9AF7
+chart_line = #8B7B9B
 chart_fill = {{ $surfaceContainer }}
 
 # Status indicators
