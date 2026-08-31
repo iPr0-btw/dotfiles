@@ -2,31 +2,31 @@
 theme[main_bg]=#000000
 
 # Main text color
-theme[main_fg]=#C0CAF5
+theme[main_fg]=#FFFFFF
 
 # Title color for boxes
-theme[title]=#C0CAF5
+theme[title]=#FFFFFF
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]=#7AA2F7
+theme[hi_fg]=#0080FF
 
 # Background color of selected item in processes box
 theme[selected_bg]={{ $surfaceContainer }}
 
 # Foreground color of selected item in processes box
-theme[selected_fg]=#7AA2F7
+theme[selected_fg]=#0080FF
 
 # Color of inactive/disabled text
-theme[inactive_fg]=#565F89
+theme[inactive_fg]=#555555
 
 # Color of text appearing on top of graphs, i.e uptime and current network graph scaling
-theme[graph_text]=#BB9AF7
+theme[graph_text]=#FF00FF
 
 # Background color of the percentage meters
-theme[meter_bg]=#565F89
+theme[meter_bg]=#555555
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]=#BB9AF7
+theme[proc_misc]=#FF00FF
 
 # CPU, Memory, Network, Proc box outline colors
 theme[cpu_box]={{ $mauve }}

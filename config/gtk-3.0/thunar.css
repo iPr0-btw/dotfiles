@@ -57,12 +57,12 @@
 }
 
 .thunar .frame.standard-view .view *:selected {
-    color: #7AA2F7;
+    color: #0080FF;
 }
 
 .thunar .rubberband {
-    background-color: alpha(#7AA2F7, 0.15);
-    border: 1px solid alpha(#7AA2F7, 0.15);
+    background-color: alpha(#0080FF, 0.15);
+    border: 1px solid alpha(#0080FF, 0.15);
 }
 
 
@@ -82,12 +82,12 @@
 }
 
 .thunar header.top tabs .reorderable-page:hover {
-    background-color: alpha(#7AA2F7, 0.08);
+    background-color: alpha(#0080FF, 0.08);
 
 }
 .thunar header.top tabs .reorderable-page:checked {
-    color: #7AA2F7;
-    background-color: alpha(#7AA2F7, 0.15);
+    color: #0080FF;
+    background-color: alpha(#0080FF, 0.15);
 
 }
 
@@ -111,12 +111,12 @@
 }
 
 .thunar .sidebar .view:hover {
-    background: alpha(#C0CAF5, 0.1);
+    background: alpha(#FFFFFF, 0.1);
 }
 
 .thunar .sidebar .view:selected {
-    background: alpha(#7AA2F7, 0.15);
-    color: #7AA2F7;
+    background: alpha(#0080FF, 0.15);
+    color: #0080FF;
 }
 
 /* =============================================================================
@@ -132,8 +132,8 @@
 .thunar .location-button.toggle:checked,
 .thunar .path-bar-button.toggle:checked {
     padding: 8px 25px;
-    background: alpha(#7AA2F7, 0.15);
-    color: #7AA2F7;
+    background: alpha(#0080FF, 0.15);
+    color: #0080FF;
     box-shadow: none;
 }
 
@@ -142,8 +142,8 @@
 }
 
 .thunar .location-button.path-bar-button:not(:checked):hover {
-    background: alpha(#7AA2F7, 0.08);
-    color: alpha(#7AA2F7, 0.8);
+    background: alpha(#0080FF, 0.08);
+    color: alpha(#0080FF, 0.8);
 }
 
 .thunar .location-button.toggle+.location-button.toggle:checked {
@@ -160,7 +160,7 @@
    ============================================================================= */
 
 .thunar button.toggle:checked {
-    color: #7AA2F7;
+    color: #0080FF;
 }
 
 .thunar .image-button {
@@ -178,7 +178,7 @@
     border-radius: 15px;
     padding: 10px 10px;
     margin: 15px 5px 15px -10px;
-    color: #C0CAF5;
+    color: #FFFFFF;
 }
 
 
