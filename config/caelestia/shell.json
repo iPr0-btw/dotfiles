@@ -131,9 +131,15 @@
                     "id": "vpn-mtdanswy-83j7y",
                     "interface": "la",
                     "name": "wireguard"
+                },
+                {
+                    "displayName": "swiss",
+                    "id": "vpn-mtkaez4j-9qtbb",
+                    "interface": "swiss",
+                    "name": "wireguard"
                 }
             ],
-            "selectedProvider": "vpn-mtdanswy-83j7y"
+            "selectedProvider": "vpn-mtkaez4j-9qtbb"
         }
     }
 }
