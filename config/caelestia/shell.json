@@ -133,6 +133,12 @@
                     "name": "wireguard"
                 },
                 {
+                    "disconnectCmd": [
+                        "nmcli",
+                        "connection",
+                        "down",
+                        "swiss"
+                    ],
                     "displayName": "swiss",
                     "id": "vpn-mtkaez4j-9qtbb",
                     "interface": "swiss",
