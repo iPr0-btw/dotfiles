@@ -133,6 +133,12 @@
                     "name": "wireguard"
                 },
                 {
+                    "connectCmd": [
+                        "nmcli",
+                        "connection",
+                        "up",
+                        "swiss"
+                    ],
                     "disconnectCmd": [
                         "nmcli",
                         "connection",
