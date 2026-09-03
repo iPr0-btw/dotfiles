@@ -112,7 +112,7 @@
             }
         ],
         "vpn": {
-            "enabled": false,
+            "enabled": true,
             "provider": [
                 {
                     "connectCmd": [
@@ -169,7 +169,7 @@
                     "name": "wireguard"
                 }
             ],
-            "selectedProvider": "vpn-mtlzj2me-3cjj6"
+            "selectedProvider": "vpn-mtdanswy-83j7y"
         }
     }
 }
