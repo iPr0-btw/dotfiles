@@ -10,4 +10,7 @@ checker:
     scheduling:
     start_after: [300, 1800]  # delay to start the first run of the checker
     every: [86400, 90000]     # how often the checker runs
-
+search:
+  formats:
+   - html
+   - json 
