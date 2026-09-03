@@ -149,9 +149,27 @@
                     "id": "vpn-mtkaez4j-9qtbb",
                     "interface": "swiss",
                     "name": "wireguard"
+                },
+                {
+                    "connectCmd": [
+                        "nmcli",
+                        "connection",
+                        "up",
+                        "usa"
+                    ],
+                    "disconnectCmd": [
+                        "nmcli",
+                        "connection",
+                        "down",
+                        "usa"
+                    ],
+                    "displayName": "usa",
+                    "id": "vpn-mtlzj2me-3cjj6",
+                    "interface": "usa",
+                    "name": "wireguard"
                 }
             ],
-            "selectedProvider": "vpn-mtkaez4j-9qtbb"
+            "selectedProvider": "vpn-mtlzj2me-3cjj6"
         }
     }
 }
