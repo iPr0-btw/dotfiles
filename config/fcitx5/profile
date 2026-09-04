@@ -4,7 +4,7 @@ Name="Group 1"
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-ara
+DefaultIM=m17n_ar_translit
 
 [Groups/0/Items/0]
 # Name
@@ -14,7 +14,7 @@ Layout=
 
 [Groups/0/Items/1]
 # Name
-Name=keyboard-ara
+Name=m17n_ar_translit
 # Layout
 Layout=
 
