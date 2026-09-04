@@ -97,7 +97,7 @@
     "type": "disk",
     "key": "│ ├",
     "keyColor": "cyan",
-    "format": "{size-used} / {size-total} ({size-percentage}) - ({mountpoint} {filesystem}"
+    "format": "{size-used} / {size-total} ({size-percentage}) - ({mountpoint}) {filesystem}"
     },
     {
     "type": "memory",
