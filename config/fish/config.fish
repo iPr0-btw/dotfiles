@@ -55,3 +55,4 @@ end
 export TERMINAL=kitty
 export WLR_DRM_DEVICES=/dev/dri/card1
 export MOZ_ENABLE_WAYLAND 1
+thefuck --alias | source
