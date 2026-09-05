@@ -38,6 +38,12 @@ Name=mozc
 # Layout
 Layout=
 
+[Groups/1/Items/3]
+# Name
+Name=m17n_ko_romaja
+# Layout
+Layout=
+
 [GroupOrder]
 0="Group 1"
 1="Group 2"
