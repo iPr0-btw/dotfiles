@@ -22,7 +22,7 @@ DefaultIM=m17n_ar_translit
 
 [Groups/1/Items/0]
 # Name
-Name=keyboard-us
+Name=keyboard-us-altgr-intl
 # Layout
 Layout=
 
@@ -41,6 +41,12 @@ Layout=
 [Groups/1/Items/3]
 # Name
 Name=m17n_ko_romaja
+# Layout
+Layout=
+
+[Groups/1/Items/4]
+# Name
+Name=m17n_en_ispell
 # Layout
 Layout=
 
