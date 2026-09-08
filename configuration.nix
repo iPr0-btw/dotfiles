@@ -153,7 +153,6 @@ fonts.packages = with pkgs; [
     python3
     pciutils
     tailscale
-    appimage-run
     engrampa
     zip
     unzip
