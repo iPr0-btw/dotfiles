@@ -200,7 +200,6 @@ fonts.packages = with pkgs; [
     server = {
       port = 2222;
       bind_address = "0.0.0.0";
-      secret_key = "2ff6bcd584334071f8dae0ad66e9d7815167ce97fb28b93f004ae64d6547553f";
       limiter = true;
     };
     
