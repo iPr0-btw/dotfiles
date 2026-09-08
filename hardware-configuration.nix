@@ -35,7 +35,7 @@
 
   fileSystems."/steam" = {
   
-  device = "/dev/nvme0n1p4";
+  device = "/dev/disk/by-label/new-steam-library";
   fsType = "btrfs";
   options = [ "defaults" ];
 
