@@ -10,7 +10,7 @@ the 'autopush' script runs on a systemd timer to push updates every 30s, making 
 
 ## my stack
 
-- arch linux (OS)
+- arch linux/nixos dual (OS)
 - hyprland (WM)
 - KDE Plasma (fallback DE)
 - fish shell
