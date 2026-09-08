@@ -193,6 +193,15 @@ bindsym $mod+r mode "resize"
 default_border pixel 0
 default_floating_border pixel 0
 
+blur enable
+
+shadows enable
+
+animation_duration_ms 350
+
+blur_brightness 1
+
+shadows enable
 
 
 input "1267:13077:ASCE1206:00_04F3:3315_Touchpad" {
@@ -202,4 +211,4 @@ input "1267:13077:ASCE1206:00_04F3:3315_Touchpad" {
 input "1267:13077:ASCE1206:00_04F3:3315_Mouse" {
   natural_scroll enabled
 }
-output * scale 2.15
+output * scale 2.1

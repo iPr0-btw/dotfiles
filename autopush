@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cd ~/.dotfiles-git
 git add .
 git commit -m "auto-committed at $(date '+%a %d %b %H:%M:%S %Z %Y')"

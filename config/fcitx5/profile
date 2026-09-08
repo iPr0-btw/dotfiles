@@ -10,7 +10,7 @@ DefaultIM=keyboard-gb
 # Name
 Name=keyboard-gb
 # Layout
-Layout=
+# Layout=
 
 [Groups/1]
 # Group Name
@@ -24,25 +24,25 @@ DefaultIM=m17n_ar_translit
 # Name
 Name=keyboard-us-altgr-intl
 # Layout
-Layout=
+# Layout=
 
 [Groups/1/Items/1]
 # Name
 Name=m17n_ar_translit
 # Layout
-Layout=
+# Layout=
 
 [Groups/1/Items/2]
 # Name
 Name=mozc
 # Layout
-Layout=
+# Layout=
 
 [Groups/1/Items/3]
 # Name
 Name=m17n_ko_romaja
 # Layout
-Layout=
+# Layout=
 
 [GroupOrder]
 0="Group 1"

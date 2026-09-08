@@ -47,7 +47,7 @@ local menu = "caelestia shell drawers toggle launcher || rofi -show drun"
 hl.on("hyprland.start", function()
 	hl.exec_cmd("swaybg -i ~/wall0.png")
 	hl.exec_cmd("dunst")
-	hl.exec_cmd("caelestia shell -d")
+	hl.exec_cmd("caelestia shell -d || dms run")
 	hl.exec_cmd("xrdb -merge ~/.Xresources")
 	-- hl.exec_cmd("hypridle")
 end)
@@ -253,15 +253,15 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 -- Multimedia keys
 hl.bind(
 	"XF86AudioRaiseVolume",
-	hl.dsp.exec_cmd("wpctl set-sink-volume @DEFAULT_SINK@ +5%"),
+	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 4%+"),
 	{ locked = true, repeating = true }
 )
 hl.bind(
 	"XF86AudioLowerVolume",
-	hl.dsp.exec_cmd("wpctl set-sink-volume @DEFAULT_SINK@ -5%"),
+	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_SINK@ 4%-"),
 	{ locked = true, repeating = true }
 )
-hl.bind("XF86AudioMute", hl.dsp.exec_cmd("wpctl set-sink-mute @DEFAULT_SINK@ toggle"), { locked = true })
+hl.bind("XF86AudioMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_SINK@ toggle"), { locked = true })
 hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"), { locked = true })
 hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl s 10%+"), { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl s 10%-"), { locked = true, repeating = true })
