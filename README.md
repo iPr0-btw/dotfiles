@@ -6,11 +6,11 @@ This is my personal config for my arch + hyprland setup.
 
 started running a search engine locally with searXNG.
 
-the 'autopush' script runs on a systemd timer to push updates every 30s, making sure local changes also reflect in this repo.
+my 'autopush' script runs on a systemd timer to push updates every 30s, making sure local changes also reflect in this repo.
 
 ## my stack
 
-- arch linux/nixos dual (OS)
+- arch linux/nixos dualboot (OS)
 - hyprland (WM)
 - KDE Plasma (fallback DE)
 - fish shell
