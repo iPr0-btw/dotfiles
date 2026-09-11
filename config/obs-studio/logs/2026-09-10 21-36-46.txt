@@ -410,3 +410,46 @@
 21:41:27.889: Attempted to add Scene without specifying a canvas! Using default canvas instead.
 21:41:27.890: Switched to Preview/Program mode
 21:41:27.890: ------------------------------------------------
+21:41:29.298: User switched to scene 'Scene 2'
+21:41:29.305: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:29.672: User switched to scene 'Scene'
+21:41:29.687: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:30.322: User switched to scene 'Scene 2'
+21:41:30.337: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:31.011: User switched to scene 'Scene'
+21:41:31.020: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:33.581: Switched to scene 'Scene'
+21:41:33.581: Switched to regular Preview mode
+21:41:33.581: ------------------------------------------------
+21:41:35.115: User switched to scene 'Scene 2'
+21:41:35.120: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:35.402: User switched to scene 'Scene'
+21:41:35.720: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:36.834: User switched to scene 'Scene 2'
+21:41:36.837: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:37.280: User switched to scene 'Scene'
+21:41:37.604: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:39.558: ---------------------------------
+21:41:39.558: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:41:39.558: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+21:41:39.558: 	rate_control: CBR
+21:41:39.558: 	profile:      100
+21:41:39.558: 	level:        -99
+21:41:39.558: 	qp:           0
+21:41:39.558: 	bitrate:      6000
+21:41:39.558: 	maxrate:      6000
+21:41:39.558: 	keyint:       120
+21:41:39.558: 	width:        1920
+21:41:39.558: 	height:       1080
+21:41:39.558: 	b-frames:     0
+21:41:39.558: 	ffmpeg opts:  
+21:41:39.558: 
+21:41:39.562: ---------------------------------
+21:41:39.562: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:41:39.562: 
+21:41:39.565: ==== Recording Start ===============================================
+21:41:39.565: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-09-10 21-41-39.mp4'...
+21:41:41.264: User switched to scene 'Scene 2'
+21:41:41.270: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:42.589: User switched to scene 'Scene'
+21:41:42.920: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
