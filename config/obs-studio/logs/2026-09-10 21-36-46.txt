@@ -373,3 +373,40 @@
 21:40:21.668: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
 21:40:21.668: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
 21:40:21.668: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+21:41:00.923: User switched to scene 'Scene 2'
+21:41:00.938: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:01.189: User switched to scene 'Scene'
+21:41:01.520: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:02.224: User switched to scene 'Scene 2'
+21:41:02.237: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:02.484: User switched to scene 'Scene'
+21:41:02.804: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:02.834: User switched to scene 'Scene 2'
+21:41:02.837: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:03.031: User switched to scene 'Scene'
+21:41:03.268: User switched to scene 'Scene 2'
+21:41:03.402: User switched to scene 'Scene'
+21:41:03.522: User switched to scene 'Scene 2'
+21:41:03.642: User switched to scene 'Scene'
+21:41:03.645: User switched to scene 'Scene 2'
+21:41:05.219: User switched to scene 'Scene'
+21:41:05.484: User switched to scene 'Scene 2'
+21:41:05.724: User switched to scene 'Scene'
+21:41:05.975: User switched to scene 'Scene 2'
+21:41:06.200: User switched to scene 'Scene'
+21:41:06.520: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:06.648: User switched to scene 'Scene 2'
+21:41:06.654: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:41:07.427: User switched to scene 'Scene'
+21:41:07.753: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:41:13.402: This plugin supports grabbing the mouse only for popup windows
+21:41:13.459: This plugin supports grabbing the mouse only for popup windows
+21:41:26.925: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+21:41:26.925: Switched to Preview/Program mode
+21:41:26.925: ------------------------------------------------
+21:41:27.492: Switched to scene 'Scene'
+21:41:27.493: Switched to regular Preview mode
+21:41:27.493: ------------------------------------------------
+21:41:27.889: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+21:41:27.890: Switched to Preview/Program mode
+21:41:27.890: ------------------------------------------------
