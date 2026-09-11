@@ -1,5 +1,5 @@
 ;;; my-onedark-dark-theme.el --- One Dark Dark for Emacs
-(deftheme my-onedark-dark "One Dark Dark theme ported from Neovim")
+(deftheme "One Dark Dark theme ported from Neovim")
 
 (let ((bg "#000000")
       (fg "#abb2bf")
