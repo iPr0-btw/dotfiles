@@ -244,3 +244,119 @@
 21:39:22.919: 
 21:39:22.921: ==== Recording Start ===============================================
 21:39:22.921: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-09-10 21-39-22.mp4'...
+21:39:26.694: output adv_file_output paused
+21:39:27.021: output adv_file_output unpaused
+21:39:27.153: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+21:39:27.153: [mp4 muxer: 'adv_file_output'] Number of fragments: 2
+21:39:27.154: [mp4 muxer: 'adv_file_output'] Full moov size: 3 KiB
+21:39:27.154: [mp4 muxer: 'adv_file_output'] Final mdat size: 2846 KiB
+21:39:27.154: Output 'adv_file_output': stopping
+21:39:27.154: Output 'adv_file_output': Total frames output: 227
+21:39:27.154: Output 'adv_file_output': Total drawn frames: 254
+21:39:27.154: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+21:39:27.154: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+21:39:27.155: ==== Recording Stop ================================================
+21:39:27.387: ---------------------------------
+21:39:27.387: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:39:27.387: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+21:39:27.387: 	rate_control: CBR
+21:39:27.387: 	profile:      100
+21:39:27.387: 	level:        -99
+21:39:27.387: 	qp:           0
+21:39:27.387: 	bitrate:      6000
+21:39:27.387: 	maxrate:      6000
+21:39:27.387: 	keyint:       120
+21:39:27.387: 	width:        1920
+21:39:27.387: 	height:       1080
+21:39:27.387: 	b-frames:     0
+21:39:27.387: 	ffmpeg opts:  
+21:39:27.387: 
+21:39:27.390: ---------------------------------
+21:39:27.390: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:39:27.390: 
+21:39:27.392: ==== Recording Start ===============================================
+21:39:27.392: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-09-10 21-39-27.mp4'...
+21:39:28.004: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+21:39:28.004: [mp4 muxer: 'adv_file_output'] Number of fragments: 1
+21:39:28.004: [mp4 muxer: 'adv_file_output'] Full moov size: 1 KiB
+21:39:28.004: [mp4 muxer: 'adv_file_output'] Final mdat size: 411 KiB
+21:39:28.004: Output 'adv_file_output': stopping
+21:39:28.004: Output 'adv_file_output': Total frames output: 29
+21:39:28.004: Output 'adv_file_output': Total drawn frames: 37
+21:39:28.004: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+21:39:28.004: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+21:39:28.005: ==== Recording Stop ================================================
+21:39:30.352: User switched to scene 'Scene 2'
+21:39:30.354: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:39:30.600: User switched to scene 'Scene'
+21:39:30.920: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:39:31.884: User switched to scene 'Scene 2'
+21:39:31.887: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:39:32.060: User switched to scene 'Scene'
+21:39:32.403: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:39:35.073: ---------------------------------
+21:39:35.073: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:39:35.073: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+21:39:35.073: 	rate_control: CBR
+21:39:35.073: 	profile:      100
+21:39:35.073: 	level:        -99
+21:39:35.073: 	qp:           0
+21:39:35.073: 	bitrate:      6000
+21:39:35.073: 	maxrate:      6000
+21:39:35.073: 	keyint:       120
+21:39:35.073: 	width:        1920
+21:39:35.073: 	height:       1080
+21:39:35.073: 	b-frames:     0
+21:39:35.073: 	ffmpeg opts:  
+21:39:35.073: 
+21:39:35.077: ---------------------------------
+21:39:35.077: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:39:35.077: 
+21:39:35.080: ==== Recording Start ===============================================
+21:39:35.080: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-09-10 21-39-35.mp4'...
+21:39:36.795: This plugin supports grabbing the mouse only for popup windows
+21:39:36.797: This plugin supports grabbing the mouse only for popup windows
+21:39:39.256: User switched to scene 'Scene 2'
+21:39:39.272: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:39:39.749: User switched to scene 'Scene'
+21:39:40.070: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:39:40.947: output adv_file_output paused
+21:39:41.336: output adv_file_output unpaused
+21:39:41.456: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+21:39:41.456: [mp4 muxer: 'adv_file_output'] Number of fragments: 3
+21:39:41.456: [mp4 muxer: 'adv_file_output'] Full moov size: 3 KiB
+21:39:41.456: [mp4 muxer: 'adv_file_output'] Final mdat size: 4357 KiB
+21:39:41.456: Output 'adv_file_output': stopping
+21:39:41.456: Output 'adv_file_output': Total frames output: 353
+21:39:41.456: Output 'adv_file_output': Total drawn frames: 383
+21:39:41.456: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+21:39:41.456: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+21:39:41.457: ==== Recording Stop ================================================
+21:39:43.290: User switched to scene 'Scene 2'
+21:39:43.303: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:39:43.657: User switched to scene 'Scene'
+21:39:43.988: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:39:45.894: ---------------------------------
+21:39:45.894: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:39:45.894: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+21:39:45.894: 	rate_control: CBR
+21:39:45.894: 	profile:      100
+21:39:45.894: 	level:        -99
+21:39:45.894: 	qp:           0
+21:39:45.894: 	bitrate:      6000
+21:39:45.894: 	maxrate:      6000
+21:39:45.894: 	keyint:       120
+21:39:45.894: 	width:        1920
+21:39:45.894: 	height:       1080
+21:39:45.894: 	b-frames:     0
+21:39:45.894: 	ffmpeg opts:  
+21:39:45.894: 
+21:39:45.898: ---------------------------------
+21:39:45.898: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:39:45.898: 
+21:39:45.902: ==== Recording Start ===============================================
+21:39:45.902: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-09-10 21-39-45.mp4'...
+21:39:47.846: User switched to scene 'Scene 2'
+21:39:47.853: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:39:49.035: User switched to scene 'Scene'
+21:39:49.353: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
