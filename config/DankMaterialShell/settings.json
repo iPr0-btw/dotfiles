@@ -17,9 +17,7 @@
   "cornerRadius": 12,
   "clockFormat": "24h",
   "showSeconds": true,
-  "nightModeEnabled": false,
   "barElevationEnabled": false,
-  "batteryPillPercentSign": false,
   "controlCenterShowMicPercent": true,
   "appIdSubstitutions": [],
   "clockDateFormat": "yyyy-dd-MM",
@@ -50,8 +48,6 @@
   "fontScale": 1.2,
   "textRenderType": 2,
   "textRenderQuality": 1,
-  "gtkThemingEnabled": false,
-  "qtThemingEnabled": false,
   "osdPowerProfileEnabled": true,
   "screenPreferences": {
     "wallpaper": []
@@ -133,6 +129,32 @@
       "barInsetPadding": 0
     }
   ],
+  "desktopClockCustomColor": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1,
+    "hsvHue": -1,
+    "hsvSaturation": 0,
+    "hsvValue": 1,
+    "hslHue": -1,
+    "hslSaturation": 0,
+    "hslLightness": 1,
+    "valid": true
+  },
+  "systemMonitorCustomColor": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1,
+    "hsvHue": -1,
+    "hsvSaturation": 0,
+    "hsvValue": 1,
+    "hslHue": -1,
+    "hslSaturation": 0,
+    "hslLightness": 1,
+    "valid": true
+  },
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?",
@@ -145,6 +167,5 @@
       "trigger": "cb"
     }
   },
-  "configVersion": 17,
-  "closeNiriOverviewOnWindowFocus": true
+  "configVersion": 17
 }
