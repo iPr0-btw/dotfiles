@@ -47,7 +47,7 @@ local menu = "caelestia shell drawers toggle launcher || rofi -show drun"
 hl.on("hyprland.start", function()
 	hl.exec_cmd("swaybg -i ~/wall0.png")
 	hl.exec_cmd("dunst")
-	hl.exec_cmd("dms run || caelestia")
+	hl.exec_cmd("dms run || caelestia shell -d")
 	hl.exec_cmd("xrdb -merge ~/.Xresources")
 	-- hl.exec_cmd("hypridle")
 end)
