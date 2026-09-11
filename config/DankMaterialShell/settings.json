@@ -43,8 +43,9 @@
     }
   },
   "launcherLogoMode": "os",
-  "fontFamily": "IosevkaTerm NFM",
-  "monoFontFamily": "IosevkaTerm Nerd Font Mono",
+  "fontFamily": "Iosevka NFM",
+  "monoFontFamily": "JetBrainsMono NFM",
+  "fontWeight": 300,
   "fontScale": 1.2,
   "textRenderType": 2,
   "textRenderQuality": 1,
