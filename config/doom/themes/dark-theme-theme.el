@@ -1,5 +1,5 @@
 ;;; my-onedark-dark-theme.el --- One Dark Dark for Emacs
-(deftheme "One Dark Dark theme ported from Neovim")
+(deftheme dark-theme "One Dark Dark theme ported from Neovim")
 
 (let ((bg "#000000")
       (fg "#abb2bf")
@@ -17,7 +17,7 @@
       (line-number "#495162"))
 
   (custom-theme-set-faces
-   'my-onedark-dark
+   'dark-theme
    
    ;; Core faces
    `(default ((t (:background ,bg :foreground ,fg))))
