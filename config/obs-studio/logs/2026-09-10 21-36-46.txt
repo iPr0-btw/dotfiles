@@ -453,3 +453,13 @@
 21:41:41.270: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
 21:41:42.589: User switched to scene 'Scene'
 21:41:42.920: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:42:13.671: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+21:42:13.671: [mp4 muxer: 'adv_file_output'] Number of fragments: 17
+21:42:13.672: [mp4 muxer: 'adv_file_output'] Full moov size: 15 KiB
+21:42:13.672: [mp4 muxer: 'adv_file_output'] Final mdat size: 25687 KiB
+21:42:13.672: Output 'adv_file_output': stopping
+21:42:13.672: Output 'adv_file_output': Total frames output: 2040
+21:42:13.672: Output 'adv_file_output': Total drawn frames: 2047
+21:42:13.672: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+21:42:13.672: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+21:42:13.672: ==== Recording Stop ================================================
