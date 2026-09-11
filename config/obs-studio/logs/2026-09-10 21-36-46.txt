@@ -360,3 +360,16 @@
 21:39:47.853: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
 21:39:49.035: User switched to scene 'Scene'
 21:39:49.353: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:40:09.553: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+21:40:09.554: [mp4 muxer: 'adv_file_output'] Number of fragments: 12
+21:40:09.554: [mp4 muxer: 'adv_file_output'] Full moov size: 11 KiB
+21:40:09.554: [mp4 muxer: 'adv_file_output'] Final mdat size: 17367 KiB
+21:40:09.554: Output 'adv_file_output': stopping
+21:40:09.554: Output 'adv_file_output': Total frames output: 1412
+21:40:09.554: Output 'adv_file_output': Total drawn frames: 1420
+21:40:09.554: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+21:40:09.554: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+21:40:09.554: ==== Recording Stop ================================================
+21:40:21.668: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+21:40:21.668: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+21:40:21.668: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
