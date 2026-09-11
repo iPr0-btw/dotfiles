@@ -135,3 +135,7 @@
 21:36:46.941: - scene 'Scene 2':
 21:36:46.941:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
 21:36:46.941: ------------------------------------------------
+21:36:47.108: v4l2-input: /dev/video0: select timed out
+21:36:47.108: v4l2-input: /dev/video0: failed to log status
+21:36:47.439: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:36:47.439: 
