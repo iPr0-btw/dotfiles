@@ -139,3 +139,43 @@
 21:36:47.108: v4l2-input: /dev/video0: failed to log status
 21:36:47.439: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
 21:36:47.439: 
+21:37:55.261: User switched to scene 'Scene 2'
+21:37:55.909: User switched to scene 'Scene'
+21:37:56.488: User switched to scene 'Scene 2'
+21:38:02.936: PipeWire initialized
+21:38:02.938: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene 2'
+21:38:02.947: [pipewire] Screencast session created
+21:38:05.107: [pipewire] Asking for monitor and window
+21:38:05.111: [pipewire] source selected, setting up screencast
+21:38:05.114: [pipewire] Server version: 1.6.8
+21:38:05.114: [pipewire] Library version: 1.6.8
+21:38:05.114: [pipewire] Header version: 1.6.8
+21:38:05.114: [pipewire] Created stream 0x55e41e4d2710
+21:38:05.114: [pipewire] Stream 0x55e41e4d2710 state: "connecting" (error: none)
+21:38:05.115: [pipewire] Playing stream 0x55e41e4d2710
+21:38:05.115: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:38:05.117: [pipewire] Negotiated format:
+21:38:05.117: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:38:05.117: [pipewire]     Modifier: 0x0
+21:38:05.117: [pipewire]     Size: 2880x1800
+21:38:05.117: [pipewire]     Framerate: 0/1
+21:38:05.121: [pipewire] Negotiated format:
+21:38:05.121: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:38:05.121: [pipewire]     Modifier: 0x200000010437b04
+21:38:05.121: [pipewire]     Size: 2880x1800
+21:38:05.121: [pipewire]     Framerate: 0/1
+21:38:05.122: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:38:05.129: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+21:38:05.129: [pipewire] Renegotiating stream
+21:38:05.129: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:38:05.129: [pipewire] Negotiated format:
+21:38:05.129: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:38:05.129: [pipewire]     Modifier: 0x200000010437b04
+21:38:05.129: [pipewire]     Size: 2880x1800
+21:38:05.129: [pipewire]     Framerate: 0/1
+21:38:05.130: [pipewire] Negotiated format:
+21:38:05.130: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:38:05.130: [pipewire]     Modifier: 0x200000010401b04
+21:38:05.130: [pipewire]     Size: 2880x1800
+21:38:05.130: [pipewire]     Framerate: 0/1
+21:38:05.131: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
