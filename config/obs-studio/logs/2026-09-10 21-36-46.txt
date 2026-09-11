@@ -179,3 +179,46 @@
 21:38:05.130: [pipewire]     Size: 2880x1800
 21:38:05.130: [pipewire]     Framerate: 0/1
 21:38:05.131: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:38:26.672: v4l2-input: /dev/video3 seems to not support video capture
+21:38:26.672: v4l2-input: /dev/video1 seems to not support video capture
+21:38:26.672: v4l2-input: Found device 'USB2.0 FHD UVC WebCam: USB2.0 I' at /dev/video2
+21:38:26.672: v4l2-input: Found device 'USB2.0 FHD UVC WebCam: USB2.0 F' at /dev/video0
+21:38:26.673: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:38:26.673: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+21:38:26.673: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:38:26.673: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:38:26.673: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:38:26.673: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:38:26.673: v4l2-input: Found input 'Camera 1' (Index 0)
+21:38:26.673: v4l2-controls: setting default for Power Line Frequency to 2
+21:38:26.673: v4l2-controls: setting default for Auto Exposure to 3
+21:38:26.673: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:38:26.673: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+21:38:26.673: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:38:26.673: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:38:26.673: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:38:26.673: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:38:29.732: v4l2-input: /dev/video0: Stopped capture after 2178 frames
+21:38:29.761: v4l2-input: Start capture from /dev/video0
+21:38:29.762: v4l2-input: Input: 0
+21:38:29.765: v4l2-input: Resolution: 1920x1080
+21:38:29.765: v4l2-input: Pixelformat: BGR3
+21:38:29.765: v4l2-input: Linesize: 5760 Bytes
+21:38:29.765: v4l2-input: Framerate: 30.00 fps
+21:38:29.766: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+21:38:29.935: v4l2-input: /dev/video0: select timed out
+21:38:29.935: v4l2-input: /dev/video0: failed to log status
+21:38:33.444: User switched to scene 'Scene'
+21:38:33.771: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:38:39.087: User switched to scene 'Scene 2'
+21:38:39.089: [pipewire] Stream 0x55e41e4d2710 state: "streaming" (error: none)
+21:38:39.445: User switched to scene 'Scene'
+21:38:39.754: User switched to scene 'Scene 2'
+21:38:39.965: User switched to scene 'Scene'
+21:38:40.209: User switched to scene 'Scene 2'
+21:38:40.413: User switched to scene 'Scene'
+21:38:40.617: User switched to scene 'Scene 2'
+21:38:40.806: User switched to scene 'Scene'
+21:38:40.995: User switched to scene 'Scene 2'
+21:38:41.185: User switched to scene 'Scene'
+21:38:41.504: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
