@@ -1,4 +1,4 @@
-;;; my-onedark-dark-theme.el --- One Dark Dark for Emacs
+;;; dark-theme-theme.el --- One Dark Dark for Emacs
 (deftheme dark-theme "One Dark Dark theme ported from Neovim")
 
 (let ((bg "#000000")
@@ -60,6 +60,6 @@
    `(org-block-end-line ((t (:foreground ,comment :background "#1a1a2e"))))
    ))
 
-(provide-theme 'my-onedark-dark)
-;;; my-onedark-dark-theme.el ends here
+(provide-theme 'dark-theme)
+;;; dark-theme-theme.el ends here
 
