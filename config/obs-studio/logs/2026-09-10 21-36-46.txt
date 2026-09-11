@@ -222,3 +222,25 @@
 21:38:40.995: User switched to scene 'Scene 2'
 21:38:41.185: User switched to scene 'Scene'
 21:38:41.504: [pipewire] Stream 0x55e41e4d2710 state: "paused" (error: none)
+21:38:55.941: This plugin supports grabbing the mouse only for popup windows
+21:38:55.943: This plugin supports grabbing the mouse only for popup windows
+21:39:22.916: ---------------------------------
+21:39:22.916: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+21:39:22.916: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+21:39:22.916: 	rate_control: CBR
+21:39:22.916: 	profile:      100
+21:39:22.916: 	level:        -99
+21:39:22.916: 	qp:           0
+21:39:22.916: 	bitrate:      6000
+21:39:22.916: 	maxrate:      6000
+21:39:22.916: 	keyint:       120
+21:39:22.916: 	width:        1920
+21:39:22.916: 	height:       1080
+21:39:22.916: 	b-frames:     0
+21:39:22.916: 	ffmpeg opts:  
+21:39:22.916: 
+21:39:22.919: ---------------------------------
+21:39:22.919: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+21:39:22.919: 
+21:39:22.921: ==== Recording Start ===============================================
+21:39:22.921: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-09-10 21-39-22.mp4'...
