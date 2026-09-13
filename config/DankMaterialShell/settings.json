@@ -49,7 +49,6 @@
   "fontScale": 1.2,
   "textRenderType": 2,
   "textRenderQuality": 1,
-  "dankIslandFloating": true,
   "osdPowerProfileEnabled": true,
   "screenPreferences": {
     "wallpaper": []
@@ -170,5 +169,5 @@
       "trigger": "cb"
     }
   },
-  "configVersion": 17
+  "configVersion": 18
 }
