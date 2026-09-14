@@ -1,9 +1,9 @@
 updateInfoAdded=true
 
 [50-krunner-activate-typing.upd]
-ctime=1787282888
+ctime=1789264361
 done=50-krunner-activate-typing
-mtime=1785893110
+mtime=1788948679
 
 [ark_move_dirhistory_to_state_config.upd]
 ctime=1788659930
@@ -61,14 +61,14 @@ done=kwin-6.0-reset-active-mouse-screen-x11,kwin-6.0-delete-desktop-switching-sh
 mtime=1787216281
 
 [kwin.upd]
-ctime=1787282855
+ctime=1789264355
 done=kwin-6.0-reset-active-mouse-screen,kwin-6.0-delete-desktop-switching-shortcuts,kwin-6.0-remove-breeze-tabbox-default,kwin-6.1-remove-gridview-expose-shortcuts,kwin-6.5-showpaint-changes,remove_deprecated_gtk4_option_v2,add-hamburgermenu-to-toolbar,50-krunner-activate-typing
-mtime=1787220902
+mtime=1788950007
 
 [migrate-calendar-to-plugin-id.upd]
-ctime=1787282888
+ctime=1789264360
 done=kwin-6.5-showpaint-changes,migrate-calendar-plugins
-mtime=1787215397
+mtime=1788949347
 
 [plasma-systemmonitor.upd]
 ctime=1788659950
@@ -76,39 +76,39 @@ done=memory-column
 mtime=1
 
 [plasma6.0-remove-dpi-settings.upd]
-ctime=1787282888
+ctime=1789264360
 done=migrate-calendar-plugins,plasma6.0-remove-dpi-settings,memory-column
-mtime=1787215397
+mtime=1788949347
 
 [plasma6.0-remove-old-shortcuts.upd]
-ctime=1787282888
+ctime=1789264360
 done=plasma6.0-remove-dpi-settings,plasma6.0-remove-old-shortcuts
-mtime=1787215397
+mtime=1788949347
 
 [plasma6.3-update-clipboard-database-2-to-3.upd]
-ctime=1787282888
+ctime=1789264360
 done=plasma6.0-remove-old-shortcuts,plasma6.3-update-clipboard-database-2-to-3
-mtime=1787215397
+mtime=1788949347
 
 [plasma6.4-migrate-fullscreen-notifications-to-dnd.upd]
-ctime=1787282888
+ctime=1789264360
 done=plasma6.3-update-clipboard-database-2-to-3,plasma6.4-migrate-fullscreen-notifications-to-dnd
-mtime=1787215397
+mtime=1788949347
 
 [plasmashell-6.0-keep-custom-position-of-panels.upd]
-ctime=1787282888
+ctime=1789264360
 done=plasma6.4-migrate-fullscreen-notifications-to-dnd,plasmashell-6.0-keep-custom-position-of-panels
-mtime=1787215397
+mtime=1788949347
 
 [plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels.upd]
-ctime=1787282888
+ctime=1789264360
 done=plasmashell-6.0-keep-custom-position-of-panels,plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
-mtime=1787215397
+mtime=1788949347
 
 [plasmashell-6.5-remove-stop-activity-shortcut.upd]
-ctime=1787282888
+ctime=1789264360
 done=plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels,plasmashell-6.5-remove-stop-activity-shortcut
-mtime=1787215397
+mtime=1788949347
 
 [spectacle.upd]
 ctime=1788659932
