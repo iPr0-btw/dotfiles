@@ -11,7 +11,7 @@ if status is-interactive
         echo -n (prompt_pwd)' '
     end
 
-    function fastfetch1
+    function ff1
         fastfetch -c all
     end
 
