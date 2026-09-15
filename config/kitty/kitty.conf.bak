@@ -19,7 +19,7 @@
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-font_size 12.2
+font_size 12
 
 #: Font size (in pts).
 
@@ -387,7 +387,7 @@ font_size 12.2
 #: Scrollback {{{
 
 #scrollback_lines 8000
-
+fallback_fonts Noto Sans Mono
 #: Number of lines of history to keep in memory for scrolling back.
 #: Memory is allocated on demand. Negative numbers are (effectively)
 #: infinite scrollback. Note that using very large scrollback is not
@@ -1657,6 +1657,7 @@ background_opacity 0.86
 
 #: Advanced {{{
 
+shell /etc/profiles/per-user/bruh/bin/fish
 shell /usr/bin/fish
 
 #: The shell program to execute. The default value of . means to use
