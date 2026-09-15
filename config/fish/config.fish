@@ -10,6 +10,7 @@ if status is-interactive
     function fish_prompt
 
         set -l last_status $status
+                test $last_status -ne 0 && echo -n "$last_status "
         echo -n "$last_status "(prompt_pwd)' '
     end
 
