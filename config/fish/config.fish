@@ -8,10 +8,9 @@ if status is-interactive
     #set -U fish_user_paths $fish_user_paths ~/.local/bin
 
     function fish_prompt
-        echo -n (prompt_pwd)' '
-    end
-
-    function fastfetch1
+        set -l last_status $status
+        echo -n "$last_status "(prompt_pwd)' '
+    end    function fastfetch1
         fastfetch -c all
     end
 
