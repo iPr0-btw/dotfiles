@@ -133,3 +133,8 @@
 17:51:54.523: v4l2-input: /dev/video0: select timed out
 17:51:54.523: v4l2-input: /dev/video0: failed to log status
 17:52:33.329: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+17:52:33.349: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+17:52:57.284: pulse-input: Unable to get server info !
+17:52:57.287: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+17:53:05.840: User Removed source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) from scene 'Scene'
+17:53:20.675: User added source 'Browser' (browser_source) to scene 'Scene'
