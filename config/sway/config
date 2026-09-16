@@ -5,7 +5,7 @@ set $mod Mod1
 
 # Applications
 set $terminal kitty -o linux_display_server=wayland
-set $fileManager nautilus
+set $fileManager thunar
 set $menu rofi -show drun
 
 # Font
