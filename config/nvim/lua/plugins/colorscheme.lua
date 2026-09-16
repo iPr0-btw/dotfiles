@@ -11,4 +11,10 @@
 --    },
 --  },
 -- 
+{
+  "LazyVim/LazyVim",
+  opts = {
+    colorscheme = "tokyo-night-oled",
+  },
+}
 
