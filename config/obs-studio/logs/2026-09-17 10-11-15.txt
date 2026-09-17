@@ -157,3 +157,24 @@
 10:14:51.831: User Removed source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) from scene 'Scene 2'
 10:15:07.187: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
 10:15:07.204: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+10:15:17.763: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:15:17.763: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+10:15:17.763: pulse-input: Started recording from 'bluez_input.7C:C0:6F:8C:A5:03'
+10:15:17.764: Settings changed (audio)
+10:15:17.764: ------------------------------------------------
+10:15:26.264: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:26.264: pulse-am: Got 7824 packets with 9388800 frames
+10:15:26.985: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:15:26.985: pulse-am: Audio format: s16le, 16000 Hz, 1 channels
+10:15:26.985: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:29.247: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:29.247: pulse-am: Got 90 packets with 35984 frames
+10:15:29.830: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:15:29.830: pulse-am: Audio format: s16le, 16000 Hz, 1 channels
+10:15:29.830: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:32.856: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:15:32.857: pulse-am: Audio format: s16le, 16000 Hz, 1 channels
+10:15:32.857: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:33.753: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:33.753: pulse-am: Got 36 packets with 14384 frames
+10:15:37.498: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
