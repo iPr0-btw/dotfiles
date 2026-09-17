@@ -178,3 +178,50 @@
 10:15:33.753: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
 10:15:33.753: pulse-am: Got 36 packets with 14384 frames
 10:15:37.498: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+10:15:37.529: ReadOne on org.freedesktop.portal.Settings returned an invalid reply
+10:15:42.488: pulse-input: Stopped recording from 'bluez_input.7C:C0:6F:8C:A5:03'
+10:15:42.494: pulse-input: Got 989 packets with 1186800 frames
+10:15:42.495: Settings changed (audio)
+10:15:42.495: ------------------------------------------------
+10:15:56.207: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:56.207: pulse-am: Got 1055 packets with 421984 frames
+10:15:56.212: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:15:56.213: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+10:15:56.213: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:15:56.214: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+10:15:56.214: Deduplication logic is being applied to all monitored sources.
+10:15:56.214: Audio monitoring device:
+10:15:56.214: 	name: الحمد لله
+10:15:56.214: 	id: bluez_output.7C_C0_6F_8C_A5_03.1
+10:15:56.216: ---------------------------------
+10:15:56.216: video settings reset:
+10:15:56.216: 	base resolution:   1920x1080
+10:15:56.216: 	output resolution: 1920x1080
+10:15:56.216: 	downscale filter:  Bicubic
+10:15:56.216: 	fps:               60/1
+10:15:56.216: 	format:            NV12
+10:15:56.216: 	YUV mode:          Rec. 709/Partial
+10:15:56.216: NV12 texture support enabled
+10:15:56.216: P010 texture support not available
+10:15:56.218: Settings changed (advanced)
+10:15:56.218: ------------------------------------------------
+10:16:09.886: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:16:09.886: pulse-am: Got 547 packets with 656400 frames
+10:16:12.746: User switched to scene 'Scene'
+10:16:13.215: User switched to scene 'Scene 2'
+10:16:14.481: User switched to scene 'Scene'
+10:16:17.703: User switched to scene 'Scene 2'
+10:16:20.194: User switched to scene 'Scene'
+10:16:20.580: User switched to scene 'Scene 2'
+10:16:22.248: User switched to scene 'Scene'
+10:16:22.448: User switched to scene 'Scene 2'
+10:16:22.636: User switched to scene 'Scene'
+10:16:22.836: User switched to scene 'Scene 2'
+10:16:26.483: User switched to scene 'Scene'
+10:16:27.195: User switched to scene 'Scene 2'
+10:16:27.553: User switched to scene 'Scene'
+10:16:27.796: User switched to scene 'Scene 2'
+10:16:31.217: User switched to scene 'Scene'
+10:16:32.027: User switched to scene 'Scene 2'
+10:16:38.920: User switched to scene 'Scene'
+10:16:39.314: User switched to scene 'Scene 2'
