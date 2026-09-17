@@ -59,7 +59,7 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 2,
+        "monitoring_type": 0,
         "private_settings": {}
     },
     "sources": [
@@ -284,8 +284,8 @@
     "current_scene": "Scene 2",
     "current_program_scene": "Scene 2",
     "canvases": [],
-    "current_transition": "Swipe",
-    "transition_duration": 300,
+    "current_transition": "Fade",
+    "transition_duration": 100,
     "transitions": [
         {
             "name": "Swipe",
