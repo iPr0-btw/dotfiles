@@ -22,7 +22,7 @@ vim.o.background = "dark"
 local groups = {
   Normal = { bg = colors.bg, fg = colors.fg },
   NormalFloat = { bg = colors.bg_dark, fg = colors.fg },
-  Comment = { fg = colors.pink, italic = true },
+  Comment = { fg = colors.pink, italic = true, bold = false },
   String = { fg = colors.green },
   Function = { fg = colors.blue, bold = true },
   Keyword = { fg = colors.purple },
