@@ -108,15 +108,7 @@
         "name": "orange"
       },
       {
-        "oled": {
-          "primary": "#e0af68"
-        },
-        "oled-light": {
-          "primary": "#e0af68"
-        },
-        "id": "yellow",
-        "name": "yellow"
-      },
+
       {
         "oled": {
           "primary": "#9ece6a"
@@ -138,16 +130,7 @@
         "name": "pink"
       }
 
-      {
-        "oled": {
-          "primary": "#ffffff"
-        },
-        "oled-light": {
-          "primary": "#ffffff"
-        },
-        "id": "white",
-        "name": "white"
-      }
+
     ]
   },
   "sourceDir": "tokyoNightOled"
