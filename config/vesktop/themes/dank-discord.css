@@ -25,12 +25,12 @@
     --bg-base-secondary: #000000 !important;
     --custom-channel-members-bg: #000000 !important;
 
-    --background-base-lowest: #0a0a0a !important;
-    --app-frame-background: #0a0a0a !important;
-    --background-tertiary: #0a0a0a !important;
-    --background-secondary-alt: #0a0a0a !important;
-    --bg-base-tertiary: #0a0a0a !important;
-    --__header-bar-background: #0a0a0a !important;
+    --background-base-lowest: #000000 !important;
+    --app-frame-background: #000000 !important;
+    --background-tertiary: #000000 !important;
+    --background-secondary-alt: #000000 !important;
+    --bg-base-tertiary: #000000 !important;
+    --__header-bar-background: #000000 !important;
 
     --background-surface-high: #000000 !important;
     --bg-surface-raised: #000000 !important;
@@ -259,9 +259,9 @@
     --input-border-default: #0a0a0a !important;
     --input-border: #0a0a0a !important;
     --deprecated-text-input-border: #0a0a0a !important;
-    --background-code: #0a0a0a !important;
+    --background-code: #000000 !important;
     --spoiler-hidden-background: #000000 !important;
-    --spoiler-revealed-background: #0a0a0a !important;
+    --spoiler-revealed-background: #000000 !important;
 
     /* scrollbars */
     --scrollbar-auto-thumb: #0a0a0a !important;

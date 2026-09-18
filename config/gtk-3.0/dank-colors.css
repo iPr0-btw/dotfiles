@@ -24,17 +24,17 @@
 @define-color view_fg_color #c0caf5;
 @define-color headerbar_bg_color #000000;
 @define-color headerbar_fg_color #c0caf5;
-@define-color sidebar_bg_color #0a0a0a;
+@define-color sidebar_bg_color #000000;
 @define-color sidebar_fg_color #c0caf5;
 /* There is only like one application I know that uses this, and there isn't a good way to get
 a color between surface and surface container so I think just giving this surface is a good enough fallback*/
 @define-color secondary_sidebar_bg_color #000000;
 @define-color secondary_sidebar_fg_color #c0caf5;
-@define-color card_bg_color #0a0a0a;
+@define-color card_bg_color #000000;
 @define-color card_fg_color #c0caf5;
-@define-color overview_bg_color #0a0a0a;
+@define-color overview_bg_color #000000;
 @define-color overview_fg_color #c0caf5;
-@define-color popover_bg_color #0a0a0a;
+@define-color popover_bg_color #000000;
 @define-color popover_fg_color #c0caf5;
 @define-color dialog_bg_color #000000;
 @define-color dialog_fg_color #c0caf5;
