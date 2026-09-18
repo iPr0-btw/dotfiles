@@ -236,8 +236,8 @@
     --notice-background-critical: #8c1d18 !important;
     --notice-text-critical: #f9dedc !important;
     --icon-feedback-critical: #f7768e !important;
-    --background-feedback-positive: #1a1a2e !important;
-    --notice-background-positive: #1a1a2e !important;
+    --background-feedback-positive: #000000 !important;
+    --notice-background-positive: #000000 !important;
     --notice-text-positive: #c0caf5 !important;
     --background-feedback-info: #1a1a2e !important;
     --notice-background-info: #1a1a2e !important;

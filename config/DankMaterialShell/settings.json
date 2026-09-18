@@ -8,6 +8,12 @@
         "flavor": "black",
         "accent": "white"
       }
+    },
+    "tokyoNightOled": {
+      "dark": {
+        "flavor": "oled",
+        "accent": "cyan"
+      }
     }
   },
   "matugenScheme": "scheme-rainbow",
