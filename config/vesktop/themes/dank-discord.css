@@ -32,23 +32,23 @@
     --bg-base-tertiary: #0a0a0a !important;
     --__header-bar-background: #0a0a0a !important;
 
-    --background-surface-high: #1a1a2e !important;
-    --bg-surface-raised: #1a1a2e !important;
-    --card-primary-bg: #1a1a2e !important;
-    --activity-card-background: #1a1a2e !important;
+    --background-surface-high: #000000 !important;
+    --bg-surface-raised: #000000 !important;
+    --card-primary-bg: #000000 !important;
+    --activity-card-background: #000000 !important;
 
-    --background-surface-higher: #1a1a2e !important;
-    --bg-surface-overlay: #1a1a2e !important;
-    --background-floating: #1a1a2e !important;
-    --background-nested-floating: #1a1a2e !important;
-    --autocomplete-bg: #1a1a2e !important;
+    --background-surface-higher: #000000 !important;
+    --bg-surface-overlay: #000000 !important;
+    --background-floating: #000000 !important;
+    --background-nested-floating: #000000 !important;
+    --autocomplete-bg: #000000 !important;
 
-    --background-surface-highest: #1a1a2e !important;
-    --modal-background: #1a1a2e !important;
-    --modal-footer-background: #1a1a2e !important;
-    --background-accent: #1a1a2e !important;
-    --card-secondary-bg: #1a1a2e !important;
-    --user-profile-overlay-background: #1a1a2e !important;
+    --background-surface-highest: #000000 !important;
+    --modal-background: #000000 !important;
+    --modal-footer-background: #000000 !important;
+    --background-accent: #000000 !important;
+    --card-secondary-bg: #000000 !important;
+    --user-profile-overlay-background: #000000 !important;
 
     --chat-border: color-mix(in srgb, #0a0a0a 50%, transparent) !important;
 
@@ -174,13 +174,13 @@
     --button-filled-brand-background-active: color-mix(in srgb, #7aa2f7 85%, #000000) !important;
     --button-filled-brand-text: #000000 !important;
 
-    --control-secondary-background-default: #1a1a2e !important;
-    --control-secondary-background-hover: #1a1a2e !important;
-    --control-secondary-background-active: color-mix(in srgb, #1a1a2e 90%, #c0caf5) !important;
+    --control-secondary-background-default: #000000 !important;
+    --control-secondary-background-hover: #000000 !important;
+    --control-secondary-background-active: color-mix(in srgb, #000000 90%, #c0caf5) !important;
     --control-secondary-text-default: #c0caf5 !important;
-    --button-secondary-background: #1a1a2e !important;
-    --button-secondary-background-hover: #1a1a2e !important;
-    --button-secondary-background-active: color-mix(in srgb, #1a1a2e 90%, #c0caf5) !important;
+    --button-secondary-background: #000000 !important;
+    --button-secondary-background-hover: #000000 !important;
+    --button-secondary-background-active: color-mix(in srgb, #000000 90%, #c0caf5) !important;
     --button-secondary-text: #c0caf5 !important;
     --redesign-button-secondary-text: #c0caf5 !important;
 
@@ -239,11 +239,11 @@
     --background-feedback-positive: #000000 !important;
     --notice-background-positive: #000000 !important;
     --notice-text-positive: #c0caf5 !important;
-    --background-feedback-info: #1a1a2e !important;
-    --notice-background-info: #1a1a2e !important;
+    --background-feedback-info: #000000 !important;
+    --notice-background-info: #000000 !important;
     --notice-text-info: #c0caf5 !important;
-    --background-feedback-warning: #1a1a2e !important;
-    --notice-background-warning: #1a1a2e !important;
+    --background-feedback-warning: #000000 !important;
+    --notice-background-warning: #000000 !important;
     --notice-text-warning: #c0caf5 !important;
     --badge-notification-background: #7aa2f7 !important;
     --background-feedback-notification: #7aa2f7 !important;
@@ -252,15 +252,15 @@
     --red-500: #f7768e !important;
 
     /* inputs, code, spoilers */
-    --input-background-default: #1a1a2e !important;
-    --input-background: #1a1a2e !important;
-    --channeltextarea-background: #1a1a2e !important;
-    --deprecated-text-input-bg: #1a1a2e !important;
+    --input-background-default: #000000 !important;
+    --input-background: #000000 !important;
+    --channeltextarea-background: #000000 !important;
+    --deprecated-text-input-bg: #000000 !important;
     --input-border-default: #0a0a0a !important;
     --input-border: #0a0a0a !important;
     --deprecated-text-input-border: #0a0a0a !important;
     --background-code: #0a0a0a !important;
-    --spoiler-hidden-background: #1a1a2e !important;
+    --spoiler-hidden-background: #000000 !important;
     --spoiler-revealed-background: #0a0a0a !important;
 
     /* scrollbars */
