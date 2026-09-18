@@ -1,0 +1,144 @@
+{
+  "id": "tokyoNightOled",
+  "name": "Tokyo Night OLED",
+  "version": "1.0.0",
+  "author": "bruh",
+  "description": "Tokyo Night OLED with true black backgrounds and customizable accents.",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+        "accent": "cyan",
+        "flavor": "oled"
+      },
+      "light": {
+        "accent": "cyan",
+        "flavor": "oled-light"
+      }
+    },
+    "flavors": [
+      {
+        "id": "oled",
+        "name": "oled",
+        "dark": {
+          "primaryText": "#000000",
+          "primaryContainer": "#1a1a2e",
+          "secondary": "#bb9af7",
+          "surface": "#000000",
+          "surfaceText": "#c0caf5",
+          "surfaceVariant": "#0a0a0a",
+          "surfaceVariantText": "#545c7e",
+          "surfaceTint": "#7aa2f7",
+          "background": "#000000",
+          "backgroundText": "#c0caf5",
+          "outline": "#414868",
+          "surfaceContainer": "#0a0a0a",
+          "surfaceContainerHigh": "#1a1a2e",
+          "error": "#f7768e",
+          "warning": "#e0af68",
+          "info": "#7aa2f7"
+        },
+        "light": {}
+      },
+      {
+        "id": "oled-light",
+        "name": "oled",
+        "dark": {},
+        "light": {
+          "primaryText": "#000000",
+          "primaryContainer": "#1a1a2e",
+          "secondary": "#bb9af7",
+          "surface": "#000000",
+          "surfaceText": "#c0caf5",
+          "surfaceVariant": "#0a0a0a",
+          "surfaceVariantText": "#545c7e",
+          "surfaceTint": "#7aa2f7",
+          "background": "#000000",
+          "backgroundText": "#c0caf5",
+          "outline": "#414868",
+          "surfaceContainer": "#0a0a0a",
+          "surfaceContainerHigh": "#1a1a2e",
+          "error": "#f7768e",
+          "warning": "#e0af68",
+          "info": "#7aa2f7"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "oled": {
+          "primary": "#7aa2f7"
+        },
+        "oled-light": {
+          "primary": "#7aa2f7"
+        },
+        "id": "cyan",
+        "name": "cyan"
+      },
+      {
+        "oled": {
+          "primary": "#bb9af7"
+        },
+        "oled-light": {
+          "primary": "#bb9af7"
+        },
+        "id": "purple",
+        "name": "purple"
+      },
+      {
+        "oled": {
+          "primary": "#f7768e"
+        },
+        "oled-light": {
+          "primary": "#f7768e"
+        },
+        "id": "red",
+        "name": "red"
+      },
+      {
+        "oled": {
+          "primary": "#ff9e64"
+        },
+        "oled-light": {
+          "primary": "#ff9e64"
+        },
+        "id": "orange",
+        "name": "orange"
+      },
+      {
+        "oled": {
+          "primary": "#e0af68"
+        },
+        "oled-light": {
+          "primary": "#e0af68"
+        },
+        "id": "yellow",
+        "name": "yellow"
+      },
+      {
+        "oled": {
+          "primary": "#9ece6a"
+        },
+        "oled-light": {
+          "primary": "#9ece6a"
+        },
+        "id": "green",
+        "name": "green"
+      },
+      {
+        "oled": {
+          "primary": "#D07E9A"
+        },
+        "oled-light": {
+          "primary": "#D07E9A"
+        },
+        "id": "pink",
+        "name": "pink"
+      }
+    ]
+  },
+  "sourceDir": "tokyoNightOled"
+}
+
