@@ -15,6 +15,7 @@
 return {
   {
     "folke/tokyonight.nvim",
+    enab
     config = function()
       require("tokyonight").setup({
         transparent = true,
