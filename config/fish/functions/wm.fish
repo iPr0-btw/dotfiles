@@ -1,3 +1,3 @@
-function wm --wraps=pulsemixer --description 'alias wm=pulsemixer'
-    pulsemixer $argv
+function wm --wraps=pulsemixer --wraps=wiremix --description 'alias wm=wiremix'
+    wiremix $argv
 end
