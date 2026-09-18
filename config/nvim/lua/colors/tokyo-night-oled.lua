@@ -28,7 +28,7 @@ local groups = {
   Keyword = { fg = colors.purple },
   Type = { fg = colors.cyan },
   Constant = { fg = colors.orange },
-  StatusLine = { bg = "#000000", fg = "#c0caf5" }
+  StatusLine = { bg = colors.bg, fg = colors.bg },
   -- Add more as needed
 }
 
