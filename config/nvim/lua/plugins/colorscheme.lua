@@ -26,7 +26,7 @@ return {
           hl.Visual = { bg = "#283457" }
           hl.Pmenu = { bg = "#15161e" }
           hl.PmenuSel = { fg = "#000000", bg = "#7aa2f7" }
-          hl.Comment = { fg = "#EDACC2", italic = true } -- Add this line
+          hl.Comment = { fg = "#EDACC2", italic = true } 
           -- add more overrides
         end,
       })
