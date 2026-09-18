@@ -77,6 +77,10 @@
         "id": "cyan",
         "name": "cyan"
       },
+      "oled":{
+
+      
+    }
       {
         "oled": {
           "primary": "#bb9af7"
@@ -108,17 +112,6 @@
         "name": "orange"
       },
       {
-      {
-        "oled": {
-          "primary": "#ffffff"
-        },
-        "oled-light": {
-          "primary": "#ffffff"
-        },
-        "id": "white",
-        "name": "white"
-      }
-
       {
         "oled": {
           "primary": "#9ece6a"
