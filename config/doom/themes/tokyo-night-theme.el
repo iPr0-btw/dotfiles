@@ -1,5 +1,5 @@
-;;; tokyo-night-oled-theme.el --- Tokyo Night OLED for Emacs
-(deftheme tokyo-night-oled "a boring OLED tokyonight theme")
+;;; tokyo-night-theme.el --- Tokyo Night OLED for Emacs -*- lexical-binding: t; -*-
+(deftheme tokyo-night "a boring OLED tokyonight theme")
 
 (let ((bg "#000000")
       (fg "#c0caf5")
@@ -19,7 +19,7 @@
       (line-number "#3b4261"))
 
   (custom-theme-set-faces
-   'tokyo-night-oled
+   'tokyo-night
    
    ;; Core faces
    `(default ((t (:background ,bg :foreground ,fg))))
@@ -62,6 +62,6 @@
    `(org-block-end-line ((t (:foreground ,comment :background "#0a0a0a"))))
    ))
 
-(provide-theme 'tokyo-night-oled)
-;;; tokyo-night-oled-theme.el ends here
+(provide-theme 'tokyo-night)
+;;; tokyo-night-theme.el ends here
 
