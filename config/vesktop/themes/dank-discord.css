@@ -90,10 +90,10 @@
     --channel-text-area-placeholder: #414868 !important;
     --input-placeholder-text-default: #414868 !important;
 
-    --text-link: #ff9e64 !important;
-    --text-brand: #ff9e64 !important;
-    --control-brand-foreground: #ff9e64 !important;
-    --control-brand-foreground-new: #ff9e64 !important;
+    --text-link: #d07e9a !important;
+    --text-brand: #d07e9a !important;
+    --control-brand-foreground: #d07e9a !important;
+    --control-brand-foreground-new: #d07e9a !important;
     --badge-text-brand: #000000 !important;
 
     --text-danger: #f7768e !important;
@@ -114,10 +114,10 @@
     --background-mod-normal: color-mix(in srgb, #c0caf5 10%, transparent) !important;
     --interactive-background-active: color-mix(in srgb, #c0caf5 10%, transparent) !important;
 
-    --background-modifier-selected: color-mix(in srgb, #ff9e64 14%, transparent) !important;
-    --background-mod-strong: color-mix(in srgb, #ff9e64 14%, transparent) !important;
-    --bg-mod-strong: color-mix(in srgb, #ff9e64 14%, transparent) !important;
-    --interactive-background-selected: color-mix(in srgb, #ff9e64 14%, transparent) !important;
+    --background-modifier-selected: color-mix(in srgb, #d07e9a 14%, transparent) !important;
+    --background-mod-strong: color-mix(in srgb, #d07e9a 14%, transparent) !important;
+    --bg-mod-strong: color-mix(in srgb, #d07e9a 14%, transparent) !important;
+    --interactive-background-selected: color-mix(in srgb, #d07e9a 14%, transparent) !important;
 
     --background-modifier-accent: color-mix(in srgb, #c0caf5 6%, transparent) !important;
     --background-message-hover: color-mix(in srgb, #c0caf5 4%, transparent) !important;
@@ -128,50 +128,50 @@
     --message-highlight-background-default: color-mix(in srgb, #bb9af7 10%, transparent) !important;
     --message-highlight-background-hover: color-mix(in srgb, #bb9af7 14%, transparent) !important;
 
-    --background-mentioned: color-mix(in srgb, #ff9e64 10%, transparent) !important;
-    --background-mentioned-hover: color-mix(in srgb, #ff9e64 14%, transparent) !important;
-    --message-mentioned-background-default: color-mix(in srgb, #ff9e64 10%, transparent) !important;
-    --message-mentioned-background-hover: color-mix(in srgb, #ff9e64 14%, transparent) !important;
-    --mention-background: color-mix(in srgb, #ff9e64 15%, transparent) !important;
-    --mention-foreground: #ff9e64 !important;
+    --background-mentioned: color-mix(in srgb, #d07e9a 10%, transparent) !important;
+    --background-mentioned-hover: color-mix(in srgb, #d07e9a 14%, transparent) !important;
+    --message-mentioned-background-default: color-mix(in srgb, #d07e9a 10%, transparent) !important;
+    --message-mentioned-background-hover: color-mix(in srgb, #d07e9a 14%, transparent) !important;
+    --mention-background: color-mix(in srgb, #d07e9a 15%, transparent) !important;
+    --mention-foreground: #d07e9a !important;
 
-    --message-reacted-background-default: color-mix(in srgb, #ff9e64 15%, transparent) !important;
+    --message-reacted-background-default: color-mix(in srgb, #d07e9a 15%, transparent) !important;
     --message-reacted-text-default: #c0caf5 !important;
 
     /* brand ramp — absolute lightness steps, mode-safe */
-    --brand-100: color-mix(in srgb, #ff9e64 12%, #ffffff) !important;
-    --brand-200: color-mix(in srgb, #ff9e64 25%, #ffffff) !important;
-    --brand-260: color-mix(in srgb, #ff9e64 33%, #ffffff) !important;
-    --brand-300: color-mix(in srgb, #ff9e64 40%, #ffffff) !important;
-    --brand-360: color-mix(in srgb, #ff9e64 55%, #ffffff) !important;
-    --brand-400: color-mix(in srgb, #ff9e64 70%, #ffffff) !important;
-    --brand-500: #ff9e64 !important;
-    --brand-560: color-mix(in srgb, #ff9e64 90%, #000000) !important;
-    --brand-600: color-mix(in srgb, #ff9e64 85%, #000000) !important;
-    --brand-700: color-mix(in srgb, #ff9e64 70%, #000000) !important;
-    --brand-800: color-mix(in srgb, #ff9e64 55%, #000000) !important;
-    --brand-900: color-mix(in srgb, #ff9e64 40%, #000000) !important;
-    --brand-experiment: #ff9e64 !important;
-    --brand-experiment-360: #ff9e64 !important;
-    --brand-experiment-500: #ff9e64 !important;
-    --blurple-50: #ff9e64 !important;
-    --blue-500: #ff9e64 !important;
+    --brand-100: color-mix(in srgb, #d07e9a 12%, #ffffff) !important;
+    --brand-200: color-mix(in srgb, #d07e9a 25%, #ffffff) !important;
+    --brand-260: color-mix(in srgb, #d07e9a 33%, #ffffff) !important;
+    --brand-300: color-mix(in srgb, #d07e9a 40%, #ffffff) !important;
+    --brand-360: color-mix(in srgb, #d07e9a 55%, #ffffff) !important;
+    --brand-400: color-mix(in srgb, #d07e9a 70%, #ffffff) !important;
+    --brand-500: #d07e9a !important;
+    --brand-560: color-mix(in srgb, #d07e9a 90%, #000000) !important;
+    --brand-600: color-mix(in srgb, #d07e9a 85%, #000000) !important;
+    --brand-700: color-mix(in srgb, #d07e9a 70%, #000000) !important;
+    --brand-800: color-mix(in srgb, #d07e9a 55%, #000000) !important;
+    --brand-900: color-mix(in srgb, #d07e9a 40%, #000000) !important;
+    --brand-experiment: #d07e9a !important;
+    --brand-experiment-360: #d07e9a !important;
+    --brand-experiment-500: #d07e9a !important;
+    --blurple-50: #d07e9a !important;
+    --blue-500: #d07e9a !important;
 
     /* buttons and controls — on-color state layers */
-    --bg-brand: #ff9e64 !important;
-    --background-brand: #ff9e64 !important;
-    --control-primary-background-default: #ff9e64 !important;
-    --control-primary-background-hover: color-mix(in srgb, #ff9e64 92%, #000000) !important;
-    --control-primary-background-active: color-mix(in srgb, #ff9e64 85%, #000000) !important;
+    --bg-brand: #d07e9a !important;
+    --background-brand: #d07e9a !important;
+    --control-primary-background-default: #d07e9a !important;
+    --control-primary-background-hover: color-mix(in srgb, #d07e9a 92%, #000000) !important;
+    --control-primary-background-active: color-mix(in srgb, #d07e9a 85%, #000000) !important;
     --control-primary-text-default: #000000 !important;
     --control-primary-text-hover: #000000 !important;
     --control-primary-text-active: #000000 !important;
     --control-primary-icon-default: #000000 !important;
     --control-primary-icon-hover: #000000 !important;
     --control-primary-icon-active: #000000 !important;
-    --button-filled-brand-background: #ff9e64 !important;
-    --button-filled-brand-background-hover: color-mix(in srgb, #ff9e64 92%, #000000) !important;
-    --button-filled-brand-background-active: color-mix(in srgb, #ff9e64 85%, #000000) !important;
+    --button-filled-brand-background: #d07e9a !important;
+    --button-filled-brand-background-hover: color-mix(in srgb, #d07e9a 92%, #000000) !important;
+    --button-filled-brand-background-active: color-mix(in srgb, #d07e9a 85%, #000000) !important;
     --button-filled-brand-text: #000000 !important;
 
     --control-secondary-background-default: #000000 !important;
@@ -204,15 +204,15 @@
     --button-outline-primary-text-active: #c0caf5 !important;
     --button-outline-primary-background-hover: color-mix(in srgb, #c0caf5 8%, transparent) !important;
     --button-outline-primary-background-active: color-mix(in srgb, #c0caf5 10%, transparent) !important;
-    --button-outline-brand-text: #ff9e64 !important;
-    --button-outline-brand-background-hover: color-mix(in srgb, #ff9e64 10%, transparent) !important;
+    --button-outline-brand-text: #d07e9a !important;
+    --button-outline-brand-background-hover: color-mix(in srgb, #d07e9a 10%, transparent) !important;
     --button-transparent-text: #c0caf5 !important;
     --button-transparent-background-hover: color-mix(in srgb, #c0caf5 8%, transparent) !important;
     --button-transparent-background-active: color-mix(in srgb, #c0caf5 10%, transparent) !important;
 
-    --redesign-input-control-selected: #ff9e64 !important;
-    --focus-primary: #ff9e64 !important;
-    --__adaptive-focus-ring-color: #ff9e64 !important;
+    --redesign-input-control-selected: #d07e9a !important;
+    --focus-primary: #d07e9a !important;
+    --__adaptive-focus-ring-color: #d07e9a !important;
 
     /* status — keep Discord semantics, theme only offline */
     --status-online: #23a55a !important;
@@ -245,8 +245,8 @@
     --background-feedback-warning: #000000 !important;
     --notice-background-warning: #000000 !important;
     --notice-text-warning: #c0caf5 !important;
-    --badge-notification-background: #ff9e64 !important;
-    --background-feedback-notification: #ff9e64 !important;
+    --badge-notification-background: #d07e9a !important;
+    --background-feedback-notification: #d07e9a !important;
     --red-400: #f7768e !important;
     --red-430: #f7768e !important;
     --red-500: #f7768e !important;
@@ -280,19 +280,19 @@
 }
 
 ::selection {
-    background: color-mix(in srgb, #ff9e64 35%, transparent);
+    background: color-mix(in srgb, #d07e9a 35%, transparent);
 }
 
 .theme-dark .highlight,
 .theme-light .highlight {
-    background: color-mix(in srgb, #ff9e64 30%, transparent);
+    background: color-mix(in srgb, #d07e9a 30%, transparent);
     color: inherit;
 }
 
 /* unread pills + notification badges → primary */
 .theme-dark span[class*="unreadPill"],
 .theme-light span[class*="unreadPill"] {
-    --interactive-text-active: #ff9e64 !important;
+    --interactive-text-active: #d07e9a !important;
 }
 
 .theme-dark div[class*="numberBadge"],
