@@ -12,7 +12,7 @@ local colors = {
   orange = "#ff9e64",
   gray = "#545c7e",
   gray_dark = "#414868",
-  pink = "#EDACC2",
+  pink = "#EDACC",
 }
 
 vim.g.colors_name = "tokyo-night-oled"
