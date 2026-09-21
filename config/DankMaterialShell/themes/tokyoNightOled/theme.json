@@ -128,6 +128,17 @@
         "name": "pink"
       }
 
+      {
+        "oled": {
+          "primary": "#ffffff"
+        },
+        "oled-light": {
+          "primary": "#ffffff"
+        },
+        "id": "white",
+        "name": "white"
+      },
+
 
     ]
   },
