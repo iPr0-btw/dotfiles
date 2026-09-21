@@ -30,6 +30,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 - to install searXNG, install it with docker, and then see services/searXNG for config details.
 
 ## what it looks like:
+![fastfetch.](./fastfetch.png)
 ![a boring desktop](./desktop.png)
 ![another boring desktop](./desktop1.png)
 ![vibecoding.](./vibecoding.png)
