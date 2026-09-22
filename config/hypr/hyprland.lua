@@ -272,8 +272,8 @@ hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tru
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
 
 -- Hyprshot screenshots
-hl.bind("SUPER + S", hl.dsp.exec_cmd("hyprshot -m region"))
-hl.bind("SUPER + S", hl.dsp.exec_cmd("hyprshot -m region"))
+-- hl.bind("SUPER + S", hl.dsp.exec_cmd("hyprshot -m region"))
+hl.bind("SUPER + S", hl.dsp.exec_cmd(".local/bin/screenshot"))
 
 -- Lock screen
 hl.bind("SUPER + L", hl.dsp.exec_cmd("swaylock -c 000000"))
