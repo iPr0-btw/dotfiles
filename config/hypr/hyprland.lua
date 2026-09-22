@@ -348,9 +348,8 @@ for _, rule in ipairs(workspace_rules) do
     hl.workspace_rule(rule)
 end
 
-================================================================================
+--------------------------------------------------------------------------------
 -- WINDOW AND WORKSPACE RULES
-================================================================================
 
 -- Setup custom window rules
 setup_window_rules(window_rules)
