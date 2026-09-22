@@ -1,0 +1,16 @@
+use_default_settings: true
+server:
+    port: 2222
+    bind_address: "0.0.0.0"
+    secret_key: "your secret key here"
+    limiter: true
+valkey:
+  url: unix:///run/valkey/valkey.sock?password=yourpassword&db=1 # change the password value! 
+checker:
+    scheduling:
+    start_after: [300, 1800]  # delay to start the first run of the checker
+    every: [86400, 90000]     # how often the checker runs
+search:
+  formats:
+   - html
+   - json 
