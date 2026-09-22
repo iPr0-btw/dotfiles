@@ -1,296 +1,81 @@
--- Hyprland Configuration (DRY refactored)
+-- a boring hyprland lua config.
+-- Refer to the wiki for more information.
 -- https://wiki.hypr.land/Configuring/Start/
 
---------------------------------------------------------------------------------
--- HELPER FUNCTIONS
---------------------------------------------------------------------------------
+------------------
+---- MONITORS ----
+------------------
 
---- Create a helper for common bind patterns
-local function bind(mod, key, action, opts)
-	opts = opts or {}
-	hl.bind(mod .. " + " .. key, action, opts)
-end
+-- See https://wiki.hypr.land/Configuring/Basics/Monitors/
+hl.monitor({
+	output = "eDP-1",
+	mode = "2880x1800@120",
+	position = "0x0",
+	scale = 2,
+	bitdepth = 10,
+})
 
---- Helper for application keybinds
-local function app_bind(mod, key, app)
-	bind(mod, key, hl.dsp.exec_cmd(app))
-end
+hl.monitor({
+	output = "eDP-2",
+	mode = "2880x1800@120",
+	position = "0x0",
+	scale = 2,
+	bitdepth = 10,
+	cm = "hdredid",
+})
 
---- Helper for window management binds
-local function window_bind(mod, key, action)
-	bind(mod, key, hl.dsp.window[action.func](action.opts or {}))
-end
+hl.monitor({
+	output = "HDMI-A-1",
+	mode = "1920x1080",
+	position = "0x-1080",
+	scale = 1,
+})
 
---- Helper for focus navigation
-local function focus_bind(mod, key, direction)
-	bind(mod, key, hl.dsp.focus({ direction = direction }))
-end
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 
---- Helper for window movement
-local function move_bind(mod, key, direction)
-	bind(mod, key, hl.dsp.window.move({ direction = direction }))
-end
+---------------------
+---- MY PROGRAMS ----
+---------------------
 
---- Helper for workspace navigation
-local function workspace_bind(mod, key, workspace)
-	bind(mod, key, hl.dsp.focus({ workspace = workspace }))
-end
+local terminal = "kitty -o linux_display_server=wayland"
+local fileManager = "thunar"
+local menu = "caelestia shell drawers toggle launcher || rofi -show drun"
+-------------------
+---- AUTOSTART ----
+-------------------
 
---- Helper for workspace movement
-local function workspace_move_bind(mod, key, workspace)
-	bind(mod, key, hl.dsp.window.move({ workspace = workspace }))
-end
-
---- Helper to assign windows to workspaces
-local function assign_to_workspace(class, workspace, silent)
-	silent = silent ~= false -- default to true
-	hl.window_rule({
-		name = class .. " → workspace " .. workspace,
-		match = { class = "^(" .. class .. ")$" },
-		workspace = tostring(workspace) .. (silent and " silent" or ""),
-	})
-end
-
---- Helper to create env variables from table
-local function set_env_vars(vars)
-	for key, value in pairs(vars) do
-		hl.env(key, value)
-	end
-end
-
---- Helper to setup monitors from table
-local function setup_monitors(monitors_table)
-	for _, monitor in ipairs(monitors_table) do
-		hl.monitor(monitor)
-	end
-end
-
---- Helper to create animation curves
-local function create_curves(curves_table)
-	for name, curve_data in pairs(curves_table) do
-		hl.curve(name, curve_data)
-	end
-end
-
---- Helper to setup animations from table
-local function setup_animations(animations_table)
-	for _, anim in ipairs(animations_table) do
-		anim.enabled = true
-		hl.animation(anim)
-	end
-end
-
---- Helper to setup window rules in batch
-local function setup_window_rules(rules_table)
-	for _, rule in ipairs(rules_table) do
-		hl.window_rule(rule)
-	end
-end
-
---------------------------------------------------------------------------------
--- CONFIGURATION DATA
---------------------------------------------------------------------------------
-
---- Monitor configuration
-local monitors = {
-	{
-		output = "eDP-1",
-		mode = "2880x1800@120",
-		position = "0x0",
-		scale = 2,
-		bitdepth = 10,
-	},
-	{
-		output = "eDP-2",
-		mode = "2880x1800@120",
-		position = "0x0",
-		scale = 2,
-		bitdepth = 10,
-		cm = "hdredid",
-	},
-	{
-		output = "HDMI-A-1",
-		mode = "1920x1080",
-		position = "0x-1080",
-		scale = 1,
-	},
-}
-
---- Programs
-local apps = {
-	terminal = "kitty -o linux_display_server=wayland",
-	fileManager = "thunar",
-	menu = "caelestia shell drawers toggle launcher || rofi -show drun",
-	browser = "librewolf",
-	screenshot = ".local/bin/screenshot",
-}
-
---- Environment variables
-local env_vars = {
-	XDG_CURRENT_DESKTOP = "Hyprland",
-	XCURSOR_SIZE = "48",
-	HYPRCURSOR_SIZE = "48",
-	QT_QPA_PLATFORM = "wayland",
-}
-
---- Bezier curves for animations
-local curves = {
-	easeOutQuint = { type = "bezier", points = { { 0.23, 1 }, { 0.32, 1 } } },
-	easeInOutCubic = { type = "bezier", points = { { 0.65, 0.05 }, { 0.36, 1 } } },
-	linear = { type = "bezier", points = { { 0, 0 }, { 1, 1 } } },
-	almostLinear = { type = "bezier", points = { { 0.5, 0.5 }, { 0.75, 1 } } },
-	quick = { type = "bezier", points = { { 0.15, 0 }, { 0.1, 1 } } },
-}
-
---- Animation configurations
-local animations = {
-	{ leaf = "global", speed = 10, bezier = "default" },
-	{ leaf = "border", speed = 5.39, bezier = "easeOutQuint" },
-	{ leaf = "windows", speed = 4.79, bezier = "easeOutQuint" },
-	{ leaf = "windowsIn", speed = 4.1, bezier = "easeOutQuint", style = "popin 87%" },
-	{ leaf = "windowsOut", speed = 1.49, bezier = "linear", style = "popin 87%" },
-	{ leaf = "fadeIn", speed = 1.73, bezier = "almostLinear" },
-	{ leaf = "fadeOut", speed = 1.46, bezier = "almostLinear" },
-	{ leaf = "fade", speed = 3.03, bezier = "quick" },
-	{ leaf = "layers", speed = 3.81, bezier = "easeOutQuint" },
-	{ leaf = "layersIn", speed = 4, bezier = "easeOutQuint", style = "fade" },
-	{ leaf = "layersOut", speed = 1.5, bezier = "linear", style = "fade" },
-	{ leaf = "fadeLayersIn", speed = 1.79, bezier = "almostLinear" },
-	{ leaf = "fadeLayersOut", speed = 1.39, bezier = "almostLinear" },
-	{ leaf = "workspaces", speed = 1.94, bezier = "almostLinear", style = "fade" },
-	{ leaf = "workspacesIn", speed = 1.21, bezier = "almostLinear", style = "fade" },
-	{ leaf = "workspacesOut", speed = 1.94, bezier = "almostLinear", style = "fade" },
-}
-
---- Workspace layout rules
-local workspace_rules = {
-	{ workspace = 5, layout = "scrolling", layout_opts = { direction = "down" } },
-	{ workspace = 2, layout = "scrolling" },
-	{ workspace = 3, layout = "master" },
-	{ workspace = "special:magic", layout = "master" },
-}
-
---- Application to workspace assignments
-local app_assignments = {
-	{ class = "osu!", workspace = 2 },
-	{ class = "librewolf", workspace = 1, silent = false },
-	{ class = "steam", workspace = 4 },
-	{ class = "kitty", workspace = 3, silent = false },
-}
-
---- Custom window rules
-local window_rules = {
-	{
-		name = "suppress-maximize-events",
-		match = { class = ".*" },
-		suppress_event = "maximize",
-	},
-	{
-		name = "fix-xwayland-drags",
-		match = {
-			class = "^$",
-			title = "^$",
-			xwayland = true,
-			float = true,
-			fullscreen = false,
-			pin = false,
-		},
-		no_focus = true,
-	},
-}
-
---- Keybind configurations
-local keybinds = {
-	-- App launches
-	apps = {
-		{ mod = "ALT", key = "Q", app = "terminal" },
-		{ mod = "ALT", key = "B", app = "browser" },
-		{ mod = "ALT", key = "E", app = "fileManager" },
-		{ mod = "ALT", key = "SPACE", app = "menu" },
-	},
-	-- Window management
-	windows = {
-		{ mod = "ALT", key = "C", action = "close" },
-		{ mod = "ALT", key = "V", action = "float", opts = { action = "toggle" } },
-		{ mod = "ALT", key = "P", action = "pseudo" },
-		{ mod = "ALT", key = "F", action = "fullscreen", opts = { all = true } },
-	},
-	-- System controls
-	system = {
-		{ mod = "ALT", key = "SHIFT + M", action = "exit" },
-		{ mod = "CTRL + ALT", key = "DELETE", cmd = "wlogout" },
-		{ mod = "CTRL + ALT", key = "SHIFT + DELETE", cmd = "reboot" },
-		{ mod = "SUPER", key = "S", cmd = apps.screenshot },
-		{ mod = "SUPER", key = "L", cmd = "swaylock -c 000000" },
-	},
-	-- Window switching
-	switching = {
-		{ mod = "ALT", key = "TAB", cmd = "snappy-switcher next" },
-		{ mod = "ALT", key = "SHIFT + TAB", cmd = "snappy-switcher prev" },
-	},
-	-- Media controls
-	media = {
-		{
-			key = "XF86AudioRaiseVolume",
-			cmd = "wpctl set-volume @DEFAULT_AUDIO_SINK@ 4%+",
-			opts = { locked = true, repeating = true },
-		},
-		{
-			key = "XF86AudioLowerVolume",
-			cmd = "wpctl set-volume @DEFAULT_AUDIO_SINK@ 4%-",
-			opts = { locked = true, repeating = true },
-		},
-		{ key = "XF86AudioMute", cmd = "wpctl set-mute @DEFAULT_SINK@ toggle", opts = { locked = true } },
-		{ key = "XF86AudioMicMute", cmd = "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle", opts = { locked = true } },
-		{ key = "XF86MonBrightnessUp", cmd = "brightnessctl s 10%+", opts = { locked = true, repeating = true } },
-		{ key = "XF86MonBrightnessDown", cmd = "brightnessctl s 10%-", opts = { locked = true, repeating = true } },
-		{ key = "XF86AudioNext", cmd = "playerctl next", opts = { locked = true } },
-		{ key = "XF86AudioPlay", cmd = "playerctl play-pause", opts = { locked = true } },
-		{ key = "XF86AudioPause", cmd = "playerctl play-pause", opts = { locked = true } },
-		{ key = "XF86AudioPrev", cmd = "playerctl previous", opts = { locked = true } },
-	},
-}
-
---- Direction keys mapping
-local directions = { "left", "right", "up", "down" }
-
---------------------------------------------------------------------------------
--- SETUP
---------------------------------------------------------------------------------
-
--- Monitors
-setup_monitors(monitors)
-
--- Environment variables
-set_env_vars(env_vars)
-
--- Autostart
 hl.on("hyprland.start", function()
 	hl.exec_cmd("swaybg -i ~/wall0.png")
 	hl.exec_cmd("dms run || caelestia shell -d")
 	hl.exec_cmd("xrdb -merge ~/.Xresources")
+	-- hl.exec_cmd("hypridle")
 end)
 
---------------------------------------------------------------------------------
--- LOOK AND FEEL
---------------------------------------------------------------------------------
+-------------------------------
+---- ENVIRONMENT VARIABLES ----
+-------------------------------
 
--- Create animation curves
-create_curves(curves)
+hl.env("XCURSOR_SIZE", "48")
+hl.env("HYPRCURSOR_SIZE", "48")
+-- hl.env("DRI_PRIME", "0") -- for dual GPU laptops
+hl.env("QT_QPA_PLATFORM", "wayland")
 
--- Setup animations
-setup_animations(animations)
+-----------------------
+---- LOOK AND FEEL ----
+-----------------------
 
--- Main config
 hl.config({
 	general = {
 		gaps_in = 0,
 		gaps_out = 0,
+
 		border_size = 0,
+
 		col = {
 			active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)" }, angle = 45 },
 			inactive_border = "rgba(595959aa)",
 		},
+
 		resize_on_border = true,
 		allow_tearing = false,
 		layout = "dwindle",
@@ -298,14 +83,17 @@ hl.config({
 
 	decoration = {
 		rounding = 0,
+
 		active_opacity = 1.0,
 		inactive_opacity = 1.0,
+
 		shadow = {
 			enabled = true,
 			range = 4,
 			render_power = 3,
 			color = 0xee1a1a1a,
 		},
+
 		blur = {
 			enabled = true,
 			size = 3,
@@ -317,7 +105,43 @@ hl.config({
 	animations = {
 		enabled = true,
 	},
+})
 
+-- Bezier curves
+hl.curve("easeOutQuint", { type = "bezier", points = { { 0.23, 1 }, { 0.32, 1 } } })
+hl.curve("easeInOutCubic", { type = "bezier", points = { { 0.65, 0.05 }, { 0.36, 1 } } })
+hl.curve("linear", { type = "bezier", points = { { 0, 0 }, { 1, 1 } } })
+hl.curve("almostLinear", { type = "bezier", points = { { 0.5, 0.5 }, { 0.75, 1 } } })
+hl.curve("quick", { type = "bezier", points = { { 0.15, 0 }, { 0.1, 1 } } })
+
+-- Animations
+hl.animation({ leaf = "global", enabled = true, speed = 10, bezier = "default" })
+hl.animation({ leaf = "border", enabled = true, speed = 5.39, bezier = "easeOutQuint" })
+hl.animation({ leaf = "windows", enabled = true, speed = 4.79, bezier = "easeOutQuint" })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 4.1, bezier = "easeOutQuint", style = "popin 87%" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 1.49, bezier = "linear", style = "popin 87%" })
+hl.animation({ leaf = "fadeIn", enabled = true, speed = 1.73, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeOut", enabled = true, speed = 1.46, bezier = "almostLinear" })
+hl.animation({ leaf = "fade", enabled = true, speed = 3.03, bezier = "quick" })
+hl.animation({ leaf = "layers", enabled = true, speed = 3.81, bezier = "easeOutQuint" })
+hl.animation({ leaf = "layersIn", enabled = true, speed = 4, bezier = "easeOutQuint", style = "fade" })
+hl.animation({ leaf = "layersOut", enabled = true, speed = 1.5, bezier = "linear", style = "fade" })
+hl.animation({ leaf = "fadeLayersIn", enabled = true, speed = 1.79, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeLayersOut", enabled = true, speed = 1.39, bezier = "almostLinear" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesIn", enabled = true, speed = 1.21, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesOut", enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
+
+-- Workspace rules
+hl.workspace_rule({ workspace = 5, layout = "scrolling", layout_opts = { direction = "down" } })
+hl.workspace_rule({ workspace = 2, layout = "scrolling" })
+hl.workspace_rule({ workspace = "special:magic", layout = "master" })
+hl.workspace_rule({ workspace = 3, layout = "master" })
+hl.workspace_rule({ workspace = 2, layout = "lua:grid" })
+--require("switch")
+
+-- Layout configuration
+hl.config({
 	dwindle = {
 		preserve_split = true,
 	},
@@ -325,113 +149,200 @@ hl.config({
 	master = {
 		new_status = "master",
 	},
+})
 
+----------------
+----  MISC  ----
+----------------
+
+hl.config({
 	misc = {
 		force_default_wallpaper = 1,
 		disable_hyprland_logo = false,
 		vrr = 1,
 	},
+})
 
+---------------
+---- INPUT ----
+---------------
+
+hl.config({
 	input = {
 		kb_layout = "us",
 		kb_variant = "",
 		kb_model = "",
 		kb_options = "",
 		kb_rules = "",
+
 		follow_mouse = 1,
 		sensitivity = 0,
+
 		touchpad = {
 			natural_scroll = true,
 		},
 	},
+})
 
+-- Per-device config
+
+---------------------
+---- KEYBINDINGS ----
+---------------------
+
+local mainMod = "ALT" -- Sets "Alt" key as main modifier
+
+-- Application launches
+hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("librewolf"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
+hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
+
+-- Window management
+hl.bind(mainMod .. " + C", hl.dsp.window.close())
+-- hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("kill -9 $(hyprctl activewindow -j | jq -r '.pid')"))
+hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
+-- hl.bind(mainMod .. " + ENTER", hl.dsp.window.fullscreen({ all = false }))
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ all = true }))
+
+-- System
+hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exit())
+hl.bind("CTRL + " .. mainMod .. " + DELETE", hl.dsp.exec_cmd("wlogout"))
+hl.bind("CTRL + " .. mainMod .. " + SHIFT + DELETE", hl.dsp.exec_cmd("reboot"))
+
+-- Window switching
+hl.bind(mainMod .. " + TAB", hl.dsp.exec_cmd("snappy-switcher next"))
+hl.bind(mainMod .. " + SHIFT + TAB", hl.dsp.exec_cmd("snappy-switcher prev"))
+
+-- Focus navigation
+hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
+hl.bind(mainMod .. " + up", hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + down", hl.dsp.focus({ direction = "down" }))
+
+-- Move window
+hl.bind(mainMod .. " + SHIFT + left", hl.dsp.window.move({ direction = "left" }))
+hl.bind(mainMod .. " + SHIFT + right", hl.dsp.window.move({ direction = "right" }))
+hl.bind(mainMod .. " + SHIFT + up", hl.dsp.window.move({ direction = "up" }))
+hl.bind(mainMod .. " + SHIFT + down", hl.dsp.window.move({ direction = "down" }))
+
+-- Workspace switching (1-9)
+for i = 1, 9 do
+	hl.bind(mainMod .. " + " .. i, hl.dsp.focus({ workspace = i }))
+	hl.bind(mainMod .. " + SHIFT + " .. i, hl.dsp.window.move({ workspace = i }))
+end
+
+-- Workspace 10 (0 key)
+hl.bind(mainMod .. " + 0", hl.dsp.focus({ workspace = 10 }))
+hl.bind(mainMod .. " + SHIFT + 0", hl.dsp.window.move({ workspace = 10 }))
+
+-- Special workspace (scratchpad)
+hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("magic"))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
+
+-- Scroll through workspaces
+hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
+hl.bind(mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "e-1" }))
+
+-- Move/resize with mouse
+hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
+hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+-- Multimedia keys
+hl.bind(
+	"XF86AudioRaiseVolume",
+	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 4%+"),
+	{ locked = true, repeating = true }
+)
+hl.bind(
+	"XF86AudioLowerVolume",
+	hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_SINK@ 4%-"),
+	{ locked = true, repeating = true }
+)
+hl.bind("XF86AudioMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_SINK@ toggle"), { locked = true })
+hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"), { locked = true })
+hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl s 10%+"), { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl s 10%-"), { locked = true, repeating = true })
+
+-- Player controls
+hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
+hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+
+-- Hyprshot screenshots
+-- hl.bind("SUPER + S", hl.dsp.exec_cmd("hyprshot -m region"))
+hl.bind("SUPER + S", hl.dsp.exec_cmd(".local/bin/screenshot"))
+
+-- Lock screen
+hl.bind("SUPER + L", hl.dsp.exec_cmd("swaylock -c 000000"))
+-- hl.bind("SUPER + L", hl.dsp.exec_cmd("dms ipc lock lock"))
+
+--------------------------------
+---- WINDOWS AND WORKSPACES ----
+--------------------------------
+
+-- Suppress maximize events
+hl.window_rule({
+	name = "suppress-maximize-events",
+	match = { class = ".*" },
+	suppress_event = "maximize",
+})
+
+-- Fix XWayland dragging issues
+hl.window_rule({
+	name = "fix-xwayland-drags",
+	match = {
+		class = "^$",
+		title = "^$",
+		xwayland = true,
+		float = true,
+		fullscreen = false,
+		pin = false,
+	},
+	no_focus = true,
+})
+
+hl.window_rule({
+	name = "osu on workspace 2",
+	match = { class = "^(osu!)$" },
+	workspace = "2 silent",
+})
+
+hl.window_rule({
+	name = "librewolf on workspace 1",
+	match = { class = "^(librewolf)$" },
+	workspace = "1",
+})
+
+hl.window_rule({
+	name = "steam on workspace 4",
+	match = { class = "^(steam)$" },
+	workspace = "4 silent",
+})
+
+hl.window_rule({
+	name = "kitty on workspace 3",
+	match = { class = "^(kitty)$" },
+	workspace = "3",
+})
+-----------------------
+----- XWAYLAND -----
+-----------------------
+
+hl.config({
 	xwayland = {
 		force_zero_scaling = true,
 	},
 })
 
--- Workspace rules
-for _, rule in ipairs(workspace_rules) do
-	hl.workspace_rule(rule)
-end
+-------------------
+----- DPI -----
+-------------------
 
---------------------------------------------------------------------------------
--- WINDOW AND WORKSPACE RULES
---------------------------------------------------------------------------------
+-- DPI setting (note: this may need to be set via monitor config or display settings)
+-- hl.config({ misc = { dpi = 207 } })
 
--- Setup custom window rules
-setup_window_rules(window_rules)
-
--- Assign applications to workspaces
-for _, assignment in ipairs(app_assignments) do
-	assign_to_workspace(assignment.class, assignment.workspace, assignment.silent)
-end
-
--- KEYBINDINGS
-
-local mainMod = "ALT"
-
--- Application launches
-for _, keybind in ipairs(keybinds.apps) do
-	app_bind(keybind.mod, keybind.key, apps[keybind.app])
-end
-
--- Window management
-for _, keybind in ipairs(keybinds.windows) do
-	local action = keybind.action
-	if action == "close" then
-		bind(keybind.mod, keybind.key, hl.dsp.window.close())
-	elseif action == "float" then
-		bind(keybind.mod, keybind.key, hl.dsp.window.float(keybind.opts))
-	elseif action == "pseudo" then
-		bind(keybind.mod, keybind.key, hl.dsp.window.pseudo())
-	elseif action == "fullscreen" then
-		bind(keybind.mod, keybind.key, hl.dsp.window.fullscreen(keybind.opts))
-	end
-end
-
--- System controls
-for _, keybind in ipairs(keybinds.system) do
-	if keybind.action == "exit" then
-		bind(keybind.mod, keybind.key, hl.dsp.exit())
-	else
-		bind(keybind.mod, keybind.key, hl.dsp.exec_cmd(keybind.cmd), keybind.opts)
-	end
-end
-
--- Window switching
-for _, keybind in ipairs(keybinds.switching) do
-	bind(keybind.mod, keybind.key, hl.dsp.exec_cmd(keybind.cmd))
-end
-
--- Focus navigation (all directions)
-for _, direction in ipairs(directions) do
-	focus_bind(mainMod, direction, direction)
-end
-
--- Move windows (all directions)
-for _, direction in ipairs(directions) do
-	move_bind(mainMod, "SHIFT + " .. direction, direction)
-end
-
--- Workspace switching (1-9)
-for i = 1, 9 do
-	workspace_bind(mainMod, tostring(i), i)
-	workspace_move_bind(mainMod, "SHIFT + " .. i, i)
-end
-
--- Workspace 10 (0 key)
-workspace_bind(mainMod, "0", 10)
-workspace_move_bind(mainMod, "SHIFT + 0", 10)
-
--- Special workspace (scratchpad)
-bind(mainMod, "S", hl.dsp.workspace.toggle_special("magic"))
-bind(mainMod, "SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
-
--- Scroll through workspaces
-bind(mainMod, "mouse_down", hl.dsp.focus({ workspace = "e+1" }), { mouse = true })
-bind(mainMod, "mouse_up", hl.dsp.focus({ workspace = "e-1" }), { mouse = true })
-
--- Move/resize with mouse
-bind(mainMod, "mouse:272", hl.dsp.window.drag(), { mouse = true })
-bind(mainMod, "mouse:273", hl.dsp.window.resize(), { mouse = true })
+-- HyprMod managed settings
+require("hyprland-gui")
