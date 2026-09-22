@@ -1,5 +1,5 @@
 [Unit]
-Description=Auto-push dotfiles to GitHub
+Description=Auto-push dotfiles to GitHub dev branch
 
 [Service]
 Type=oneshot
