@@ -2,6 +2,8 @@
 
 This is my personal config for my arch + hyprland setup.
 
+yo
+
 ## features
 
 started running a search engine locally with searXNG.
