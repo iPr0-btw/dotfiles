@@ -350,6 +350,7 @@ end
 
 --------------------------------------------------------------------------------
 -- WINDOW AND WORKSPACE RULES
+--------------------------------------------------------------------------------
 
 -- Setup custom window rules
 setup_window_rules(window_rules)
@@ -359,7 +360,6 @@ for _, assignment in ipairs(app_assignments) do
     assign_to_workspace(assignment.class, assignment.workspace, assignment.silent)
 end
 
-================================================================================
 -- KEYBINDINGS
 ================================================================================
 
