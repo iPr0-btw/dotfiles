@@ -361,7 +361,6 @@ for _, assignment in ipairs(app_assignments) do
 end
 
 -- KEYBINDINGS
-================================================================================
 
 local mainMod = "ALT"
 
@@ -428,4 +427,4 @@ bind(mainMod, "mouse_up", hl.dsp.focus({ workspace = "e-1" }), { mouse = true })
 
 -- Move/resize with mouse
 bind(mainMod, "mouse:272", hl.dsp.window.drag(), { mouse = true })
-bind(mainMod, "mouse:273", hl.dsp.window.resize(), { mouse =
+bind(mainMod, "mouse:273", hl.dsp.window.resize(), { mouse = true})
