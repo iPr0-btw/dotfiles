@@ -73,6 +73,7 @@
     },
     "services": {
         "audioIncrement": 0.04,
+        "defaultPlayer": "Mozilla librewolf",
         "gpuType": "Auto",
         "useFahrenheit": false,
         "useTwelveHourClock": false
