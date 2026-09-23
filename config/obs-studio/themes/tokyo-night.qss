@@ -9,3 +9,26 @@ OBSTheme {
     border-color: #292e42;
 }
 
+QMainWindow {
+    background-color: #000000;
+    color: #c0caf5;
+}
+
+QPushButton {
+    background-color: #292e42;
+    color: #c0caf5;
+    border: 1px solid #414868;
+    padding: 4px;
+}
+
+QPushButton:hover {
+    background-color: #7aa2f7;
+    color: #16161e;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #15161e;
+    color: #c0caf5;
+    border: 1px solid #414868;
+}
+
