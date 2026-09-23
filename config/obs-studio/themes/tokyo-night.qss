@@ -1,3 +1,4 @@
+/* Tokyo Night OLED Theme for OBS */
 OBSTheme {
     window-color: #000000;
     window-text-color: #c0caf5;
@@ -31,4 +32,3 @@ QLineEdit, QTextEdit {
     color: #c0caf5;
     border: 1px solid #414868;
 }
-
