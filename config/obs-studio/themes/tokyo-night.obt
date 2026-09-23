@@ -45,6 +45,36 @@
     --grey4: #545c7e;
     --grey5: #7aa2f7;
     --grey6: #c0caf5;
+    
+    /* OBS Base Variables */
+    --obsFontScale: 1.0;
+    --obsPadding: 0px;
+    
+    /* Button & UI Elements */
+    --button_bg: var(--grey2);
+    --button_bg_hover: var(--primary);
+    --button_bg_disabled: var(--grey3);
+    --button_border_hover: var(--primary_light);
+    
+    /* Border & Text */
+    --border_color: var(--border-light);
+    --text: var(--fg);
+    --text_muted: var(--grey4);
+    
+    /* Padding */
+    --padding_base: 0px;
+    
+    /* Tab Styling */
+    --tab_bg: var(--button_bg_disabled);
+    --tab_bg_hover: var(--button_bg_hover);
+    --tab_bg_down: var(--primary);
+    --tab_bg_disabled: var(--button_bg_disabled);
+    --tab_border: var(--border_color);
+    --tab_border_hover: var(--button_border_hover);
+    --tab_border_focus: var(--primary_lighter);
+    --tab_border_selected: var(--primary);
+    --tab_padding_base: calc(5px + var(--padding_base));
+    --tab_padding_large: calc(9px + var(--padding_base));
 }
 
 /* Main Window */
@@ -113,15 +143,21 @@ QDoubleSpinBox {
 
 /* Tabs */
 QTabBar::tab {
-    background-color: var(--grey2);
-    color: var(--grey4);
-    padding: 6px 12px;
-    border: none;
+    background-color: var(--tab_bg);
+    color: var(--text_muted);
+    padding: var(--tab_padding_base) var(--tab_padding_large);
+    border: 1px solid var(--tab_border);
+}
+
+QTabBar::tab:hover {
+    background-color: var(--tab_bg_hover);
+    border-color: var(--tab_border_hover);
 }
 
 QTabBar::tab:selected {
-    background-color: var(--primary);
+    background-color: var(--tab_bg_down);
     color: var(--grey1);
+    border-color: var(--tab_border_selected);
 }
 
 /* Menus */
@@ -323,3 +359,4 @@ QGroupBox::title {
     left: 8px;
     padding: 0 3px 0 3px;
 }
+
