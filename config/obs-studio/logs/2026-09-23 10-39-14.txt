@@ -138,3 +138,13 @@
 10:39:18.483: v4l2-input: /dev/video0: failed to log status
 10:39:18.770: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
 10:39:18.770: 
+10:40:04.313: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:40:04.314: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+10:40:04.314: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:40:24.604: pulse-input: Stopped recording from 'default'
+10:40:24.604: pulse-input: Got 2654 packets with 3184800 frames
+10:40:24.604: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+10:40:24.605: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+10:40:24.605: pulse-input: Started recording from 'bluez_input.7C:C0:6F:8C:A5:03' (default)
+10:40:24.605: Settings changed (audio)
+10:40:24.605: ------------------------------------------------
