@@ -210,3 +210,7 @@
 10:32:13.784: [pipewire]     Size: 2880x1800
 10:32:13.784: [pipewire]     Framerate: 0/1
 10:32:13.785: [pipewire] Stream 0x55be9f56c900 state: "streaming" (error: none)
+10:33:08.344: User switched to scene 'Scene'
+10:33:08.473: [pipewire] Stream 0x55be9f56c900 state: "paused" (error: none)
+10:33:08.796: User switched to scene 'Scene 2'
+10:33:08.806: [pipewire] Stream 0x55be9f56c900 state: "streaming" (error: none)
