@@ -25,30 +25,30 @@
     --bg-base-secondary: #000000 !important;
     --custom-channel-members-bg: #000000 !important;
 
-    --background-base-lowest: #000000 !important;
-    --app-frame-background: #000000 !important;
-    --background-tertiary: #000000 !important;
-    --background-secondary-alt: #000000 !important;
-    --bg-base-tertiary: #000000 !important;
-    --__header-bar-background: #000000 !important;
+    --background-base-lowest: #0a0a0a !important;
+    --app-frame-background: #0a0a0a !important;
+    --background-tertiary: #0a0a0a !important;
+    --background-secondary-alt: #0a0a0a !important;
+    --bg-base-tertiary: #0a0a0a !important;
+    --__header-bar-background: #0a0a0a !important;
 
-    --background-surface-high: #000000 !important;
-    --bg-surface-raised: #000000 !important;
-    --card-primary-bg: #000000 !important;
-    --activity-card-background: #000000 !important;
+    --background-surface-high: #1a1a2e !important;
+    --bg-surface-raised: #1a1a2e !important;
+    --card-primary-bg: #1a1a2e !important;
+    --activity-card-background: #1a1a2e !important;
 
-    --background-surface-higher: #000000 !important;
-    --bg-surface-overlay: #000000 !important;
-    --background-floating: #000000 !important;
-    --background-nested-floating: #000000 !important;
-    --autocomplete-bg: #000000 !important;
+    --background-surface-higher: #1a1a2e !important;
+    --bg-surface-overlay: #1a1a2e !important;
+    --background-floating: #1a1a2e !important;
+    --background-nested-floating: #1a1a2e !important;
+    --autocomplete-bg: #1a1a2e !important;
 
-    --background-surface-highest: #000000 !important;
-    --modal-background: #000000 !important;
-    --modal-footer-background: #000000 !important;
-    --background-accent: #000000 !important;
-    --card-secondary-bg: #000000 !important;
-    --user-profile-overlay-background: #000000 !important;
+    --background-surface-highest: #1a1a2e !important;
+    --modal-background: #1a1a2e !important;
+    --modal-footer-background: #1a1a2e !important;
+    --background-accent: #1a1a2e !important;
+    --card-secondary-bg: #1a1a2e !important;
+    --user-profile-overlay-background: #1a1a2e !important;
 
     --chat-border: color-mix(in srgb, #0a0a0a 50%, transparent) !important;
 
@@ -90,10 +90,10 @@
     --channel-text-area-placeholder: #414868 !important;
     --input-placeholder-text-default: #414868 !important;
 
-    --text-link: #ffffff !important;
-    --text-brand: #ffffff !important;
-    --control-brand-foreground: #ffffff !important;
-    --control-brand-foreground-new: #ffffff !important;
+    --text-link: #7aa2f7 !important;
+    --text-brand: #7aa2f7 !important;
+    --control-brand-foreground: #7aa2f7 !important;
+    --control-brand-foreground-new: #7aa2f7 !important;
     --badge-text-brand: #000000 !important;
 
     --text-danger: #f7768e !important;
@@ -114,10 +114,10 @@
     --background-mod-normal: color-mix(in srgb, #c0caf5 10%, transparent) !important;
     --interactive-background-active: color-mix(in srgb, #c0caf5 10%, transparent) !important;
 
-    --background-modifier-selected: color-mix(in srgb, #ffffff 14%, transparent) !important;
-    --background-mod-strong: color-mix(in srgb, #ffffff 14%, transparent) !important;
-    --bg-mod-strong: color-mix(in srgb, #ffffff 14%, transparent) !important;
-    --interactive-background-selected: color-mix(in srgb, #ffffff 14%, transparent) !important;
+    --background-modifier-selected: color-mix(in srgb, #7aa2f7 14%, transparent) !important;
+    --background-mod-strong: color-mix(in srgb, #7aa2f7 14%, transparent) !important;
+    --bg-mod-strong: color-mix(in srgb, #7aa2f7 14%, transparent) !important;
+    --interactive-background-selected: color-mix(in srgb, #7aa2f7 14%, transparent) !important;
 
     --background-modifier-accent: color-mix(in srgb, #c0caf5 6%, transparent) !important;
     --background-message-hover: color-mix(in srgb, #c0caf5 4%, transparent) !important;
@@ -128,66 +128,66 @@
     --message-highlight-background-default: color-mix(in srgb, #bb9af7 10%, transparent) !important;
     --message-highlight-background-hover: color-mix(in srgb, #bb9af7 14%, transparent) !important;
 
-    --background-mentioned: color-mix(in srgb, #ffffff 10%, transparent) !important;
-    --background-mentioned-hover: color-mix(in srgb, #ffffff 14%, transparent) !important;
-    --message-mentioned-background-default: color-mix(in srgb, #ffffff 10%, transparent) !important;
-    --message-mentioned-background-hover: color-mix(in srgb, #ffffff 14%, transparent) !important;
-    --mention-background: color-mix(in srgb, #ffffff 15%, transparent) !important;
-    --mention-foreground: #ffffff !important;
+    --background-mentioned: color-mix(in srgb, #7aa2f7 10%, transparent) !important;
+    --background-mentioned-hover: color-mix(in srgb, #7aa2f7 14%, transparent) !important;
+    --message-mentioned-background-default: color-mix(in srgb, #7aa2f7 10%, transparent) !important;
+    --message-mentioned-background-hover: color-mix(in srgb, #7aa2f7 14%, transparent) !important;
+    --mention-background: color-mix(in srgb, #7aa2f7 15%, transparent) !important;
+    --mention-foreground: #7aa2f7 !important;
 
-    --message-reacted-background-default: color-mix(in srgb, #ffffff 15%, transparent) !important;
+    --message-reacted-background-default: color-mix(in srgb, #7aa2f7 15%, transparent) !important;
     --message-reacted-text-default: #c0caf5 !important;
 
     /* brand ramp — absolute lightness steps, mode-safe */
-    --brand-100: color-mix(in srgb, #ffffff 12%, #ffffff) !important;
-    --brand-200: color-mix(in srgb, #ffffff 25%, #ffffff) !important;
-    --brand-260: color-mix(in srgb, #ffffff 33%, #ffffff) !important;
-    --brand-300: color-mix(in srgb, #ffffff 40%, #ffffff) !important;
-    --brand-360: color-mix(in srgb, #ffffff 55%, #ffffff) !important;
-    --brand-400: color-mix(in srgb, #ffffff 70%, #ffffff) !important;
-    --brand-500: #ffffff !important;
-    --brand-560: color-mix(in srgb, #ffffff 90%, #000000) !important;
-    --brand-600: color-mix(in srgb, #ffffff 85%, #000000) !important;
-    --brand-700: color-mix(in srgb, #ffffff 70%, #000000) !important;
-    --brand-800: color-mix(in srgb, #ffffff 55%, #000000) !important;
-    --brand-900: color-mix(in srgb, #ffffff 40%, #000000) !important;
-    --brand-experiment: #ffffff !important;
-    --brand-experiment-360: #ffffff !important;
-    --brand-experiment-500: #ffffff !important;
-    --blurple-50: #ffffff !important;
-    --blue-500: #ffffff !important;
+    --brand-100: color-mix(in srgb, #7aa2f7 12%, #ffffff) !important;
+    --brand-200: color-mix(in srgb, #7aa2f7 25%, #ffffff) !important;
+    --brand-260: color-mix(in srgb, #7aa2f7 33%, #ffffff) !important;
+    --brand-300: color-mix(in srgb, #7aa2f7 40%, #ffffff) !important;
+    --brand-360: color-mix(in srgb, #7aa2f7 55%, #ffffff) !important;
+    --brand-400: color-mix(in srgb, #7aa2f7 70%, #ffffff) !important;
+    --brand-500: #7aa2f7 !important;
+    --brand-560: color-mix(in srgb, #7aa2f7 90%, #000000) !important;
+    --brand-600: color-mix(in srgb, #7aa2f7 85%, #000000) !important;
+    --brand-700: color-mix(in srgb, #7aa2f7 70%, #000000) !important;
+    --brand-800: color-mix(in srgb, #7aa2f7 55%, #000000) !important;
+    --brand-900: color-mix(in srgb, #7aa2f7 40%, #000000) !important;
+    --brand-experiment: #7aa2f7 !important;
+    --brand-experiment-360: #7aa2f7 !important;
+    --brand-experiment-500: #7aa2f7 !important;
+    --blurple-50: #7aa2f7 !important;
+    --blue-500: #7aa2f7 !important;
 
     /* buttons and controls — on-color state layers */
-    --bg-brand: #ffffff !important;
-    --background-brand: #ffffff !important;
-    --control-primary-background-default: #ffffff !important;
-    --control-primary-background-hover: color-mix(in srgb, #ffffff 92%, #000000) !important;
-    --control-primary-background-active: color-mix(in srgb, #ffffff 85%, #000000) !important;
+    --bg-brand: #7aa2f7 !important;
+    --background-brand: #7aa2f7 !important;
+    --control-primary-background-default: #7aa2f7 !important;
+    --control-primary-background-hover: color-mix(in srgb, #7aa2f7 92%, #000000) !important;
+    --control-primary-background-active: color-mix(in srgb, #7aa2f7 85%, #000000) !important;
     --control-primary-text-default: #000000 !important;
     --control-primary-text-hover: #000000 !important;
     --control-primary-text-active: #000000 !important;
     --control-primary-icon-default: #000000 !important;
     --control-primary-icon-hover: #000000 !important;
     --control-primary-icon-active: #000000 !important;
-    --button-filled-brand-background: #ffffff !important;
-    --button-filled-brand-background-hover: color-mix(in srgb, #ffffff 92%, #000000) !important;
-    --button-filled-brand-background-active: color-mix(in srgb, #ffffff 85%, #000000) !important;
+    --button-filled-brand-background: #7aa2f7 !important;
+    --button-filled-brand-background-hover: color-mix(in srgb, #7aa2f7 92%, #000000) !important;
+    --button-filled-brand-background-active: color-mix(in srgb, #7aa2f7 85%, #000000) !important;
     --button-filled-brand-text: #000000 !important;
 
-    --control-secondary-background-default: #000000 !important;
-    --control-secondary-background-hover: #000000 !important;
-    --control-secondary-background-active: color-mix(in srgb, #000000 90%, #c0caf5) !important;
+    --control-secondary-background-default: #1a1a2e !important;
+    --control-secondary-background-hover: #1a1a2e !important;
+    --control-secondary-background-active: color-mix(in srgb, #1a1a2e 90%, #c0caf5) !important;
     --control-secondary-text-default: #c0caf5 !important;
-    --button-secondary-background: #000000 !important;
-    --button-secondary-background-hover: #000000 !important;
-    --button-secondary-background-active: color-mix(in srgb, #000000 90%, #c0caf5) !important;
+    --button-secondary-background: #1a1a2e !important;
+    --button-secondary-background-hover: #1a1a2e !important;
+    --button-secondary-background-active: color-mix(in srgb, #1a1a2e 90%, #c0caf5) !important;
     --button-secondary-text: #c0caf5 !important;
     --redesign-button-secondary-text: #c0caf5 !important;
 
     --button-danger-background: #f7768e !important;
-    --button-danger-background-hover: color-mix(in srgb, #f7768e 92%, #601410) !important;
-    --button-danger-background-active: color-mix(in srgb, #f7768e 85%, #601410) !important;
-    --button-danger-text: #601410 !important;
+    --button-danger-background-hover: color-mix(in srgb, #f7768e 92%, #ffffff) !important;
+    --button-danger-background-active: color-mix(in srgb, #f7768e 85%, #ffffff) !important;
+    --button-danger-text: #ffffff !important;
     --control-critical-primary-background-default: #f7768e !important;
     --button-outline-danger-text: #f7768e !important;
     --button-outline-danger-text-hover: #f7768e !important;
@@ -204,15 +204,15 @@
     --button-outline-primary-text-active: #c0caf5 !important;
     --button-outline-primary-background-hover: color-mix(in srgb, #c0caf5 8%, transparent) !important;
     --button-outline-primary-background-active: color-mix(in srgb, #c0caf5 10%, transparent) !important;
-    --button-outline-brand-text: #ffffff !important;
-    --button-outline-brand-background-hover: color-mix(in srgb, #ffffff 10%, transparent) !important;
+    --button-outline-brand-text: #7aa2f7 !important;
+    --button-outline-brand-background-hover: color-mix(in srgb, #7aa2f7 10%, transparent) !important;
     --button-transparent-text: #c0caf5 !important;
     --button-transparent-background-hover: color-mix(in srgb, #c0caf5 8%, transparent) !important;
     --button-transparent-background-active: color-mix(in srgb, #c0caf5 10%, transparent) !important;
 
-    --redesign-input-control-selected: #ffffff !important;
-    --focus-primary: #ffffff !important;
-    --__adaptive-focus-ring-color: #ffffff !important;
+    --redesign-input-control-selected: #7aa2f7 !important;
+    --focus-primary: #7aa2f7 !important;
+    --__adaptive-focus-ring-color: #7aa2f7 !important;
 
     /* status — keep Discord semantics, theme only offline */
     --status-online: #23a55a !important;
@@ -232,36 +232,36 @@
     --icon-status-offline: #414868 !important;
 
     /* feedback, notices, badges */
-    --background-feedback-critical: #8c1d18 !important;
-    --notice-background-critical: #8c1d18 !important;
-    --notice-text-critical: #f9dedc !important;
+    --background-feedback-critical: #f9dedc !important;
+    --notice-background-critical: #f9dedc !important;
+    --notice-text-critical: #410e0b !important;
     --icon-feedback-critical: #f7768e !important;
-    --background-feedback-positive: #000000 !important;
-    --notice-background-positive: #000000 !important;
+    --background-feedback-positive: #1a1a2e !important;
+    --notice-background-positive: #1a1a2e !important;
     --notice-text-positive: #c0caf5 !important;
-    --background-feedback-info: #000000 !important;
-    --notice-background-info: #000000 !important;
+    --background-feedback-info: #1a1a2e !important;
+    --notice-background-info: #1a1a2e !important;
     --notice-text-info: #c0caf5 !important;
-    --background-feedback-warning: #000000 !important;
-    --notice-background-warning: #000000 !important;
+    --background-feedback-warning: #1a1a2e !important;
+    --notice-background-warning: #1a1a2e !important;
     --notice-text-warning: #c0caf5 !important;
-    --badge-notification-background: #ffffff !important;
-    --background-feedback-notification: #ffffff !important;
+    --badge-notification-background: #7aa2f7 !important;
+    --background-feedback-notification: #7aa2f7 !important;
     --red-400: #f7768e !important;
     --red-430: #f7768e !important;
     --red-500: #f7768e !important;
 
     /* inputs, code, spoilers */
-    --input-background-default: #000000 !important;
-    --input-background: #000000 !important;
-    --channeltextarea-background: #000000 !important;
-    --deprecated-text-input-bg: #000000 !important;
+    --input-background-default: #1a1a2e !important;
+    --input-background: #1a1a2e !important;
+    --channeltextarea-background: #1a1a2e !important;
+    --deprecated-text-input-bg: #1a1a2e !important;
     --input-border-default: #0a0a0a !important;
     --input-border: #0a0a0a !important;
     --deprecated-text-input-border: #0a0a0a !important;
-    --background-code: #000000 !important;
-    --spoiler-hidden-background: #000000 !important;
-    --spoiler-revealed-background: #000000 !important;
+    --background-code: #0a0a0a !important;
+    --spoiler-hidden-background: #1a1a2e !important;
+    --spoiler-revealed-background: #0a0a0a !important;
 
     /* scrollbars */
     --scrollbar-auto-thumb: #0a0a0a !important;
@@ -280,19 +280,19 @@
 }
 
 ::selection {
-    background: color-mix(in srgb, #ffffff 35%, transparent);
+    background: color-mix(in srgb, #7aa2f7 35%, transparent);
 }
 
 .theme-dark .highlight,
 .theme-light .highlight {
-    background: color-mix(in srgb, #ffffff 30%, transparent);
+    background: color-mix(in srgb, #7aa2f7 30%, transparent);
     color: inherit;
 }
 
 /* unread pills + notification badges → primary */
 .theme-dark span[class*="unreadPill"],
 .theme-light span[class*="unreadPill"] {
-    --interactive-text-active: #ffffff !important;
+    --interactive-text-active: #7aa2f7 !important;
 }
 
 .theme-dark div[class*="numberBadge"],
