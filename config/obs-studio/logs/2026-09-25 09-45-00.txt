@@ -137,3 +137,37 @@
 09:45:04.786: v4l2-input: /dev/video0: failed to log status
 09:45:05.091: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
 09:45:05.091: 
+09:45:15.763: [pipewire] Asking for monitor and window
+09:45:15.779: [pipewire] source selected, setting up screencast
+09:45:15.786: [pipewire] Server version: 1.6.9
+09:45:15.786: [pipewire] Library version: 1.6.9
+09:45:15.786: [pipewire] Header version: 1.6.8
+09:45:15.786: [pipewire] Created stream 0x556839fce2e0
+09:45:15.786: [pipewire] Stream 0x556839fce2e0 state: "connecting" (error: none)
+09:45:15.786: [pipewire] Playing stream 0x556839fce2e0
+09:45:15.797: [pipewire] Stream 0x556839fce2e0 state: "paused" (error: none)
+09:45:15.798: [pipewire] Negotiated format:
+09:45:15.798: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+09:45:15.798: [pipewire]     Modifier: 0x0
+09:45:15.798: [pipewire]     Size: 2880x1800
+09:45:15.798: [pipewire]     Framerate: 0/1
+09:45:15.802: [pipewire] Negotiated format:
+09:45:15.802: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+09:45:15.802: [pipewire]     Modifier: 0x200000010437b04
+09:45:15.802: [pipewire]     Size: 2880x1800
+09:45:15.802: [pipewire]     Framerate: 0/1
+09:45:15.804: [pipewire] Stream 0x556839fce2e0 state: "streaming" (error: none)
+09:45:15.815: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+09:45:15.815: [pipewire] Renegotiating stream
+09:45:15.816: [pipewire] Stream 0x556839fce2e0 state: "paused" (error: none)
+09:45:15.816: [pipewire] Negotiated format:
+09:45:15.816: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+09:45:15.816: [pipewire]     Modifier: 0x200000010437b04
+09:45:15.816: [pipewire]     Size: 2880x1800
+09:45:15.816: [pipewire]     Framerate: 0/1
+09:45:15.818: [pipewire] Negotiated format:
+09:45:15.818: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+09:45:15.818: [pipewire]     Modifier: 0x200000010401b04
+09:45:15.818: [pipewire]     Size: 2880x1800
+09:45:15.818: [pipewire]     Framerate: 0/1
+09:45:15.819: [pipewire] Stream 0x556839fce2e0 state: "streaming" (error: none)
