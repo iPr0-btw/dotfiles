@@ -1,6 +1,6 @@
 {
-  "currentThemeName": "dynamic",
-  "currentThemeCategory": "dynamic",
+  "currentThemeName": "custom",
+  "currentThemeCategory": "custom",
   "customThemeFile": "/home/bruh/.config/DankMaterialShell/themes/tokyoNightOled/theme.json",
   "registryThemeVariants": {
     "amoledBlack": {
@@ -11,7 +11,7 @@
     },
     "tokyoNightOled": {
       "dark": {
-        "flavor": "oled",
+        "flavor": "oled-light",
         "accent": "white"
       }
     }
