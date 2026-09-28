@@ -10,7 +10,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 
 ### why?
 
-- because I'm the only person at the moment working on my repo, it deadass gets annoying to manually 'git push' my changes, that only works when you have like 10+ devs on one repo. That
+- because I'm the only person at the moment working on my repo, it deadass gets annoying to manually 'git push' my changes, that only works when you have like 10+ devs on one repo. That's where manual push becomes crucial.
 
 ## my stack
 
