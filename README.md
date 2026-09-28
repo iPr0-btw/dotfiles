@@ -8,7 +8,9 @@ started running a search engine locally with searXNG.
 
 my 'autopush' script runs on a systemd timer to push updates every 30s, making sure local changes also reflect in this repo.
 
-my 'autopush' script runs on a systemd tim
+why?
+
+- because I'm the only person at the moment working on my repo, it deada
 
 ## my stack
 
