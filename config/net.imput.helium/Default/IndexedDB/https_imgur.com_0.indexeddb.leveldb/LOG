@@ -1,0 +1,6 @@
+2026/09/28-10:57:48.386 55cf0 Creating DB /home/bruh/.config/net.imput.helium/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb since it was missing.
+2026/09/28-10:57:48.387 55cf0 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/28-10:57:48.423 55d02 Level-0 table #5: started
+2026/09/28-10:57:48.424 55d02 Level-0 table #5: 1634 bytes OK
+2026/09/28-10:57:48.425 55d02 Delete type=0 #3
+2026/09/28-10:57:48.425 55cf3 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
