@@ -8,9 +8,9 @@ started running a search engine locally with searXNG.
 
 my 'autopush' script runs on a systemd timer to push updates every 30s, making sure local changes also reflect in this repo.
 
-why?
+###why?
 
-- because I'm the only person at the moment working on my repo, it deadass gets annoying to manually 'git push'
+- because I'm the only person at the moment working on my repo, it deadass gets annoying to manually 'git push' my changes, that only works when you have like 10+ devs on one repo
 
 ## my stack
 
