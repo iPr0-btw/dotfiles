@@ -8,6 +8,8 @@ started running a search engine locally with searXNG.
 
 my 'autopush' script runs on a systemd timer to push updates every 30s, making sure local changes also reflect in this repo.
 
+my 'autopush' script runs on a systemd tim
+
 ## my stack
 
 - arch linux/nixos dualboot (OS)
