@@ -171,6 +171,9 @@ View Style=DetailTree
 [KScreen]
 ScreenScaleFactors=eDP=1;DisplayPort-0=1;DisplayPort-1=1;DisplayPort-2=1;DisplayPort-3=1;DisplayPort-4=1;DisplayPort-5=1;DisplayPort-6=1;DisplayPort-7=1;
 
+[Locale]
+BinaryUnitDialect=2
+
 [WM]
 activeBackground=39,44,49
 activeBlend=252,252,252
