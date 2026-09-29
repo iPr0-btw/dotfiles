@@ -146,3 +146,151 @@
 18:00:50.697: 
 18:00:50.719: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
 18:00:50.719: 
+18:01:03.684: [pipewire] source selected, setting up screencast
+18:01:03.693: [pipewire] Server version: 1.6.9
+18:01:03.693: [pipewire] Library version: 1.6.9
+18:01:03.693: [pipewire] Header version: 1.6.8
+18:01:03.699: [pipewire] Created stream 0x56061a8becd0
+18:01:03.699: [pipewire] Stream 0x56061a8becd0 state: "connecting" (error: none)
+18:01:03.700: [pipewire] Playing stream 0x56061a8becd0
+18:01:03.700: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:03.714: [pipewire] Negotiated format:
+18:01:03.714: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+18:01:03.714: [pipewire]     Modifier: 0x0
+18:01:03.714: [pipewire]     Size: 2880x1800
+18:01:03.714: [pipewire]     Framerate: 0/1
+18:01:03.714: [pipewire] Negotiated format:
+18:01:03.714: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+18:01:03.714: [pipewire]     Modifier: 0x200000010437b04
+18:01:03.714: [pipewire]     Size: 2880x1800
+18:01:03.714: [pipewire]     Framerate: 0/1
+18:01:03.716: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:07.653: User switched to scene 'Scene'
+18:01:07.773: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:09.420: User switched to scene 'Scene 2'
+18:01:09.423: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:09.823: User switched to scene 'Scene 3'
+18:01:10.531: User switched to scene 'Scene 2'
+18:01:11.767: User switched to scene 'Scene'
+18:01:11.890: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:12.167: User switched to scene 'Scene 2'
+18:01:12.173: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:12.702: User switched to scene 'Scene'
+18:01:12.823: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:13.230: User switched to scene 'Scene 2'
+18:01:13.240: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:13.375: User switched to scene 'Scene'
+18:01:13.462: User switched to scene 'Scene 2'
+18:01:13.594: User switched to scene 'Scene'
+18:01:13.710: User switched to scene 'Scene 2'
+18:01:13.794: User switched to scene 'Scene'
+18:01:13.914: User switched to scene 'Scene 2'
+18:01:13.982: User switched to scene 'Scene'
+18:01:14.083: User switched to scene 'Scene 2'
+18:01:14.146: User switched to scene 'Scene'
+18:01:14.234: User switched to scene 'Scene 2'
+18:01:14.334: User switched to scene 'Scene'
+18:01:14.394: User switched to scene 'Scene 2'
+18:01:14.510: User switched to scene 'Scene'
+18:01:14.640: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:14.646: User switched to scene 'Scene 2'
+18:01:14.656: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:14.778: User switched to scene 'Scene 3'
+18:01:15.111: User switched to scene 'Scene 2'
+18:01:15.314: User switched to scene 'Scene'
+18:01:15.418: User switched to scene 'Scene 2'
+18:01:15.690: User switched to scene 'Scene'
+18:01:15.823: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:15.843: User switched to scene 'Scene 2'
+18:01:15.856: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:16.146: User switched to scene 'Scene 3'
+18:01:16.346: User switched to scene 'Scene 2'
+18:01:16.794: User switched to scene 'Scene'
+18:01:16.923: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:17.143: User switched to scene 'Scene 2'
+18:01:17.156: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:17.458: User switched to scene 'Scene'
+18:01:17.590: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:34.431: This plugin supports grabbing the mouse only for popup windows
+18:01:34.435: This plugin supports grabbing the mouse only for popup windows
+18:01:38.061: User switched to scene 'Scene 2'
+18:01:38.073: [pipewire] Stream 0x56061a8becd0 state: "streaming" (error: none)
+18:01:40.229: ==== Shutting down ==================================================
+18:01:40.235: pulse-input: Stopped recording from 'bluez_output.7C_C0_6F_8C_A5_03.1.monitor'
+18:01:40.235: pulse-input: Got 2003 packets with 2207306 frames
+18:01:40.235: Deduplication logic stopped.
+18:01:40.235: pulse-input: Stopped recording from 'alsa_input.pci-0000_65_00.6.analog-stereo'
+18:01:40.235: pulse-input: Got 2003 packets with 2403600 frames
+18:01:40.265: v4l2-input: /dev/video0: Stopped capture after 1471 frames
+18:01:40.286: [pipewire] Stream 0x56061a8becd0 state: "paused" (error: none)
+18:01:40.286: [pipewire] Stream 0x56061a8becd0 state: "unconnected" (error: none)
+18:01:40.319: All scene data cleared
+18:01:40.319: ------------------------------------------------
+18:01:40.326: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:01:40.363: [obs-websocket] [obs_module_unload] Shutting down...
+18:01:40.363: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:01:40.363: [obs-websocket] [obs_module_unload] Finished shutting down.
+18:01:40.384: [Scripting] Total detached callbacks: 0
+18:01:40.384: Freeing OBS context data
+18:01:40.403: == Profiler Results =============================
+18:01:40.403: run_program_init: 4183 ms
+18:01:40.403:  ┣OBSApp::AppInit: 36.142 ms
+18:01:40.403:  ┃ ┗OBSApp::InitLocale: 1.824 ms
+18:01:40.404:  ┗OBSApp::OBSInit: 4055.34 ms
+18:01:40.404:    ┣obs_startup: 3.338 ms
+18:01:40.404:    ┗OBSBasic::OBSInit: 3968.81 ms
+18:01:40.404:      ┣OBSBasic::InitBasicConfig: 1.121 ms
+18:01:40.404:      ┣OBSBasic::ResetAudio: 0.38 ms
+18:01:40.404:      ┣OBSBasic::ResetVideo: 177.936 ms
+18:01:40.404:      ┃ ┗obs_init_graphics: 173.612 ms
+18:01:40.404:      ┃   ┗shader compilation: 49.271 ms
+18:01:40.404:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+18:01:40.404:      ┣OBSBasic::InitHotkeys: 0.054 ms
+18:01:40.404:      ┣obs_load_all_modules2: 3526.78 ms
+18:01:40.404:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+18:01:40.404:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+18:01:40.404:      ┃ ┣obs_init_module(decklink.so): 0.072 ms
+18:01:40.404:      ┃ ┣obs_init_module(frontend-tools.so): 174.171 ms
+18:01:40.404:      ┃ ┣obs_init_module(image-source.so): 0.012 ms
+18:01:40.404:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+18:01:40.404:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+18:01:40.404:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+18:01:40.404:      ┃ ┣obs_init_module(linux-pipewire.so): 25.443 ms
+18:01:40.404:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+18:01:40.404:      ┃ ┣obs_init_module(linux-v4l2.so): 6.429 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-browser.so): 0.183 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-ffmpeg.so): 20.994 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-filters.so): 0.027 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-nvenc.so): 3083.49 ms
+18:01:40.404:      ┃ ┃ ┗nvenc_check: 3083.47 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-outputs.so): 0.007 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-qsv11.so): 96.958 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-transitions.so): 0.009 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-webrtc.so): 0.005 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-websocket.so): 8.261 ms
+18:01:40.404:      ┃ ┣obs_init_module(obs-x264.so): 0.004 ms
+18:01:40.404:      ┃ ┣obs_init_module(rtmp-services.so): 0.611 ms
+18:01:40.404:      ┃ ┗obs_init_module(text-freetype2.so): 0.011 ms
+18:01:40.404:      ┣OBSBasic::InitService: 0.054 ms
+18:01:40.404:      ┣OBSBasic::ResetOutputs: 13.85 ms
+18:01:40.404:      ┣OBSBasic::CreateHotkeys: 0.05 ms
+18:01:40.404:      ┣OBSBasic::InitPrimitives: 0.085 ms
+18:01:40.404:      ┗OBSBasic::Load: 163.133 ms
+18:01:40.404: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.046 ms, 99th percentile=0.003 ms, 100% below 25 ms
+18:01:40.404: audio_thread(Audio): min=0.009 ms, median=0.057 ms, max=2.774 ms, 99th percentile=0.607 ms
+18:01:40.404: obs_graphics_thread(16.6667 ms): min=0.058 ms, median=0.585 ms, max=86.066 ms, 99th percentile=10.615 ms, 99.473% below 16.667 ms
+18:01:40.404:  ┣tick_sources: min=0 ms, median=0.018 ms, max=7.991 ms, 99th percentile=0.051 ms
+18:01:40.404:  ┣output_frame: min=0.052 ms, median=0.275 ms, max=4.351 ms, 99th percentile=1.651 ms
+18:01:40.404:  ┃ ┗gs_context(video->graphics): min=0.052 ms, median=0.274 ms, max=4.346 ms, 99th percentile=1.64 ms
+18:01:40.404:  ┃   ┣render_video: min=0.004 ms, median=0.136 ms, max=4.001 ms, 99th percentile=1.458 ms
+18:01:40.404:  ┃   ┃ ┗render_main_texture: min=0.003 ms, median=0.127 ms, max=3.996 ms, 99th percentile=1.452 ms
+18:01:40.404:  ┃   ┗gs_flush: min=0 ms, median=0.082 ms, max=0.721 ms, 99th percentile=0.267 ms
+18:01:40.404:  ┗render_displays: min=0.002 ms, median=0.196 ms, max=30.814 ms, 99th percentile=9.579 ms
+18:01:40.404: =================================================
+18:01:40.404: == Profiler Time Between Calls ==================
+18:01:40.404: obs_hotkey_thread(25 ms): min=25.019 ms, median=25.071 ms, max=25.806 ms, 99.9536% within ±2% of 25 ms (0% lower, 0.0463822% higher)
+18:01:40.404: obs_graphics_thread(16.6667 ms): min=2.328 ms, median=16.667 ms, max=86.071 ms, 99.0698% within ±2% of 16.667 ms (0.465116% lower, 0.465116% higher)
+18:01:40.404: =================================================
+18:01:40.413: Number of memory leaks: 0
