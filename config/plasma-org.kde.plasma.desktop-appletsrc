@@ -146,7 +146,7 @@ extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.networkmanagement
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;14;15
+AppletOrder=3;5;6;4;7;14;15
 
 [Containments][25]
 ItemGeometriesHorizontal=
