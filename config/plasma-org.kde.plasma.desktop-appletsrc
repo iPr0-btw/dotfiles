@@ -133,6 +133,10 @@ plugin=org.kde.plasma.keyboardindicator
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][2][Applets][7][Applets][31]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
 [Containments][2][Applets][7][Applets][8]
 immutability=1
 plugin=org.kde.plasma.cameraindicator
