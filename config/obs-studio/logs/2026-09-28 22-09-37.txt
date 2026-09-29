@@ -212,3 +212,92 @@
 22:13:10.316: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
 22:13:10.316: [mp4 output: 'adv_file_output'] File output complete. Finalization took 1 ms.
 22:13:10.317: ==== Recording Stop ================================================
+22:22:30.428: ==== Shutting down ==================================================
+22:22:30.431: pulse-input: Stopped recording from 'alsa_output.pci-0000_65_00.6.analog-stereo.monitor'
+22:22:30.431: pulse-input: Got 30862 packets with 37034400 frames
+22:22:30.431: pulse-input: Stopped recording from 'alsa_input.pci-0000_65_00.6.analog-stereo'
+22:22:30.431: pulse-input: Got 30863 packets with 37035600 frames
+22:22:30.485: v4l2-input: /dev/video0: Stopped capture after 12671 frames
+22:22:30.513: [pipewire] Stream 0x5646dfd742a0 state: "paused" (error: none)
+22:22:30.513: [pipewire] Stream 0x5646dfd742a0 state: "unconnected" (error: none)
+22:22:30.528: All scene data cleared
+22:22:30.528: ------------------------------------------------
+22:22:30.532: Tried to call obs_frontend_remove_event_callback with no callbacks!
+22:22:30.571: [obs-websocket] [obs_module_unload] Shutting down...
+22:22:30.571: Tried to call obs_frontend_remove_event_callback with no callbacks!
+22:22:30.571: [obs-websocket] [obs_module_unload] Finished shutting down.
+22:22:30.578: [Scripting] Total detached callbacks: 0
+22:22:30.578: Freeing OBS context data
+22:22:30.589: == Profiler Results =============================
+22:22:30.589: run_program_init: 1235.2 ms
+22:22:30.589:  ┣OBSApp::AppInit: 16.171 ms
+22:22:30.589:  ┃ ┗OBSApp::InitLocale: 1.604 ms
+22:22:30.589:  ┗OBSApp::OBSInit: 1204.14 ms
+22:22:30.589:    ┣obs_startup: 1.148 ms
+22:22:30.589:    ┗OBSBasic::OBSInit: 1166.51 ms
+22:22:30.589:      ┣OBSBasic::InitBasicConfig: 1.666 ms
+22:22:30.589:      ┣OBSBasic::ResetAudio: 0.189 ms
+22:22:30.589:      ┣OBSBasic::ResetVideo: 136.763 ms
+22:22:30.589:      ┃ ┗obs_init_graphics: 133.588 ms
+22:22:30.589:      ┃   ┗shader compilation: 45.376 ms
+22:22:30.589:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+22:22:30.589:      ┣OBSBasic::InitHotkeys: 0.061 ms
+22:22:30.589:      ┣obs_load_all_modules2: 767.621 ms
+22:22:30.589:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+22:22:30.589:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+22:22:30.589:      ┃ ┣obs_init_module(decklink.so): 0.06 ms
+22:22:30.589:      ┃ ┣obs_init_module(frontend-tools.so): 168.487 ms
+22:22:30.589:      ┃ ┣obs_init_module(image-source.so): 0.011 ms
+22:22:30.589:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+22:22:30.589:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+22:22:30.589:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+22:22:30.589:      ┃ ┣obs_init_module(linux-pipewire.so): 22.296 ms
+22:22:30.589:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+22:22:30.589:      ┃ ┣obs_init_module(linux-v4l2.so): 6.839 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-browser.so): 0.159 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-ffmpeg.so): 18.682 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-filters.so): 0.028 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-nvenc.so): 310.144 ms
+22:22:30.589:      ┃ ┃ ┗nvenc_check: 310.127 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-outputs.so): 0.007 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-qsv11.so): 40.801 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-webrtc.so): 0.006 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-websocket.so): 7.901 ms
+22:22:30.589:      ┃ ┣obs_init_module(obs-x264.so): 0.005 ms
+22:22:30.589:      ┃ ┣obs_init_module(rtmp-services.so): 1.402 ms
+22:22:30.589:      ┃ ┗obs_init_module(text-freetype2.so): 0.013 ms
+22:22:30.589:      ┣OBSBasic::InitService: 0.175 ms
+22:22:30.589:      ┣OBSBasic::ResetOutputs: 13.128 ms
+22:22:30.589:      ┣OBSBasic::CreateHotkeys: 0.041 ms
+22:22:30.589:      ┣OBSBasic::InitPrimitives: 0.086 ms
+22:22:30.589:      ┗OBSBasic::Load: 168.611 ms
+22:22:30.589: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.06 ms, 99th percentile=0.002 ms, 100% below 25 ms
+22:22:30.589: audio_thread(Audio): min=0.006 ms, median=0.042 ms, max=5.204 ms, 99th percentile=0.907 ms
+22:22:30.589:  ┗receive_audio: min=0.002 ms, median=0.623 ms, max=5.097 ms, 99th percentile=1.279 ms, 0.252119 calls per parent call
+22:22:30.589:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.02 ms, 99th percentile=0.008 ms
+22:22:30.589:    ┗do_encode: min=0.04 ms, median=0.619 ms, max=5.092 ms, 99th percentile=1.276 ms
+22:22:30.589:      ┣encode(Track1): min=0.036 ms, median=0.606 ms, max=5.088 ms, 99th percentile=1.257 ms
+22:22:30.589:      ┗send_packet: min=0.001 ms, median=0.012 ms, max=1.245 ms, 99th percentile=0.044 ms
+22:22:30.589: obs_graphics_thread(16.6667 ms): min=0.051 ms, median=0.366 ms, max=31.417 ms, 99th percentile=0.836 ms, 99.9957% below 16.667 ms
+22:22:30.589:  ┣tick_sources: min=0 ms, median=0.01 ms, max=15.61 ms, 99th percentile=0.034 ms
+22:22:30.589:  ┣output_frame: min=0.023 ms, median=0.151 ms, max=4.287 ms, 99th percentile=0.432 ms
+22:22:30.589:  ┃ ┗gs_context(video->graphics): min=0.023 ms, median=0.151 ms, max=4.286 ms, 99th percentile=0.431 ms
+22:22:30.589:  ┃   ┣render_video: min=0.003 ms, median=0.061 ms, max=3.066 ms, 99th percentile=0.227 ms
+22:22:30.589:  ┃   ┃ ┣render_main_texture: min=0.002 ms, median=0.047 ms, max=2.951 ms, 99th percentile=0.181 ms
+22:22:30.589:  ┃   ┃ ┣render_convert_texture: min=0.012 ms, median=0.039 ms, max=3.022 ms, 99th percentile=0.069 ms, 0.252147 calls per parent call
+22:22:30.589:  ┃   ┃ ┗output_gpu_encoders: min=0 ms, median=0.003 ms, max=0.039 ms, 99th percentile=0.007 ms, 0.252147 calls per parent call
+22:22:30.589:  ┃   ┗gs_flush: min=0.001 ms, median=0.084 ms, max=2.814 ms, 99th percentile=0.232 ms
+22:22:30.589:  ┗render_displays: min=0.001 ms, median=0.186 ms, max=7.227 ms, 99th percentile=0.4 ms
+22:22:30.589: obs_gpu_encode_thread(16.6667 ms): min=0.187 ms, median=0.67 ms, max=4.608 ms, 99th percentile=1.114 ms, 100% below 16.667 ms
+22:22:30.589:  ┣gpu_encode_frame: min=0.179 ms, median=0.657 ms, max=4.602 ms, 99th percentile=1.079 ms
+22:22:30.589:  ┗send_packet: min=0.001 ms, median=0.007 ms, max=0.601 ms, 99th percentile=0.029 ms
+22:22:30.589: =================================================
+22:22:30.589: == Profiler Time Between Calls ==================
+22:22:30.589: obs_hotkey_thread(25 ms): min=25.005 ms, median=25.066 ms, max=33.814 ms, 99.8832% within ±2% of 25 ms (0% lower, 0.116796% higher)
+22:22:30.589: obs_graphics_thread(16.6667 ms): min=1.9 ms, median=16.667 ms, max=31.423 ms, 99.6397% within ±2% of 16.667 ms (0.174746% lower, 0.185533% higher)
+22:22:30.589: obs_gpu_encode_thread(16.6667 ms): min=16.197 ms, median=16.664 ms, max=17.179 ms, 99.8203% within ±2% of 16.667 ms (0.0941378% lower, 0.0855798% higher)
+22:22:30.589: =================================================
+22:22:30.594: Number of memory leaks: 0
