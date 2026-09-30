@@ -1,33 +1,6 @@
-2026/09/29-18:47:23.574 5 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/29-18:47:23.575 5 Recovering log #3
-2026/09/29-18:47:23.576 5 Reusing old log /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/000003.log 
-2026/09/29-18:48:23.577 7 Level-0 table #5: started
-2026/09/29-18:48:23.602 7 Level-0 table #5: 1665715 bytes OK
-2026/09/29-18:48:23.603 7 Delete type=0 #3
-2026/09/29-18:50:16.681 7 Level-0 table #7: started
-2026/09/29-18:50:16.700 7 Level-0 table #7: 719490 bytes OK
-2026/09/29-18:50:16.704 7 Delete type=0 #4
-2026/09/29-18:53:08.920 7 Level-0 table #9: started
-2026/09/29-18:53:08.923 7 Level-0 table #9: 41447 bytes OK
-2026/09/29-18:53:08.925 7 Delete type=0 #6
-2026/09/29-18:53:46.014 7 Level-0 table #11: started
-2026/09/29-18:53:46.018 7 Level-0 table #11: 100665 bytes OK
-2026/09/29-18:53:46.020 7 Delete type=0 #8
-2026/09/29-18:54:34.979 7 Level-0 table #13: started
-2026/09/29-18:54:34.989 7 Level-0 table #13: 72853 bytes OK
-2026/09/29-18:54:34.993 7 Delete type=0 #10
-2026/09/29-18:54:47.376 7 Level-0 table #15: started
-2026/09/29-18:54:47.384 7 Level-0 table #15: 465422 bytes OK
-2026/09/29-18:54:47.385 7 Delete type=0 #12
-2026/09/29-18:54:47.386 7 Compacting 4@0 + 1@1 files
-2026/09/29-18:54:47.410 7 Generated table #16@0: 183 keys, 1308564 bytes
-2026/09/29-18:54:47.411 7 Compacted 4@0 + 1@1 files => 1308564 bytes
-2026/09/29-18:54:47.411 7 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/29-18:54:47.412 7 Delete type=2 #13
-2026/09/29-18:54:47.412 7 Delete type=2 #7
-2026/09/29-18:54:47.412 7 Delete type=2 #9
-2026/09/29-18:54:47.412 7 Delete type=2 #11
-2026/09/29-18:54:47.412 7 Delete type=2 #15
-2026/09/29-18:55:46.241 7 Level-0 table #18: started
-2026/09/29-18:55:46.245 7 Level-0 table #18: 92041 bytes OK
-2026/09/29-18:55:46.247 7 Delete type=0 #14
+2026/09/30-16:09:30.365 5 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/30-16:09:30.366 5 Recovering log #17
+2026/09/30-16:09:30.366 5 Reusing old log /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/000017.log 
+2026/09/30-16:10:21.285 7 Level-0 table #21: started
+2026/09/30-16:10:21.304 7 Level-0 table #21: 1639139 bytes OK
+2026/09/30-16:10:21.306 7 Delete type=0 #17
