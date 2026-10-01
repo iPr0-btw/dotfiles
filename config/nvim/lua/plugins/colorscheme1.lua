@@ -12,8 +12,8 @@
 --  },
 --
 -- lua/plugins/colorscheme.lua
-return {
-  {
+-- return {
+--  {
     "folke/tokyonight.nvim",
     enable = false,
     config = function()
