@@ -1,3 +1,26 @@
-2026/09/30-19:40:50.396 5 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/30-19:40:50.396 5 Recovering log #26
-2026/09/30-19:40:50.396 5 Reusing old log /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/000026.log 
+2026/10/01-18:28:51.936 5 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/10/01-18:28:51.937 5 Recovering log #26
+2026/10/01-18:28:51.938 5 Reusing old log /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/000026.log 
+2026/10/01-18:29:51.942 5 Level-0 table #32: started
+2026/10/01-18:29:51.948 5 Level-0 table #32: 43617 bytes OK
+2026/10/01-18:29:51.951 5 Delete type=0 #26
+2026/10/01-18:30:50.301 7 Level-0 table #34: started
+2026/10/01-18:30:50.305 7 Level-0 table #34: 60684 bytes OK
+2026/10/01-18:30:50.307 7 Delete type=0 #31
+2026/10/01-18:31:39.042 7 Level-0 table #36: started
+2026/10/01-18:31:39.045 7 Level-0 table #36: 23106 bytes OK
+2026/10/01-18:31:39.047 7 Delete type=0 #33
+2026/10/01-18:32:24.300 7 Level-0 table #38: started
+2026/10/01-18:32:24.311 7 Level-0 table #38: 95670 bytes OK
+2026/10/01-18:32:24.315 7 Delete type=0 #35
+2026/10/01-18:32:24.316 7 Compacting 4@0 + 2@1 files
+2026/10/01-18:32:24.346 7 Generated table #39@0: 173 keys, 2143078 bytes
+2026/10/01-18:32:24.366 7 Generated table #40@0: 178 keys, 1004649 bytes
+2026/10/01-18:32:24.366 7 Compacted 4@0 + 2@1 files => 3147727 bytes
+2026/10/01-18:32:24.367 7 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/10/01-18:32:24.368 7 Delete type=2 #36
+2026/10/01-18:32:24.368 7 Delete type=2 #38
+2026/10/01-18:32:24.368 7 Delete type=2 #32
+2026/10/01-18:32:24.368 7 Delete type=2 #28
+2026/10/01-18:32:24.368 7 Delete type=2 #29
+2026/10/01-18:32:24.368 7 Delete type=2 #34

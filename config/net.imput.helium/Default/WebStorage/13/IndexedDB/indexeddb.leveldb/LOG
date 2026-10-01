@@ -1,6 +1,7 @@
-2026/10/01-18:29:02.040 6418 Creating DB /home/bruh/.config/net.imput.helium/Default/WebStorage/13/IndexedDB/indexeddb.leveldb since it was missing.
-2026/10/01-18:29:02.042 6418 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/WebStorage/13/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/10/01-18:29:02.200 6415 Level-0 table #5: started
-2026/10/01-18:29:02.200 6415 Level-0 table #5: 1617 bytes OK
-2026/10/01-18:29:02.201 6415 Delete type=0 #3
-2026/10/01-18:29:02.201 6415 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/01-18:39:42.711 7553 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/WebStorage/13/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/10/01-18:39:42.711 7553 Recovering log #4
+2026/10/01-18:39:42.711 7553 Reusing old log /home/bruh/.config/net.imput.helium/Default/WebStorage/13/IndexedDB/indexeddb.leveldb/000004.log 
+2026/10/01-18:39:42.791 7554 Level-0 table #8: started
+2026/10/01-18:39:42.792 7554 Level-0 table #8: 694 bytes OK
+2026/10/01-18:39:42.792 7554 Delete type=0 #4
+2026/10/01-18:39:42.792 7553 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
