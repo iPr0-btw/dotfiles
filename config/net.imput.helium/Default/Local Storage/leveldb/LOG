@@ -1,3 +1,16 @@
 2026/09/30-18:28:59.754 5 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/MANIFEST-000001
 2026/09/30-18:28:59.755 5 Recovering log #23
 2026/09/30-18:28:59.755 5 Reusing old log /home/bruh/.config/net.imput.helium/Default/Local Storage/leveldb/000023.log 
+2026/09/30-19:30:32.766 7 Level-0 table #27: started
+2026/09/30-19:30:32.784 7 Level-0 table #27: 1647128 bytes OK
+2026/09/30-19:30:32.786 7 Delete type=0 #23
+2026/09/30-19:30:32.787 7 Compacting 4@0 + 1@1 files
+2026/09/30-19:30:32.824 7 Generated table #28@0: 128 keys, 2136101 bytes
+2026/09/30-19:30:32.839 7 Generated table #29@0: 135 keys, 909183 bytes
+2026/09/30-19:30:32.839 7 Compacted 4@0 + 1@1 files => 3045284 bytes
+2026/09/30-19:30:32.840 7 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/09/30-19:30:32.841 7 Delete type=2 #27
+2026/09/30-19:30:32.841 7 Delete type=2 #24
+2026/09/30-19:30:32.841 7 Delete type=2 #18
+2026/09/30-19:30:32.841 7 Delete type=2 #21
+2026/09/30-19:30:32.841 7 Delete type=2 #16
