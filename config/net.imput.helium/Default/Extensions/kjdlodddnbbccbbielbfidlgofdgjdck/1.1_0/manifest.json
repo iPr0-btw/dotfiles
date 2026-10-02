@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "index.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_shortDesc__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmdmKiH5deqVwpfdkPAtoDQ+tkK5BtZ2a41/dtIXfiRpivA35hSr/uVJl5WuPcqWz0pwwn9wfsFykDhQRa/b5TgqnjfEBlV70sLnYLMp82Ze8d13AWR8dZaXbKeyUQoGfmEQYISpn0j0ld8A1A7JKGpByVsgDbyM+FYHEU0rdBMVw7ntFWVaGoWWf0tiO4Y4pwCoTpa8GhPp6n8RS4N8rNn9c7CkzgLQ1d2F3Mduj1GgtRgoSk2CCY/6GFgKFvI9b0OMeGQSL65IOKMMFx7hIS7OPtuDrlYET8OVjZ4lj/pLfGJIJIfUXmRwOJPZcYTn0/BWPV2ObqLREvHknGQqadwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "browsingData", "storage", "windows", "history", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
