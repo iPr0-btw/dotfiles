@@ -1,6 +1,5 @@
--- eturn {
---  -- add onedark
---  { "olimorris/onedark.nvim" },
+return {
+   "olimorris/onedark.nvim" }
 --  -- { "tiagovla/tokyodark.nvim" },
 --
 --  -- Configure LazyVim to load onedark
