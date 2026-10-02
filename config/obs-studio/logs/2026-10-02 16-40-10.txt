@@ -180,3 +180,34 @@
 16:40:21.389: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
 16:40:21.389: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
 16:40:21.389: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+16:40:54.148: Settings changed (audio)
+16:40:54.148: ------------------------------------------------
+16:40:56.236: pulse-input: Stopped recording from 'bluez_input.7C:C0:6F:8C:A5:03'
+16:40:56.236: pulse-input: Got 1789 packets with 2146800 frames
+16:40:56.237: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+16:40:56.237: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+16:40:56.237: pulse-input: Started recording from 'bluez_input.7C:C0:6F:8C:A5:03'
+16:40:56.237: Settings changed (audio)
+16:40:56.237: ------------------------------------------------
+16:41:00.841: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+16:41:00.841: pulse-am: Got 1395 packets with 1674000 frames
+16:41:01.206: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+16:41:01.207: pulse-am: Audio format: s16le, 16000 Hz, 1 channels
+16:41:01.207: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+16:41:01.704: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+16:41:01.704: pulse-am: Got 0 packets with 0 frames
+16:41:09.900: pulse-input: Stopped recording from 'alsa_input.pci-0000_65_00.6.analog-stereo'
+16:41:09.900: pulse-input: Got 22 packets with 26400 frames
+16:41:09.901: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+16:41:09.901: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:41:09.901: pulse-input: Started recording from 'alsa_input.pci-0000_65_00.6.analog-stereo'
+16:41:09.901: Settings changed (audio)
+16:41:09.901: ------------------------------------------------
+16:41:13.401: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+16:41:13.401: pulse-am: Audio format: s16le, 48000 Hz, 2 channels
+16:41:13.401: pulse-am: Started Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+16:41:25.317: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+16:41:25.318: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+16:41:25.318: pulse-input: Started recording from 'bluez_input.7C:C0:6F:8C:A5:03'
+16:41:25.318: Settings changed (audio)
+16:41:25.318: ------------------------------------------------

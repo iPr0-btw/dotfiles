@@ -38,7 +38,7 @@
         "id": "pulse_input_capture",
         "versioned_id": "pulse_input_capture",
         "settings": {
-            "device_id": "default"
+            "device_id": "alsa_input.pci-0000_65_00.6.analog-stereo"
         },
         "mixers": 255,
         "sync": 0,
@@ -101,7 +101,7 @@
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
                 "ShowCursor": false,
-                "RestoreToken": "H7txNi29cl1FMjP5SsJY6g"
+                "RestoreToken": ""
             },
             "mixers": 0,
             "sync": 0,
@@ -457,8 +457,8 @@
             "name": "Scene 3"
         }
     ],
-    "current_scene": "Scene 2",
-    "current_program_scene": "Scene 2",
+    "current_scene": "Scene",
+    "current_program_scene": "Scene",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 100,
@@ -498,7 +498,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -4,
+    "scaling_level": -5,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
