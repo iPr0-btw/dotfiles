@@ -1,5 +1,6 @@
-return {
-   "olimorris/onedark.nvim" }
+-- return {
+--  -- add onedark
+--  { "olimorris/onedark.nvim" },
 --  -- { "tiagovla/tokyodark.nvim" },
 --
 --  -- Configure LazyVim to load onedark
