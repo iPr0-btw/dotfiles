@@ -46,7 +46,7 @@ local menu = "caelestia shell drawers toggle launcher || rofi -show drun"
 
 hl.on("hyprland.start", function()
 	hl.exec_cmd("swaybg -i ~/wall0.png")
-	hl.exec_cmd("dms run || caelestia shell -d")
+	-- hl.exec_cmd("dms run || caelestia shell -d")
 	hl.exec_cmd("xrdb -merge ~/.Xresources")
 	-- hl.exec_cmd("hypridle")
 end)
@@ -57,7 +57,7 @@ end)
 
 hl.env("XCURSOR_SIZE", "48")
 hl.env("HYPRCURSOR_SIZE", "48")
--- hl.env("DRI_PRIME", "0") -- for dual GPU laptops
+hl.env("DRI_PRIME", "0") -- for dual GPU laptops
 hl.env("QT_QPA_PLATFORM", "wayland")
 
 -----------------------
@@ -346,4 +346,3 @@ hl.config({
 
 -- HyprMod managed settings
 require("hyprland-gui")
-
