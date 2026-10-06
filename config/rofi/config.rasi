@@ -9,15 +9,13 @@ configuration {
 }
 
 * {
-    // Default bg is transparent.
     background-color: transparent;
-    // Default text is white
     text-color:       white;
     spacing:          30;
 }
 
 #window {
-    font: "Nerd Font Hack 18";
+    font: "Tinos Nerd Font";
     fullscreen: true;
     transparency: "background";
 
