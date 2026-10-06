@@ -3,16 +3,13 @@ return {
   lazy = false, -- As https://github.com/nvimdev/dashboard-nvim/pull/450, dashboard-nvim shouldn't be lazy-loaded to properly handle stdin.
   opts = function()
     local logo = [[
-             o8o   .o8                                           .o8   o8o                             
-             `"'  "888                                          "888   `"'                             
-oooo    ooo oooo   888oooo.   .ooooo.   .ooooo.   .ooooo.   .oooo888  oooo  ooo. .oo.    .oooooooo     
- `88.  .8'  `888   d88' `88b d88' `88b d88' `"Y8 d88' `88b d88' `888  `888  `888P"Y88b  888' `88b      
-  `88..8'    888   888   888 888ooo888 888       888   888 888   888   888   888   888  888   888      
-   `888'     888   888   888 888    .o 888   .o8 888   888 888   888   888   888   888  `88bod8P'  .o. 
-    `8'     o888o  `Y8bod8P' `Y8bod8P' `Y8bod8P' `Y8bod8P' `Y8bod88P" o888o o888o o888o `8oooooo.  Y8P 
-                                                                                        d"     YD      
-                                                                                        "Y88888P'      
-                                                                                                       
+██   ██  █████  ██       █████  ██            ███    ██ ██    ██ ██ ███    ███    
+██   ██ ██   ██ ██      ██   ██ ██            ████   ██ ██    ██ ██ ████  ████    
+███████ ███████ ██      ███████ ██      █████ ██ ██  ██ ██    ██ ██ ██ ████ ██    
+██   ██ ██   ██ ██      ██   ██ ██            ██  ██ ██  ██  ██  ██ ██  ██  ██    
+██   ██ ██   ██ ███████ ██   ██ ███████       ██   ████   ████   ██ ██      ██ ██ 
+                                                                                  
+                                                                                  
       ]]
 
     logo = string.rep("\n", 8) .. logo .. "\n\n"
