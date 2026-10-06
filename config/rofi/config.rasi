@@ -19,7 +19,7 @@ configuration {
     fullscreen: true;
     transparency: "background";
 
-    background-color: #000000ff;
+    background-color: #00000099;
    
     children: [ dummy1, hdum, dummy2 ];
 }
