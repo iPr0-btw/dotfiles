@@ -152,3 +152,15 @@
 10:08:27.976: User switched to scene 'Scene'
 10:08:28.675: User switched to scene 'Scene 3'
 10:08:29.431: User switched to scene 'Scene'
+10:17:01.429: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+10:17:01.429: 
+10:17:05.608: ==== Shutting down ==================================================
+10:17:05.618: pulse-input: Stopped recording from 'bluez_output.7C_C0_6F_8C_A5_03.1.monitor'
+10:17:05.618: pulse-input: Got 21214 packets with 25456800 frames
+10:17:05.618: Deduplication logic stopped.
+10:17:05.618: pulse-input: Stopped recording from 'alsa_input.pci-0000_65_00.6.analog-stereo'
+10:17:05.618: pulse-input: Got 21218 packets with 25461600 frames
+10:17:05.619: pulse-am: Stopped Monitoring in 'bluez_output.7C_C0_6F_8C_A5_03.1'
+10:17:05.619: pulse-am: Got 21197 packets with 25436400 frames
+10:17:05.629: v4l2-input: /dev/video0: Stopped capture after 15726 frames
+10:17:05.650: The Wayland connection broke. Did the Wayland compositor die?
