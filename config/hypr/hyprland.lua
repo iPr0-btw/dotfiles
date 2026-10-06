@@ -354,11 +354,10 @@ local up = { x = 0, y = -10, relative = true }
 local right = { x = 10, y = 0, relative = true }
 
 local function opts(direction)
-  return { description = 'Resize the active window ' .. direction, repeating = true }
+	return { description = "Resize the active window " .. direction, repeating = true }
 end
 
-hl.bind('CTRL + ' .. mainMod .. ' + Left', window.resize(left), opts('left'))
-hl.bind('CTRL + ' .. mainMod .. ' + Down', window.resize(down), opts('down'))
-hl.bind('CTRL + ' .. mainMod .. ' + Up', window.resize(up), opts('up'))
-hl.bind('CTRL + ' .. mainMod .. ' + Right', window.resize(right), opts('right'))
-
+hl.bind("CTRL + " .. mainMod .. " + Left", window.resize(left), opts("left"))
+hl.bind("CTRL + " .. mainMod .. " + Down", window.resize(down), opts("down"))
+hl.bind("CTRL + " .. mainMod .. " + Up", window.resize(up), opts("up"))
+hl.bind("CTRL + " .. mainMod .. " + Right", window.resize(right), opts("right"))
