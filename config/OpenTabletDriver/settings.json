@@ -4,7 +4,7 @@
     {
       "Tablet": "Wacom CTH-680",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
         "Settings": [],
         "Enable": true
       },
@@ -14,7 +14,7 @@
           "Width": 1440.0,
           "Height": 900.0,
           "X": 720.0,
-          "Y": 450.0,
+          "Y": 449.99997,
           "Rotation": 0.0
         },
         "Tablet": {
