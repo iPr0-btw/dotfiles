@@ -18,10 +18,10 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 108.0,
-          "Height": 67.5,
-          "X": 54.0,
-          "Y": 101.24999,
+          "Width": 216.0,
+          "Height": 135.0,
+          "X": 108.0,
+          "Y": 67.5,
           "Rotation": 0.0
         },
         "EnableClipping": true,
@@ -35,17 +35,8 @@
         "RelativeResetDelay": "00:00:00.1000000"
       },
       "Bindings": {
-        "TipActivationThreshold": 1.0,
-        "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
-          "Settings": [
-            {
-              "Property": "Binding",
-              "Value": "Tip"
-            }
-          ],
-          "Enable": true
-        },
+        "TipActivationThreshold": 100.0,
+        "TipButton": null,
         "EraserActivationThreshold": 1.0,
         "EraserButton": {
           "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
@@ -59,21 +50,21 @@
         },
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 1"
+                "Property": "Button",
+                "Value": "Left"
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 2"
+                "Property": "Button",
+                "Value": "Right"
               }
             ],
             "Enable": true
