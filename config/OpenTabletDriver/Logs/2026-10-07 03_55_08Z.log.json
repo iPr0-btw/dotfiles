@@ -2959,3 +2959,19 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-06T22:56:56.0718608-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is enabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-06T22:56:57.1602352-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is disabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
