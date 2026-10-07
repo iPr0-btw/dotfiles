@@ -3135,3 +3135,51 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-06T23:49:25.4310836-05:00",
+  "Group": "IPC",
+  "Message": "Connected to a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-06T23:49:25.6657964-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_DATA_HOME found: '/home/bruh/.local/share'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-06T23:49:25.6750593-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CONFIG_HOME found: '/home/bruh/.config'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-06T23:49:25.6757118-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_RUNTIME_DIR found: '/run/user/1000'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-06T23:49:25.6762075-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CACHE_HOME found: '/home/bruh/.cache'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-06T23:49:26.2076847-05:00",
+  "Group": "Settings",
+  "Message": "Presets have been refreshed. Loaded 0 presets.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
