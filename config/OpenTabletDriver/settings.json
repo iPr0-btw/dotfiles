@@ -18,8 +18,8 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 216.0,
-          "Height": 135.0,
+          "Width": 66.0,
+          "Height": 49.5,
           "X": 108.00001,
           "Y": 67.5,
           "Rotation": 0.0
@@ -80,7 +80,7 @@
         "MouseScrollUp": null,
         "MouseScrollDown": null,
         "WheelBindings": [],
-        "DisablePressure": false,
+        "DisablePressure": true,
         "DisableTilt": false,
         "EnableDragBindings": false
       }
