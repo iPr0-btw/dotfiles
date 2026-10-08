@@ -21,8 +21,9 @@
 "modules": [
     "break",
     
-    {"title",
-    "color":
+    {
+    type: "title",
+    "color": "yellow",
     },
 
     {
