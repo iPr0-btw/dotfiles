@@ -3,4 +3,4 @@
 enable_hist=1
 url_handler="multimedia_player"
 show_thumbnails=1
-thumbnail_viewer="icat"
+thumbnail_viewer="chafa"
