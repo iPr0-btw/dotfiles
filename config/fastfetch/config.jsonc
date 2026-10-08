@@ -20,6 +20,7 @@
 },
 "modules": [
     "break",
+    "title",
     {
     "type": "os",
     "key": " DISTRO",
