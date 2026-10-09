@@ -67831,3 +67831,35 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-08T20:15:35.1470099-05:00",
+  "Group": "Device",
+  "Message": "Device disconnected.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-08T20:15:35.1473028-05:00",
+  "Group": "Device",
+  "Message": "Device disconnected.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-08T20:15:35.1853339-05:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 3, Add: 0, Remove: 3",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-08T20:15:35.2055618-05:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
