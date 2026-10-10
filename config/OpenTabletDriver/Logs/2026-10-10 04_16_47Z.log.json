@@ -2911,3 +2911,19 @@
   "Level": 2,
   "Notification": false
 },
+{
+  "Time": "2026-10-10T09:45:53.1087979-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is disabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-10T09:45:53.4429776-05:00",
+  "Group": "IPC",
+  "Message": "Disconnected from a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
