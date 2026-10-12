@@ -135,6 +135,7 @@ hl.animation({ leaf = "workspacesOut", enabled = true, speed = 1.94, bezier = "a
 -- Workspace rules
 hl.workspace_rule({ workspace = 5, layout = "scrolling", layout_opts = { direction = "down" } })
 hl.workspace_rule({ workspace = 2, layout = "scrolling" })
+
 hl.workspace_rule({ workspace = "special:magic", layout = "scrolling" })
 hl.workspace_rule({ workspace = 3, layout = "master" })
 hl.workspace_rule({ workspace = 2, layout = "lua:grid" })
