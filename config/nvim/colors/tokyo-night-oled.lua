@@ -12,7 +12,7 @@ local colors = {
   orange = "#ff9e64",
   gray = "#545c7e",
   gray_dark = "#414868",
-  pink = "#D07E9A",
+  pink = "#cc7EfA",
 }
 
 vim.g.colors_name = "tokyo-night-oled"
@@ -27,7 +27,7 @@ local groups = {
   Function = { fg = colors.blue, bold = true },
   Keyword = { fg = colors.purple },
   Type = { fg = colors.cyan },
-  Pmenu = { fg = "#aa72" },
+  Pmenu = { fg = "#aa7299" },
   PmenuSel = { bg = "#7aa2f7" },
   Constant = { fg = colors.orange },
   StatusLine = { bg = colors.bg, fg = colors.fg },
