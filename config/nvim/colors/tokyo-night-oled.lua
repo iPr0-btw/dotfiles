@@ -27,7 +27,7 @@ local groups = {
   Function = { fg = colors.blue, bold = true },
   Keyword = { fg = colors.purple },
   Type = { fg = colors.cyan },
-  Pmenu = { fg = "#000000" },
+  Pmenu = { fg = "#aa72" },
   PmenuSel = { bg = "#7aa2f7" },
   Constant = { fg = colors.orange },
   StatusLine = { bg = colors.bg, fg = colors.fg },
