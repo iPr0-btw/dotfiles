@@ -1,0 +1,57 @@
+15:13:02.851: Platform: Wayland
+15:13:02.851: CPU Name: AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+15:13:02.851: CPU Speed: 2023.928MHz
+15:13:02.852: Physical Cores: 12, Logical Cores: 24
+15:13:02.852: Physical Memory: 31186MB Total, 9419MB Free
+15:13:02.852: Kernel Version: Linux 7.2.9-2-cachyos-bore
+15:13:02.852: Distribution: "bill gates is a fat, useless, epstein loving spy." Unknown
+15:13:02.852: Desktop Environment: Hyprland (Hyprland)
+15:13:02.852: Session Type: wayland
+15:13:02.854: Current Date/Time: 2026-10-12, 15:13:02
+15:13:02.854: Browser Hardware Acceleration: true
+15:13:02.854: Qt Version: 6.12.0 (runtime), 6.11.1 (compiled)
+15:13:02.854: Portable mode: false
+15:13:02.911: OBS 32.2.2 (linux)
+15:13:02.911: ---------------------------------
+15:13:02.913: ---------------------------------
+15:13:02.913: audio settings reset:
+15:13:02.913: 	samples per sec: 48000
+15:13:02.913: 	speakers:        2
+15:13:02.913: 	max buffering:   960 milliseconds
+15:13:02.913: 	buffering type:  dynamically increasing
+15:13:02.914: ---------------------------------
+15:13:02.914: Initializing OpenGL...
+15:13:02.914: Using EGL/Wayland
+15:13:02.981: Initialized EGL 1.5
+15:13:03.001: Loading up OpenGL on adapter AMD AMD Radeon 890M Graphics (radeonsi, strix1, ACO, DRM 3.64, 7.2.9-2-cachyos-bore)
+15:13:03.001: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.2.3-arch3.1, shading language 4.60
+15:13:03.039: ---------------------------------
+15:13:03.039: video settings reset:
+15:13:03.039: 	base resolution:   1920x1080
+15:13:03.039: 	output resolution: 1920x1080
+15:13:03.039: 	downscale filter:  Bicubic
+15:13:03.039: 	fps:               60/1
+15:13:03.039: 	format:            NV12
+15:13:03.039: 	YUV mode:          Rec. 709/Partial
+15:13:03.039: NV12 texture support enabled
+15:13:03.039: P010 texture support not available
+15:13:03.042: Audio monitoring device:
+15:13:03.042: 	name: الحمد لله
+15:13:03.042: 	id: bluez_output.7C_C0_6F_8C_A5_03.1
+15:13:03.043: ---------------------------------
+15:13:03.044: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:13:03.045: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:13:03.046: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:13:03.046: Failed to initialize module 'decklink.so'
+15:13:03.196: [pipewire] Available capture sources:
+15:13:03.196: [pipewire]     - Monitor source
+15:13:03.196: [pipewire]     - Window source
+15:13:03.227: [obs-browser]: Version 2.26.9
+15:13:03.227: [obs-browser]: CEF Version 152.0.7977.83 (runtime), 151.3.18+gbeff58d+chromium-151.0.7922.138 (compiled)
+15:13:03.255: VAAPI: API version 1.24
+15:13:03.256: FFmpeg VAAPI H264 encoding supported
+15:13:03.261: FFmpeg VAAPI AV1 encoding supported
+15:13:03.265: FFmpeg VAAPI HEVC encoding supported
+15:13:06.335: [NVENC] Test process failed: unknown
+15:13:06.335: NVENC not supported
+15:13:06.335: Failed to initialize module 'obs-nvenc.so'
