@@ -40,7 +40,7 @@ o888o o888o `Y888""8o o888o `Y888""8o o888o      o888o o888o     `8'     o888o o
         footer = function()
           local stats = require("lazy").stats()
           local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
-          return { "⚡ halal  loaded " .. stats.loaded .. "/" .. stats.count .. " plugins in " .. ms .. "ms" }
+          return { "⚡ halal nvim loaded " .. stats.loaded .. "/" .. stats.count .. " plugins in " .. ms .. "ms" }
         end,
       },
     }
