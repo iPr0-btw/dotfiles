@@ -24,7 +24,7 @@ local groups = {
   NormalFloat = { bg = colors.bg_dark, fg = colors.fg },
   Comment = { fg = colors.pink, italic = true },
   String = { fg = colors.green },
-  Function = { fg = colors.blue, bold = true },
+  Function = { fg = colors.blue },
   Keyword = { fg = colors.purple },
   Type = { fg = colors.cyan },
   Pmenu = { fg = "#aa7299" },
