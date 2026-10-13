@@ -35,7 +35,7 @@
               "Value": 1000.0
             }
           ],
-          "Enable": false
+          "Enable": true
         },
         {
           "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
@@ -45,7 +45,7 @@
               "Value": 2.0
             }
           ],
-          "Enable": true
+          "Enable": false
         },
         {
           "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
@@ -55,7 +55,7 @@
               "Value": 6.0
             }
           ],
-          "Enable": false
+          "Enable": true
         }
       ],
       "AbsoluteModeSettings": {
