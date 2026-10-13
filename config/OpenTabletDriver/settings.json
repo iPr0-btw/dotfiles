@@ -35,7 +35,7 @@
               "Value": 1000.0
             }
           ],
-          "Enable": true
+          "Enable": false
         },
         {
           "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
@@ -55,7 +55,7 @@
               "Value": 6.0
             }
           ],
-          "Enable": true
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
@@ -71,7 +71,7 @@
           "Height": 135.0,
           "X": 108.00001,
           "Y": 67.5,
-          "Rotation": 180.0
+          "Rotation": 0.0
         },
         "EnableClipping": true,
         "EnableAreaLimiting": false,
