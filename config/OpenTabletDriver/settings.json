@@ -27,15 +27,35 @@
           "Path": "TabletDriverFilters.Hawku.Smoothing",
           "Settings": [
             {
-              "Property": "Frequency",
-              "Value": 1000.0
-            },
-            {
               "Property": "Latency",
               "Value": 0.0
+            },
+            {
+              "Property": "Frequency",
+              "Value": 1000.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 2.0
             }
           ],
           "Enable": true
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 6.0
+            }
+          ],
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
