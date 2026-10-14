@@ -141,7 +141,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 1,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -151,12 +151,12 @@
                         "id": 7,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": -896.0,
+                            "y": -317.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
+                            "x": -3.4370369911193848,
+                            "y": -1.5870370864868164
                         },
                         "scale": {
                             "x": 1.0,
@@ -167,12 +167,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 3181.0,
+                            "y": 1812.0
                         },
                         "bounds_rel": {
-                            "x": 3.555555582046509,
-                            "y": 2.0
+                            "x": 5.890740871429443,
+                            "y": 3.355555534362793
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -207,19 +207,19 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1920.0,
-                            "y": 806.0
+                            "y": 727.0
                         },
                         "pos_rel": {
                             "x": 1.7777777910232544,
-                            "y": 0.49259257316589355
+                            "y": 0.3462963104248047
                         },
                         "scale": {
-                            "x": -0.2536458373069763,
-                            "y": 0.2537037134170532
+                            "x": -0.3270833194255829,
+                            "y": 0.32685184478759766
                         },
                         "scale_rel": {
-                            "x": -0.2536458373069763,
-                            "y": 0.2537037134170532
+                            "x": -0.3270833194255829,
+                            "y": 0.32685184478759766
                         },
                         "bounds": {
                             "x": 0.0,
@@ -457,8 +457,8 @@
             "name": "Scene 3"
         }
     ],
-    "current_scene": "Scene",
-    "current_program_scene": "Scene",
+    "current_scene": "Scene 2",
+    "current_program_scene": "Scene 2",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 100,

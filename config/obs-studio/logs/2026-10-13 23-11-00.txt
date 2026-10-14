@@ -217,3 +217,54 @@
 23:12:45.632: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
 23:12:45.632: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
 23:12:48.512: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:13:43.961: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:13:44.131: ---------------------------------
+23:13:44.131: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+23:13:44.131: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+23:13:44.131: 	rate_control: CBR
+23:13:44.131: 	profile:      100
+23:13:44.131: 	level:        -99
+23:13:44.131: 	qp:           0
+23:13:44.131: 	bitrate:      6000
+23:13:44.131: 	maxrate:      6000
+23:13:44.131: 	keyint:       120
+23:13:44.131: 	width:        1920
+23:13:44.131: 	height:       1080
+23:13:44.131: 	b-frames:     0
+23:13:44.131: 	ffmpeg opts:  
+23:13:44.131: 
+23:13:44.140: ---------------------------------
+23:13:44.140: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+23:13:44.140: 
+23:13:44.162: ==== Recording Start ===============================================
+23:13:44.162: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-10-13 23-13-44.mp4'...
+23:13:58.811: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+23:13:58.811: [mp4 muxer: 'adv_file_output'] Number of fragments: 8
+23:13:58.811: [mp4 muxer: 'adv_file_output'] Full moov size: 7 KiB
+23:13:58.811: [mp4 muxer: 'adv_file_output'] Final mdat size: 10927 KiB
+23:13:58.811: Output 'adv_file_output': stopping
+23:13:58.811: Output 'adv_file_output': Total frames output: 872
+23:13:58.811: Output 'adv_file_output': Total drawn frames: 879
+23:13:58.811: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+23:13:58.811: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+23:13:58.813: ==== Recording Stop ================================================
+23:14:02.817: ---------------------------------
+23:14:02.817: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+23:14:02.817: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+23:14:02.817: 	rate_control: CBR
+23:14:02.817: 	profile:      100
+23:14:02.817: 	level:        -99
+23:14:02.817: 	qp:           0
+23:14:02.817: 	bitrate:      6000
+23:14:02.817: 	maxrate:      6000
+23:14:02.817: 	keyint:       120
+23:14:02.817: 	width:        1920
+23:14:02.817: 	height:       1080
+23:14:02.817: 	b-frames:     0
+23:14:02.817: 	ffmpeg opts:  
+23:14:02.817: 
+23:14:02.825: ---------------------------------
+23:14:02.826: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+23:14:02.826: 
+23:14:02.833: ==== Recording Start ===============================================
+23:14:02.834: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-10-13 23-14-02.mp4'...
