@@ -278,3 +278,37 @@
 23:15:10.301: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
 23:15:10.301: [mp4 output: 'adv_file_output'] File output complete. Finalization took 1 ms.
 23:15:10.302: ==== Recording Stop ================================================
+23:15:43.981: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:15:44.474: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:15:44.474: pulse-am: An error occurred while getting the source info!
+23:15:48.959: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456db6950 but 0x0 is focused
+23:15:49.087: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545bd9e3f0 but 0x0 is focused
+23:15:49.087: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545bd9e3f0 but 0x0 is focused
+23:15:51.551: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545bd9e3f0 but 0x0 is focused
+23:15:52.943: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545bd9e3f0 but 0x0 is focused
+23:15:53.950: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545bd9e3f0 but 0x0 is focused
+23:15:55.111: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545bd9e3f0 but 0x0 is focused
+23:15:55.214: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+23:15:55.214: Deduplication logic is being applied to all monitored sources.
+23:15:55.214: Audio monitoring device:
+23:15:55.214: 	name: Default
+23:15:55.214: 	id: default
+23:15:55.226: ---------------------------------
+23:15:55.226: video settings reset:
+23:15:55.226: 	base resolution:   1920x1080
+23:15:55.226: 	output resolution: 1920x1080
+23:15:55.226: 	downscale filter:  Bicubic
+23:15:55.226: 	fps:               60/1
+23:15:55.226: 	format:            NV12
+23:15:55.226: 	YUV mode:          Rec. 709/Partial
+23:15:55.226: NV12 texture support enabled
+23:15:55.226: P010 texture support not available
+23:15:55.227: Settings changed (advanced)
+23:15:55.227: ------------------------------------------------
+23:15:55.254: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:15:55.254: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:15:56.399: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:15:57.048: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:15:57.508: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:15:57.508: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+23:15:57.508: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
