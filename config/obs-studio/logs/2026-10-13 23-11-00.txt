@@ -161,3 +161,56 @@
 23:12:01.687: [pipewire] Screencast session created
 23:12:01.828: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
 23:12:01.828: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:06.343: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:06.343: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:06.343: [pipewire] Asking for monitor and window
+23:12:06.361: [pipewire] source selected, setting up screencast
+23:12:06.368: [pipewire] Server version: 1.6.9
+23:12:06.368: [pipewire] Library version: 1.6.9
+23:12:06.368: [pipewire] Header version: 1.6.8
+23:12:06.369: [pipewire] Created stream 0x56545ad9fcc0
+23:12:06.369: [pipewire] Stream 0x56545ad9fcc0 state: "connecting" (error: none)
+23:12:06.369: [pipewire] Playing stream 0x56545ad9fcc0
+23:12:06.370: [pipewire] Stream 0x56545ad9fcc0 state: "paused" (error: none)
+23:12:06.378: [pipewire] Negotiated format:
+23:12:06.378: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+23:12:06.378: [pipewire]     Modifier: 0x0
+23:12:06.378: [pipewire]     Size: 1440x1800
+23:12:06.378: [pipewire]     Framerate: 0/1
+23:12:06.381: [pipewire] Negotiated format:
+23:12:06.381: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+23:12:06.381: [pipewire]     Modifier: 0x2000000104abb04
+23:12:06.381: [pipewire]     Size: 1440x1800
+23:12:06.381: [pipewire]     Framerate: 0/1
+23:12:06.393: [pipewire] Stream 0x56545ad9fcc0 state: "streaming" (error: none)
+23:12:06.404: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+23:12:06.404: [pipewire] Renegotiating stream
+23:12:06.404: [pipewire] Stream 0x56545ad9fcc0 state: "paused" (error: none)
+23:12:06.404: [pipewire] Negotiated format:
+23:12:06.404: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+23:12:06.404: [pipewire]     Modifier: 0x2000000104abb04
+23:12:06.404: [pipewire]     Size: 1440x1800
+23:12:06.404: [pipewire]     Framerate: 0/1
+23:12:06.405: [pipewire] Negotiated format:
+23:12:06.405: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+23:12:06.405: [pipewire]     Modifier: 0x20000001046bb04
+23:12:06.405: [pipewire]     Size: 1440x1800
+23:12:06.405: [pipewire]     Framerate: 0/1
+23:12:06.406: [pipewire] Stream 0x56545ad9fcc0 state: "streaming" (error: none)
+23:12:06.420: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+23:12:06.420: [pipewire] Renegotiating stream
+23:12:06.421: [pipewire] Stream 0x56545ad9fcc0 state: "paused" (error: none)
+23:12:06.421: [pipewire] Negotiated format:
+23:12:06.421: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+23:12:06.421: [pipewire]     Modifier: 0x20000001046bb04
+23:12:06.421: [pipewire]     Size: 1440x1800
+23:12:06.421: [pipewire]     Framerate: 0/1
+23:12:06.421: [pipewire] Negotiated format:
+23:12:06.421: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+23:12:06.421: [pipewire]     Size: 1440x1800
+23:12:06.421: [pipewire]     Framerate: 0/1
+23:12:06.422: [pipewire] Stream 0x56545ad9fcc0 state: "streaming" (error: none)
+23:12:16.722: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:16.722: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:25.895: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:25.895: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
