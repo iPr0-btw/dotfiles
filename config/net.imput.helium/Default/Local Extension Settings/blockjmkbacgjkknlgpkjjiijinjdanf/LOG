@@ -4,3 +4,24 @@
 2026/10/13-22:37:25.906 4e9b Level-0 table #142: started
 2026/10/13-22:37:25.915 4e9b Level-0 table #142: 4261627 bytes OK
 2026/10/13-22:37:25.916 4e9b Delete type=0 #138
+2026/10/13-22:37:33.332 4e9b Level-0 table #144: started
+2026/10/13-22:37:33.338 4e9b Level-0 table #144: 4745036 bytes OK
+2026/10/13-22:37:33.339 4e9b Delete type=0 #141
+2026/10/13-22:37:33.339 4e9b Compacting 4@0 + 1@1 files
+2026/10/13-22:37:33.349 4e9b Generated table #145@0: 6 keys, 2197993 bytes
+2026/10/13-22:37:33.356 4e9b Generated table #146@0: 6 keys, 4041916 bytes
+2026/10/13-22:37:33.360 4e9b Generated table #147@0: 4 keys, 1013896 bytes
+2026/10/13-22:37:33.364 4e9b Generated table #148@0: 8 keys, 1760058 bytes
+2026/10/13-22:37:33.364 4e9b Compacted 4@0 + 1@1 files => 9013863 bytes
+2026/10/13-22:37:33.364 4e9b compacted to: files[ 0 4 11 0 0 0 0 ]
+2026/10/13-22:37:33.364 4e9b Delete type=2 #139
+2026/10/13-22:37:33.364 4e9b Delete type=2 #142
+2026/10/13-22:37:33.364 4e9b Delete type=2 #144
+2026/10/13-22:37:33.364 4e9b Delete type=2 #137
+2026/10/13-22:37:33.364 4e9b Delete type=2 #122
+2026/10/13-22:37:36.846 4e9b Level-0 table #150: started
+2026/10/13-22:37:36.853 4e9b Level-0 table #150: 4261211 bytes OK
+2026/10/13-22:37:36.855 4e9b Delete type=0 #143
+2026/10/13-22:37:40.586 4e9b Level-0 table #152: started
+2026/10/13-22:37:40.596 4e9b Level-0 table #152: 5873038 bytes OK
+2026/10/13-22:37:40.597 4e9b Delete type=0 #149
