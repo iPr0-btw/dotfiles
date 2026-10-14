@@ -25,7 +25,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 - searXNG search engine
 - nvim IDE with lazyvim config
 - doom emacs, because why tf not?
-- caelestia shell
+- dms shell
 - no unnecessary bloat
 
 ## installing it
