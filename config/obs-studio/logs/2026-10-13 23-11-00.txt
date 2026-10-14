@@ -1249,3 +1249,7 @@
 23:18:52.525: [pipewire]     Size: 1440x1800
 23:18:52.525: [pipewire]     Framerate: 0/1
 23:18:52.526: [pipewire] Stream 0x56545ad9fcc0 state: "streaming" (error: none)
+23:24:46.466: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:24:46.466: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:24:48.596: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:24:48.596: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
