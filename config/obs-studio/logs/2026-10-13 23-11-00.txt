@@ -312,3 +312,17 @@
 23:15:57.508: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
 23:15:57.508: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
 23:15:57.508: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:16:13.364: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:16:13.766: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:16:13.885: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:16:13.885: pulse-am: Got 656 packets with 787200 frames
+23:16:17.350: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:16:17.350: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+23:16:17.350: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:16:27.257: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:16:27.257: pulse-am: Got 397 packets with 476400 frames
+23:16:43.494: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:16:43.494: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+23:16:43.495: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:16:44.155: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:16:44.155: pulse-am: Got 26 packets with 31200 frames
