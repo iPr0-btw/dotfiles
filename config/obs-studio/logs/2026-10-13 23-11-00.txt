@@ -338,3 +338,28 @@
 23:16:52.865: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
 23:16:52.865: pulse-am: Started Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
 23:16:55.036: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:17:39.733: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:17:39.833: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_65_00.6.analog-stereo'
+23:17:39.833: pulse-am: Got 1879 packets with 2254800 frames
+23:17:40.908: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:17:44.577: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:17:44.703: ---------------------------------
+23:17:44.703: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+23:17:44.703: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+23:17:44.703: 	rate_control: CBR
+23:17:44.703: 	profile:      100
+23:17:44.703: 	level:        -99
+23:17:44.703: 	qp:           0
+23:17:44.703: 	bitrate:      6000
+23:17:44.703: 	maxrate:      6000
+23:17:44.703: 	keyint:       120
+23:17:44.703: 	width:        1920
+23:17:44.703: 	height:       1080
+23:17:44.703: 	b-frames:     0
+23:17:44.703: 	ffmpeg opts:  
+23:17:44.703: 
+23:17:44.710: ---------------------------------
+23:17:44.710: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+23:17:44.710: 
+23:17:44.716: ==== Recording Start ===============================================
+23:17:44.716: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-10-13 23-17-44.mp4'...
