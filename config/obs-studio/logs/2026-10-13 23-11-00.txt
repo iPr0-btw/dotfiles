@@ -363,3 +363,16 @@
 23:17:44.710: 
 23:17:44.716: ==== Recording Start ===============================================
 23:17:44.716: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-10-13 23-17-44.mp4'...
+23:17:48.678: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+23:17:48.679: [mp4 muxer: 'adv_file_output'] Number of fragments: 2
+23:17:48.679: [mp4 muxer: 'adv_file_output'] Full moov size: 3 KiB
+23:17:48.679: [mp4 muxer: 'adv_file_output'] Final mdat size: 2891 KiB
+23:17:48.679: Output 'adv_file_output': stopping
+23:17:48.679: Output 'adv_file_output': Total frames output: 231
+23:17:48.679: Output 'adv_file_output': Total drawn frames: 238
+23:17:48.679: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+23:17:48.679: [mp4 output: 'adv_file_output'] File output complete. Finalization took 0 ms.
+23:17:48.680: ==== Recording Stop ================================================
+23:17:51.863: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:18:12.308: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:18:12.308: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
