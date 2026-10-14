@@ -147,3 +147,17 @@
 23:11:08.394: [pipewire] Failed to select source, denied or cancelled by user
 23:11:08.404: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
 23:11:08.404: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:11:53.160: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:11:53.162: User switched to scene 'Scene 2'
+23:11:54.780: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:00.645: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:00.645: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:00.999: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:00.999: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:12:01.044: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:01.044: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:01.543: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:01.684: PipeWire initialized
+23:12:01.687: [pipewire] Screencast session created
+23:12:01.828: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
+23:12:01.828: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x56545aa56170 but 0x0 is focused
