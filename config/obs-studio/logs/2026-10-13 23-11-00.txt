@@ -1,0 +1,149 @@
+23:11:00.911: Platform: Wayland
+23:11:00.911: CPU Name: AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+23:11:00.911: CPU Speed: 2000.982MHz
+23:11:00.911: Physical Cores: 12, Logical Cores: 24
+23:11:00.911: Physical Memory: 31186MB Total, 17658MB Free
+23:11:00.911: Kernel Version: Linux 7.2.9-2-cachyos-bore
+23:11:00.911: Distribution: "bill gates is a fat, useless, epstein loving spy." Unknown
+23:11:00.911: Desktop Environment: Hyprland (Hyprland)
+23:11:00.911: Session Type: wayland
+23:11:00.913: Current Date/Time: 2026-10-13, 23:11:00
+23:11:00.913: Browser Hardware Acceleration: true
+23:11:00.913: Qt Version: 6.12.0 (runtime), 6.11.1 (compiled)
+23:11:00.913: Portable mode: false
+23:11:00.974: OBS 32.2.2 (linux)
+23:11:00.974: ---------------------------------
+23:11:00.976: ---------------------------------
+23:11:00.976: audio settings reset:
+23:11:00.976: 	samples per sec: 48000
+23:11:00.976: 	speakers:        2
+23:11:00.976: 	max buffering:   960 milliseconds
+23:11:00.976: 	buffering type:  dynamically increasing
+23:11:00.979: ---------------------------------
+23:11:00.979: Initializing OpenGL...
+23:11:00.979: Using EGL/Wayland
+23:11:01.050: Initialized EGL 1.5
+23:11:01.078: Loading up OpenGL on adapter AMD AMD Radeon 890M Graphics (radeonsi, strix1, ACO, DRM 3.64, 7.2.9-2-cachyos-bore)
+23:11:01.078: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.2.3-arch3.1, shading language 4.60
+23:11:01.305: ---------------------------------
+23:11:01.305: video settings reset:
+23:11:01.305: 	base resolution:   1920x1080
+23:11:01.305: 	output resolution: 1920x1080
+23:11:01.305: 	downscale filter:  Bicubic
+23:11:01.305: 	fps:               60/1
+23:11:01.305: 	format:            NV12
+23:11:01.305: 	YUV mode:          Rec. 709/Partial
+23:11:01.305: NV12 texture support enabled
+23:11:01.305: P010 texture support not available
+23:11:01.309: Audio monitoring device:
+23:11:01.309: 	name: الحمد لله
+23:11:01.309: 	id: bluez_output.7C_C0_6F_8C_A5_03.1
+23:11:01.314: ---------------------------------
+23:11:01.316: Failed to load 'en-US' text for module: 'decklink-captions.so'
+23:11:01.319: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+23:11:01.321: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:11:01.321: Failed to initialize module 'decklink.so'
+23:11:01.557: [pipewire] Available capture sources:
+23:11:01.557: [pipewire]     - Monitor source
+23:11:01.557: [pipewire]     - Window source
+23:11:01.653: [obs-browser]: Version 2.26.9
+23:11:01.653: [obs-browser]: CEF Version 152.0.7977.83 (runtime), 151.3.18+gbeff58d+chromium-151.0.7922.138 (compiled)
+23:11:01.719: VAAPI: API version 1.24
+23:11:01.719: FFmpeg VAAPI H264 encoding supported
+23:11:01.727: FFmpeg VAAPI AV1 encoding supported
+23:11:01.735: FFmpeg VAAPI HEVC encoding supported
+23:11:04.831: [NVENC] Test process failed: unknown
+23:11:04.831: NVENC not supported
+23:11:04.831: Failed to initialize module 'obs-nvenc.so'
+23:11:04.947: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+23:11:04.947: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.12.0
+23:11:04.947: [obs-websocket] [obs_module_load] Linked ASIO Version: 103802
+23:11:04.953: [obs-websocket] [obs_module_load] Module loaded.
+23:11:04.958: ---------------------------------
+23:11:04.958:   Loaded Modules:
+23:11:04.958:     text-freetype2.so
+23:11:04.958:     rtmp-services.so
+23:11:04.958:     obs-x264.so
+23:11:04.958:     obs-websocket.so
+23:11:04.958:     obs-webrtc.so
+23:11:04.958:     obs-vst.so
+23:11:04.958:     obs-transitions.so
+23:11:04.958:     obs-qsv11.so
+23:11:04.958:     obs-outputs.so
+23:11:04.958:     obs-libfdk.so
+23:11:04.958:     obs-filters.so
+23:11:04.958:     obs-ffmpeg.so
+23:11:04.958:     obs-browser.so
+23:11:04.958:     linux-v4l2.so
+23:11:04.958:     linux-pulseaudio.so
+23:11:04.958:     linux-pipewire.so
+23:11:04.958:     linux-jack.so
+23:11:04.958:     linux-capture.so
+23:11:04.958:     linux-alsa.so
+23:11:04.958:     image-source.so
+23:11:04.958:     frontend-tools.so
+23:11:04.958:     decklink-output-ui.so
+23:11:04.958:     decklink-captions.so
+23:11:04.958: ---------------------------------
+23:11:04.958: ---------------------------------
+23:11:04.958: Available Encoders:
+23:11:04.958:   Video Encoders:
+23:11:04.958: 	- ffmpeg_svt_av1 (SVT-AV1)
+23:11:04.958: 	- ffmpeg_aom_av1 (AOM AV1)
+23:11:04.958: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+23:11:04.958: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+23:11:04.958: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+23:11:04.958: 	- obs_x264 (x264)
+23:11:04.958:   Audio Encoders:
+23:11:04.958: 	- ffmpeg_aac (FFmpeg AAC)
+23:11:04.958: 	- ffmpeg_opus (FFmpeg Opus)
+23:11:04.958: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+23:11:04.958: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+23:11:04.958: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+23:11:04.958: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+23:11:04.958: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+23:11:04.958: 	- libfdk_aac (libfdk AAC)
+23:11:04.958: ==== Startup complete ===============================================
+23:11:05.010: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+23:11:05.010: All scene data cleared
+23:11:05.010: ------------------------------------------------
+23:11:05.020: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:11:05.020: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+23:11:05.020: pulse-input: Started recording from 'alsa_output.pci-0000_65_00.6.analog-stereo.monitor' (default)
+23:11:05.020: [Loaded global audio device]: 'Desktop Audio'
+23:11:05.021: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:11:05.021: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+23:11:05.022: pulse-input: Started recording from 'alsa_input.pci-0000_65_00.6.analog-stereo'
+23:11:05.028: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+23:11:05.028: pulse-am: An error occurred while getting the source info!
+23:11:05.028: [Loaded global audio device]: 'Mic/Aux'
+23:11:05.028:     - monitoring: monitor and output
+23:11:05.028: v4l2-input: Start capture from /dev/video0
+23:11:05.137: v4l2-input: Input: 0
+23:11:05.140: v4l2-input: Resolution: 1920x1080
+23:11:05.140: v4l2-input: Pixelformat: BGR3
+23:11:05.140: v4l2-input: Linesize: 5760 Bytes
+23:11:05.140: v4l2-input: Framerate: 30.00 fps
+23:11:05.141: PipeWire initialized
+23:11:05.141: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+23:11:05.144: Switched to scene 'Scene'
+23:11:05.144: ------------------------------------------------
+23:11:05.144: Loaded scenes:
+23:11:05.144: - scene 'Scene':
+23:11:05.144:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+23:11:05.144: - scene 'Scene 2':
+23:11:05.144:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+23:11:05.144:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+23:11:05.144: - scene 'Scene 3':
+23:11:05.144:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+23:11:05.144: ------------------------------------------------
+23:11:05.213: [pipewire] Screencast session created
+23:11:05.310: v4l2-input: /dev/video0: select timed out
+23:11:05.311: v4l2-input: /dev/video0: failed to log status
+23:11:05.325: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:11:05.325: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:11:05.606: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+23:11:05.606: 
+23:11:08.394: [pipewire] Failed to select source, denied or cancelled by user
+23:11:08.404: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:11:08.404: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
