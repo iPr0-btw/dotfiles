@@ -1253,3 +1253,26 @@
 23:24:46.466: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
 23:24:48.596: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
 23:24:48.596: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:30:24.179: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456db6950 but 0x0 is focused
+23:30:24.379: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:30:26.237: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Trying to disable 0x565456beade0 but 0x0 is focused
+23:30:26.403: ---------------------------------
+23:30:26.403: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+23:30:26.403: 	device:       /dev/dri/by-path/pci-0000:65:00.0-render
+23:30:26.403: 	rate_control: CBR
+23:30:26.403: 	profile:      100
+23:30:26.403: 	level:        -99
+23:30:26.403: 	qp:           0
+23:30:26.403: 	bitrate:      6000
+23:30:26.403: 	maxrate:      6000
+23:30:26.403: 	keyint:       120
+23:30:26.403: 	width:        1920
+23:30:26.403: 	height:       1080
+23:30:26.403: 	b-frames:     0
+23:30:26.403: 	ffmpeg opts:  
+23:30:26.403: 
+23:30:26.411: ---------------------------------
+23:30:26.411: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+23:30:26.411: 
+23:30:26.418: ==== Recording Start ===============================================
+23:30:26.418: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file '/home/bruh/Videos/2026-10-13 23-30-26.mp4'...
