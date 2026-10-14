@@ -29,7 +29,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 - no unnecessary bloat
 
 ## installing it
-- install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop caelestia-shell'
+- install the apps with your package manager, for example with arch you would type 'yay -S hyprland kitty fish rofi plasma-desktop dms-shell'
 - clone this repo and copy the 'config' folder to ~/.config
 - to install searXNG, install it with docker, and then see services/searXNG for config details.
 
