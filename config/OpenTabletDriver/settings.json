@@ -164,6 +164,98 @@
               "Value": 0.3
             }
           ],
+          "Enable": false
+        },
+        {
+          "Path": "Saturn.Multifilter",
+          "Settings": [
+            {
+              "Property": "reverseSmoothing",
+              "Value": 1.0
+            },
+            {
+              "Property": "stockWeight",
+              "Value": 1.0
+            },
+            {
+              "Property": "rInner",
+              "Value": 25.0
+            },
+            {
+              "Property": "smoothDist",
+              "Value": 50.0
+            },
+            {
+              "Property": "sepMult",
+              "Value": 1.0
+            },
+            {
+              "Property": "aResponse",
+              "Value": 0.0
+            },
+            {
+              "Property": "areaScale",
+              "Value": 0.5
+            },
+            {
+              "Property": "xMod",
+              "Value": 1.0
+            },
+            {
+              "Property": "ExGate",
+              "Value": false
+            },
+            {
+              "Property": "interp",
+              "Value": false
+            },
+            {
+              "Property": "wireMode",
+              "Value": "Wire - Interp"
+            },
+            {
+              "Property": "frameShift",
+              "Value": 0.0
+            },
+            {
+              "Property": "Frequency",
+              "Value": 1000.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "TemporalResampler",
+          "Settings": [
+            {
+              "Property": "frameShift",
+              "Value": 0.5
+            },
+            {
+              "Property": "followRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "latency",
+              "Value": 0.0
+            },
+            {
+              "Property": "reverseSmoothing",
+              "Value": 1.0
+            },
+            {
+              "Property": "extraFrames",
+              "Value": true
+            },
+            {
+              "Property": "loggingEnabled",
+              "Value": false
+            },
+            {
+              "Property": "Frequency",
+              "Value": 1000.0
+            }
+          ],
           "Enable": true
         }
       ],
