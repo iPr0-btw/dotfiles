@@ -142,7 +142,10 @@
       "attachToScreenEdge": false,
       "island": true,
       "islandFloating": true,
-      "islandUseOverlayLayer": false
+      "islandUseOverlayLayer": false,
+      "islandCompactThickness": 24,
+      "islandOuterGap": 4,
+      "islandAlongOffset": -329
     }
   ],
   "desktopClockCustomColor": {
