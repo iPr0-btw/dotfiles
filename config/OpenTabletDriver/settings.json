@@ -91,6 +91,80 @@
           "Path": "Circular_Area.Circular_Tapered3_Mapping",
           "Settings": [],
           "Enable": false
+        },
+        {
+          "Path": "Saturn.HRRNC",
+          "Settings": [
+            {
+              "Property": "noiseAmount",
+              "Value": 7.0
+            },
+            {
+              "Property": "vMult",
+              "Value": 1.0
+            },
+            {
+              "Property": "probMult",
+              "Value": 0.65
+            },
+            {
+              "Property": "timeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "posSlack",
+              "Value": 1.5
+            },
+            {
+              "Property": "cStrength",
+              "Value": 0.5
+            },
+            {
+              "Property": "cChain",
+              "Value": false
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "Saturn.AreaRoundingDFC",
+          "Settings": [
+            {
+              "Property": "threshold",
+              "Value": 720.0
+            },
+            {
+              "Property": "dPower",
+              "Value": 1.0
+            },
+            {
+              "Property": "xDiv",
+              "Value": 1.0
+            },
+            {
+              "Property": "yDiv",
+              "Value": 1.0
+            },
+            {
+              "Property": "xMul",
+              "Value": 1.0
+            },
+            {
+              "Property": "yMul",
+              "Value": 1.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "VoiDPlugins.Filter.PrecisionControl",
+          "Settings": [
+            {
+              "Property": "Scale",
+              "Value": 0.3
+            }
+          ],
+          "Enable": true
         }
       ],
       "AbsoluteModeSettings": {
