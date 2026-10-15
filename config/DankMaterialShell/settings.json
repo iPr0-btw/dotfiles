@@ -31,6 +31,74 @@
   "barElevationEnabled": false,
   "blurEnabled": true,
   "controlCenterShowMicPercent": true,
+  "controlCenterWidgets": [
+    {
+      "id": "volumeSlider",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "brightnessSlider",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "wifi",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "bluetooth",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "audioOutput",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "audioInput",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "nightMode",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "darkMode",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "builtin_vpn",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "builtin_tailscale",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "diskUsage",
+      "enabled": true,
+      "width": 50,
+      "instanceId": "mva35is5pzayu67z5fk",
+      "mountPath": "/",
+      "showMountPath": true
+    },
+    {
+      "id": "diskUsage",
+      "enabled": true,
+      "width": 50,
+      "instanceId": "mva35me4yulggdat72vvnbl8pal5f",
+      "mountPath": "/",
+      "showMountPath": true
+    }
+  ],
   "appIdSubstitutions": [],
   "clockDateFormat": "yyyy-dd-MM",
   "appLauncherGridColumns": 2,
