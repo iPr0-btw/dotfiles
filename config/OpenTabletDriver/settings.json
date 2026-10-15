@@ -316,22 +316,30 @@
                 "Value": "Vertical"
               },
               {
-                "Property": "Amount",
-                "Value": 120
-              },
-              {
                 "Property": "Interval",
                 "Value": 300
+              },
+              {
+                "Property": "Amount",
+                "Value": -120
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
             "Settings": [
               {
-                "Property": "Button",
-                "Value": "Left"
+                "Property": "Direction",
+                "Value": "Vertical"
+              },
+              {
+                "Property": "Interval",
+                "Value": 300
+              },
+              {
+                "Property": "Amount",
+                "Value": 120
               }
             ],
             "Enable": true
