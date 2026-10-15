@@ -309,11 +309,19 @@
         },
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
             "Settings": [
               {
-                "Property": "Button",
-                "Value": "Right"
+                "Property": "Direction",
+                "Value": "Vertical"
+              },
+              {
+                "Property": "Amount",
+                "Value": 120
+              },
+              {
+                "Property": "Interval",
+                "Value": 300
               }
             ],
             "Enable": true
