@@ -45,7 +45,7 @@
               "Value": 2.0
             }
           ],
-          "Enable": false
+          "Enable": true
         },
         {
           "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
@@ -55,7 +55,7 @@
               "Value": 6.0
             }
           ],
-          "Enable": true
+          "Enable": false
         },
         {
           "Path": "Circular_Area.Circular_2_Squircular_Mapping",
@@ -268,8 +268,8 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 216.0,
-          "Height": 135.0,
+          "Width": 2.16,
+          "Height": 1.35,
           "X": 108.0,
           "Y": 67.5,
           "Rotation": 0.0
