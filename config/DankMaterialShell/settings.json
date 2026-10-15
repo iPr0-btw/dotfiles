@@ -186,7 +186,11 @@
       "hoverPopouts": false,
       "islandTransparency": 1,
       "islandCornerRadius": 34,
-      "islandSatelliteBackground": false
+      "islandSatelliteBackground": false,
+      "islandSatellitePosition": "edges",
+      "islandSatelliteGap": 4,
+      "islandInteractionMode": "hybrid",
+      "islandReducedMotion": false
     }
   ],
   "desktopClockCustomColor": {
