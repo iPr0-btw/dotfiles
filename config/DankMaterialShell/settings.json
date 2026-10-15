@@ -148,7 +148,10 @@
       "islandAlongOffset": -329,
       "islandHomeClockDisplay": "both",
       "islandSatellitesEnabled": false,
-      "islandBatteryStyle": "ring"
+      "islandBatteryStyle": "ring",
+      "islandPalette": "dim",
+      "islandHighContrast": true,
+      "islandMediaClockVisible": true
     }
   ],
   "desktopClockCustomColor": {
