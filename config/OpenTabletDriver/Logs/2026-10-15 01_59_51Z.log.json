@@ -5383,3 +5383,19 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-14T22:09:37.6422299-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is enabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:09:38.1440935-05:00",
+  "Group": "TabletDebugger",
+  "Message": "Touch undefined in tablet configuration - unable to draw touch points",
+  "StackTrace": null,
+  "Level": 2,
+  "Notification": false
+},
