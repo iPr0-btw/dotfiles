@@ -139,7 +139,8 @@
       "shadowCustomColor": "#000000",
       "clickThrough": false,
       "barInsetPadding": 0,
-      "attachToScreenEdge": false
+      "attachToScreenEdge": false,
+      "island": true
     }
   ],
   "desktopClockCustomColor": {
