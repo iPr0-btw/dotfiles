@@ -190,7 +190,10 @@
       "islandSatellitePosition": "edges",
       "islandSatelliteGap": 4,
       "islandInteractionMode": "hybrid",
-      "islandReducedMotion": false
+      "islandReducedMotion": false,
+      "islandSpringMass": 0.25,
+      "islandSpringDamping": 99,
+      "islandSpringStiffness": 1190
     }
   ],
   "desktopClockCustomColor": {
