@@ -75,7 +75,22 @@
         {
           "Path": "Circular_Area.Circular_Approximate_Equal_Area",
           "Settings": [],
-          "Enable": true
+          "Enable": false
+        },
+        {
+          "Path": "Circular_Area.Circular_Squelched_Grid_Open_Mapping_Inverse",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "Circular_Area.Circular_Tapered1_5_Mapping",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "Circular_Area.Circular_Tapered3_Mapping",
+          "Settings": [],
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
