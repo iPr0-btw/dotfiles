@@ -31,6 +31,7 @@ text/x-systemd-unit=org.x.editor.desktop;
 audio/mpeg=audacity.desktop;
 application/typescript=org.x.editor.desktop;
 application/x-zerosize=mpv.desktop;
+text/x-chdr=nvim.desktop;
 
 [Default Applications]
 application/json=nvim.desktop;
