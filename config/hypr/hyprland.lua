@@ -278,7 +278,6 @@ hl.bind("SUPER + S", hl.dsp.exec_cmd(".local/bin/screenshot"))
 
 -- Lock screen
 hl.bind("SUPER + L", hl.dsp.exec_cmd("swaylock -c 000000"))
--- hl.bind("SUPER + L", hl.dsp.exec_cmd("dms ipc lock lock"))
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
