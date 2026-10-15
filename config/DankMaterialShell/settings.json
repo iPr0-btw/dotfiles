@@ -147,7 +147,7 @@
       "islandOuterGap": 4,
       "islandAlongOffset": 0,
       "islandHomeClockDisplay": "both",
-      "islandSatellitesEnabled": false,
+      "islandSatellitesEnabled": true,
       "islandBatteryStyle": "ring",
       "islandPalette": "dim",
       "islandHighContrast": true,
@@ -185,7 +185,8 @@
       "islandHomeCompactTight": true,
       "hoverPopouts": false,
       "islandTransparency": 1,
-      "islandCornerRadius": 34
+      "islandCornerRadius": 34,
+      "islandSatelliteBackground": false
     }
   ],
   "desktopClockCustomColor": {
@@ -226,6 +227,12 @@
     },
     "dms_clipboard_search": {
       "trigger": "cb"
+    },
+    "dms_power": {
+      "trigger": "pw"
+    },
+    "dms_qr_generator": {
+      "trigger": "qrg"
     }
   },
   "configVersion": 18
