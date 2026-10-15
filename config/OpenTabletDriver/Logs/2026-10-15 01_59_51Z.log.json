@@ -4663,3 +4663,107 @@
   "Level": 2,
   "Notification": false
 },
+{
+  "Time": "2026-10-14T22:07:16.4709729-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is disabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1128912-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1346667-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1360373-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1870193-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1875496-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1877988-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.188252-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.1887215-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.2399692-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.2920111-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.2926094-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-14T22:07:22.2935151-05:00",
+  "Group": "DeviceIOException",
+  "Message": "No serial number.",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetSerialNumber()\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.<>c.<get_SerialNumber>b__19_0(HidDevice d) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 32\n   at OpenTabletDriver.Extensions.TryGet[TSource,TValue](TSource source, Func`2 predicate, TValue& value) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver/Extensions.cs:line 12",
+  "Level": 0,
+  "Notification": false
+},
