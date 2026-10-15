@@ -316,12 +316,12 @@
                 "Value": "Vertical"
               },
               {
-                "Property": "Interval",
-                "Value": 300
-              },
-              {
                 "Property": "Amount",
                 "Value": -120
+              },
+              {
+                "Property": "Interval",
+                "Value": 1
               }
             ],
             "Enable": true
@@ -334,12 +334,12 @@
                 "Value": "Vertical"
               },
               {
-                "Property": "Interval",
-                "Value": 300
-              },
-              {
                 "Property": "Amount",
                 "Value": 120
+              },
+              {
+                "Property": "Interval",
+                "Value": 1
               }
             ],
             "Enable": true
