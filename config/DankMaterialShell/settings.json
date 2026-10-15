@@ -140,7 +140,7 @@
       "clickThrough": false,
       "barInsetPadding": 0,
       "attachToScreenEdge": false,
-      "island": true,
+      "island": false,
       "islandFloating": true,
       "islandUseOverlayLayer": false,
       "islandCompactThickness": 24,
@@ -193,7 +193,8 @@
       "islandReducedMotion": false,
       "islandSpringMass": 3,
       "islandSpringDamping": 100,
-      "islandSpringStiffness": 1200
+      "islandSpringStiffness": 1200,
+      "islandNotificationBadgeClearOnOpen": true
     }
   ],
   "desktopClockCustomColor": {
