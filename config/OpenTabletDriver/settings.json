@@ -330,7 +330,7 @@
         "MouseScrollUp": null,
         "MouseScrollDown": null,
         "WheelBindings": [],
-        "DisablePressure": true,
+        "DisablePressure": false,
         "DisableTilt": false,
         "EnableDragBindings": false
       }
@@ -338,5 +338,54 @@
   ],
   "LockUsableAreaDisplay": true,
   "LockUsableAreaTablet": true,
-  "Tools": []
+  "Tools": [
+    {
+      "Path": "Saturn.CustomResetAbsoluteModeSettings",
+      "Settings": [
+        {
+          "Property": "resetTime",
+          "Value": 25.0
+        },
+        {
+          "Property": "resetMode",
+          "Value": "None"
+        },
+        {
+          "Property": "nearProximityDrops",
+          "Value": 4
+        },
+        {
+          "Property": "timeProximity",
+          "Value": true
+        },
+        {
+          "Property": "pixelGridMult",
+          "Value": 0.0
+        },
+        {
+          "Property": "dynamicMode",
+          "Value": true
+        },
+        {
+          "Property": "persistenceMode",
+          "Value": "Hard"
+        },
+        {
+          "Property": "logInfo",
+          "Value": true
+        }
+      ],
+      "Enable": false
+    },
+    {
+      "Path": "TouchGestures.Installer.TouchGesturesInstaller",
+      "Settings": [
+        {
+          "Property": "ForceInstall",
+          "Value": false
+        }
+      ],
+      "Enable": false
+    }
+  ]
 }
