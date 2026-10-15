@@ -179,9 +179,10 @@
         },
         {
           "id": "notifications",
-          "enabled": false
+          "enabled": true
         }
-      ]
+      ],
+      "islandHomeCompactTight": true
     }
   ],
   "desktopClockCustomColor": {
