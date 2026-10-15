@@ -191,9 +191,9 @@
       "islandSatelliteGap": 4,
       "islandInteractionMode": "hybrid",
       "islandReducedMotion": false,
-      "islandSpringMass": 0.25,
-      "islandSpringDamping": 99,
-      "islandSpringStiffness": 1190
+      "islandSpringMass": 3,
+      "islandSpringDamping": 100,
+      "islandSpringStiffness": 1200
     }
   ],
   "desktopClockCustomColor": {
