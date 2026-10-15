@@ -145,13 +145,43 @@
       "islandUseOverlayLayer": false,
       "islandCompactThickness": 24,
       "islandOuterGap": 4,
-      "islandAlongOffset": -329,
+      "islandAlongOffset": 0,
       "islandHomeClockDisplay": "both",
       "islandSatellitesEnabled": false,
       "islandBatteryStyle": "ring",
       "islandPalette": "dim",
       "islandHighContrast": true,
-      "islandMediaClockVisible": true
+      "islandMediaClockVisible": true,
+      "islandHomeLayout": [
+        {
+          "id": "media",
+          "enabled": true
+        },
+        {
+          "id": "clock",
+          "enabled": true
+        },
+        {
+          "id": "weather",
+          "enabled": false
+        },
+        {
+          "id": "status",
+          "enabled": false
+        },
+        {
+          "id": "volume",
+          "enabled": false
+        },
+        {
+          "id": "brightness",
+          "enabled": false
+        },
+        {
+          "id": "notifications",
+          "enabled": false
+        }
+      ]
     }
   ],
   "desktopClockCustomColor": {
