@@ -140,7 +140,9 @@
       "clickThrough": false,
       "barInsetPadding": 0,
       "attachToScreenEdge": false,
-      "island": true
+      "island": true,
+      "islandFloating": true,
+      "islandUseOverlayLayer": false
     }
   ],
   "desktopClockCustomColor": {
