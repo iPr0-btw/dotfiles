@@ -56,6 +56,26 @@
             }
           ],
           "Enable": true
+        },
+        {
+          "Path": "Circular_Area.Circular_2_Squircular_Mapping",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "Circular_Area.Circular_2_Squircular_Mapping_Inverse",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "Circular_Area.Circular_3_Squircular_Mapping",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "Circular_Area.Circular_Approximate_Equal_Area",
+          "Settings": [],
+          "Enable": true
         }
       ],
       "AbsoluteModeSettings": {
