@@ -285,8 +285,17 @@
         "RelativeResetDelay": "00:00:00.1000000"
       },
       "Bindings": {
-        "TipActivationThreshold": 100.0,
-        "TipButton": null,
+        "TipActivationThreshold": 20.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
         "EraserActivationThreshold": 1.0,
         "EraserButton": {
           "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
