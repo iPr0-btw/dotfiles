@@ -37,6 +37,6 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 ![fastfetch.](./fastfetch.png)
 ![a boring desktop](./desktop.png)
 ![another boring desktop](./desktop.png)
-![vibecoding.]()
+![vibecoding.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0/vibecoding.png)
 
 ## - *plain and simple, like it should be.*
