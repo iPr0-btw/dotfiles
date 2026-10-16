@@ -34,9 +34,10 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 - to install searXNG, install it with docker, and then see services/searXNG for config details.
 
 ## what it looks like:
-![fastfetch.](./fastfetch.png)
-![a boring desktop](./desktop.png)
-![another boring desktop](./desktop.png)
+![fastfetch.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/fastfetch.png)
+![a boring desktop](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/desktop.png)
+![another boring desktop](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/desktop.png)
 ![vibecoding.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/vibecoding.png)
+![halal-nvim](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/halal-nvim.png)
 
 ## - *plain and simple, like it should be.*
