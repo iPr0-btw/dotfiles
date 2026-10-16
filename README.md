@@ -1,6 +1,6 @@
 # my dotfiles.
 
-This is my personal config for my arch + hyprland setup.
+This is my config for my arch + hyprland setup.
 
 ## features
 
