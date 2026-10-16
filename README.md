@@ -36,7 +36,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 ## what it looks like:
 ![fastfetch.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/fastfetch.png)
 ![a boring desktop](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/desktop.png)
-![another boring desktop](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/desktop.png)
+![another boring desktop](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/desktop1.png)
 ![vibecoding.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/vibecoding.png)
 ![halal-nvim.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/halal-nvim.png)
 
