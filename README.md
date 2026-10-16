@@ -31,7 +31,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 ## installing it
 - install the apps with your package manager, for example with arch you would type `yay -S hyprland kitty fish rofi plasma-desktop dms-shell`
 - clone this repo and copy the 'config' folder to ~/.config
-- to install searXNG, install with docker compose on my other repo, `iPr0-btw/self-hosted/services/searXNG` for config details.
+- to install searXNG, install with docker compose on my other repo, `iPr0-btw/self-hosted/services/searXNG`.
 
 ## what it looks like:
 ![fastfetch.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/fastfetch.png)
