@@ -39,4 +39,4 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 ![another boring desktop](./desktop.png)
 ![vibecoding.](./vibecoding.png)
 
-## - plain and simple, like it should be.
+## - plain and simple, *like it should be.*
