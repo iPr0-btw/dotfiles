@@ -12,7 +12,7 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 
 - because I'm the only person at the moment working on my repo, it deadass gets annoying to manually 'git push' my changes, that only works when you have like 10+ devs on one repo. That's where manual push becomes crucial.
 
-## my stack
+## my work
 
 - arch linux/nixos dualboot (OS)
 - hyprland (WM)
@@ -39,4 +39,4 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 ![another boring desktop](./desktop.png)
 ![vibecoding.](./vibecoding.png)
 
-## - plain and simple, *like it should be.*
+## - *plain and simple, like it should be.*
