@@ -16847,3 +16847,195 @@
   "Level": 1,
   "Notification": false
 },
+{
+  "Time": "2026-10-16T22:01:18.354275-05:00",
+  "Group": "IPC",
+  "Message": "Connected to a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.7304795-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_DATA_HOME found: '/home/bruh/.local/share'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.7439825-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CONFIG_HOME found: '/home/bruh/.config'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.744835-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_RUNTIME_DIR found: '/run/user/1000'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.7454549-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CACHE_HOME found: '/home/bruh/.cache'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.7744426-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Kuuube's CHATTER EXTERMINATOR'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.7925225-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'The Saturn Collection'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.7957782-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Touch Gestures Installer'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.799388-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Temporal Resampler'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.8010973-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'HawkuFilters'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:18.8027233-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Precision Control'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:19.4582661-05:00",
+  "Group": "Settings",
+  "Message": "Presets have been refreshed. Loaded 0 presets.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.8991043-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Output mode: Absolute Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.8993388-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Display area: [1728x1080@<864, 540>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.8994014-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tablet area: [216x135@<108, 67.5>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.8994378-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Clipping: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.8994559-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Ignoring reports outside area: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.8996688-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tip Binding: [Mouse Button Binding: Left]@20%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.9002184-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Eraser Binding: [Mouse Button Binding: Right]@1%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.9009939-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Pen Bindings: Mouse Scroll Binding: Direction: Vertical, Amount: -120, Interval: 10, Mouse Scroll Binding: Direction: Vertical, Amount: 120, Interval: 10",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.9020194-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Filter Settings Kuuube's CHATTER EXTERMINATOR RAW: (Chatter_Extermination_Strength: 2)",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.9021221-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Filter Settings Temporal Resampler: (frameShift: 0.5), (followRadius: 0), (latency: 0), (reverseSmoothing: 1), (extraFrames: True), (loggingEnabled: False), (Frequency: 1000)",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:30.9021642-05:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-16T22:01:40.6059168-05:00",
+  "Group": "IPC",
+  "Message": "Disconnected from a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
