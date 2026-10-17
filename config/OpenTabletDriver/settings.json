@@ -296,7 +296,7 @@
           ],
           "Enable": true
         },
-        "EraserActivationThreshold": 1.0,
+        "EraserActivationThreshold": 40.0,
         "EraserButton": {
           "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
           "Settings": [
