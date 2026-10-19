@@ -27,7 +27,7 @@ or other application using the libvirt API.
       <feature enabled='yes' name='secure-boot'/>
     </firmware>
     <loader readonly='yes' secure='yes' type='pflash' format='raw'>/usr/share/edk2/x64/OVMF_CODE.secboot.4m.fd</loader>
-    <nvram template='/usr/share/edk2/x64/OVMF_VARS.4m.fd' templateFormat='raw' format='raw'>/var/lib/libvirt/qemu/nvram/archlinux_VARS.fd</nvram>
+    <nvram template='/usr/share/edk2/x64/OVMF_VARS.4m.fd' templateFormat='raw' format='raw'>/<home/bruh/.config/libvirt/qemu/nvram/archlinux_VARS.fd/nvram>
     <boot dev='hd'/>
   </os>
   <features>
