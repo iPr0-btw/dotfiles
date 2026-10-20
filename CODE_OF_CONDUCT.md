@@ -29,7 +29,7 @@ a cheat sheet for my keybinds.
 | keybind | action |
 |---------|--------|
 | alt + shift + m | exit session |
-| ctrl + alt + delete | open logout menu |
+| ctrl + alt + delete | open wlogout |
 | ctrl + alt + shift + delete | reboot system |
 
 ## window & workspace navigation
