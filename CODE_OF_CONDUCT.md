@@ -1,4 +1,4 @@
-# NOT CODE OF CONDUCT. this is simply my hyprland keybinds
+# NOT CODE OF CONDUCT. this is simply my hyprland keybinds, but i want the seperate github tab for your ease.
 
 # hyprland keybindings.
 
