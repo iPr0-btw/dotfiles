@@ -1,6 +1,6 @@
 # NOT CODE OF CONDUCT. this is simply my hyprland keybinds.
 
-if you did want code of conduct tho, just don't use my code for malicious purposes. allah sees all.
+- *if you did want code of conduct tho, just don't use my code for malicious purposes. allah sees all.
 
 ## hyprland keybindings.
 
@@ -28,7 +28,7 @@ a cheat sheet for my keybinds.
 
 | keybind | action |
 |---------|--------|
-| alt + shift + m | exit session |
+| alt + shift + m | exit sesh |
 | ctrl + alt + delete | open wlogout |
 | ctrl + alt + shift + delete | reboot system |
 
