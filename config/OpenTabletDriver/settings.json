@@ -4,7 +4,7 @@
     {
       "Tablet": "Wacom CTH-680",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Path": "OpenTabletDriver.Desktop.Output.RelativeMode",
         "Settings": [],
         "Enable": true
       },
