@@ -40,4 +40,4 @@ my 'autopush' script runs on a systemd timer to push updates every 30s, making s
 ![vibecoding.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/vibecoding.png)
 ![halal-nvim.](https://github.com/iPr0-btw/dotfiles/releases/download/v1.0.0/halal-nvim.png)
 
-## - *plain and simple, like it should be.*
+## *plain and simple, like it should be.*
