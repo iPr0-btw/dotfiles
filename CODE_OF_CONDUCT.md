@@ -1,3 +1,5 @@
+# NOT CODE OF CONDUCT. this is simply my hyprland keybinds
+
 # hyprland keybindings.
 
 a cheat sheet for my keybinds.
