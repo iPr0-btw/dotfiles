@@ -4703,3 +4703,187 @@
   "Level": 1,
   "Notification": false
 },
+{
+  "Time": "2026-10-19T22:19:29.639519-05:00",
+  "Group": "Evdev",
+  "Message": "Successfully initialized virtual pressure sensitive tablet. (code NONE)",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:29.6406235-05:00",
+  "Group": "Plugin",
+  "Message": "Object construction has thrown an error",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:29.6413243-05:00",
+  "Group": "NotSupportedException",
+  "Message": "Specified method is not supported.",
+  "StackTrace": "   at Saturn.CustomResetLinuxArtistMode.set_Pointer(IAbsolutePointer value)\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)",
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:29.6596272-05:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6413294-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6415293-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Display area: [1440x900@<720, 450>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6415794-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tablet area: [216x135@<108, 67.5>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6416106-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Clipping: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6416385-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Ignoring reports outside area: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6420868-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Pressure: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6422534-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tilt: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6427679-05:00",
+  "Group": "Mouse Button Binding",
+  "Message": "IMouseButtonHandler unavailable. Your selected output mode is incompatible",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6428558-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tip Binding: [Mouse Button Binding: Left]@20%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6429615-05:00",
+  "Group": "Mouse Button Binding",
+  "Message": "IMouseButtonHandler unavailable. Your selected output mode is incompatible",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6429928-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Eraser Binding: [Mouse Button Binding: Right]@40%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6436529-05:00",
+  "Group": "Mouse Scroll Binding",
+  "Message": "IMouseScrollHandler unavailable. Your selected output mode is incompatible",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6438464-05:00",
+  "Group": "Mouse Scroll Binding",
+  "Message": "IMouseScrollHandler unavailable. Your selected output mode is incompatible",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6439206-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Pen Bindings: Mouse Scroll Binding: Direction: Vertical, Amount: -120, Interval: 10, Mouse Scroll Binding: Direction: Vertical, Amount: 120, Interval: 10",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.6450147-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Filter Settings Hawku Smoothing Filter: (Latency: 20), (Frequency: 1000)",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:36.645133-05:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:44.1427883-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is enabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:46.9603031-05:00",
+  "Group": "TabletDebugger",
+  "Message": "Touch undefined in tablet configuration - unable to draw touch points",
+  "StackTrace": null,
+  "Level": 2,
+  "Notification": false
+},
+{
+  "Time": "2026-10-19T22:19:50.4689374-05:00",
+  "Group": "Tablet",
+  "Message": "Tablet debugging is disabled",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
