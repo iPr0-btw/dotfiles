@@ -2,7 +2,7 @@
 
 if you did want code of conduct tho, just don't use my code for malicious purposes. allah sees all.
 
-# hyprland keybindings.
+## hyprland keybindings.
 
 a cheat sheet for my keybinds.
 
