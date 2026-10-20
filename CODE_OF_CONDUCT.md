@@ -1,5 +1,7 @@
 # NOT CODE OF CONDUCT. this is simply my hyprland keybinds, but i want the seperate github tab for your ease.
 
+if you did want code of conduct tho, just don't use my code for mal
+
 # hyprland keybindings.
 
 a cheat sheet for my keybinds.
