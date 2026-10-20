@@ -1,4 +1,4 @@
-# NOT CODE OF CONDUCT. this is simply my hyprland keybinds
+# NOT CODE OF CONDUCT. this is simply my hyprland keybinds.
 
 if you did want code of conduct tho, just don't use my code for malicious purposes. allah sees all.
 
