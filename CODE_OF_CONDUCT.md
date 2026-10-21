@@ -4,9 +4,7 @@
 
 ## hyprland cheatsheet.
 
-a cheat sheet for my keybinds.
-
-## application launches
+## apps 
 
 | keybind | action |
 |---------|--------|
