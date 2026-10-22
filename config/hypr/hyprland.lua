@@ -48,7 +48,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("swaybg -i ~/wall0.png")
 	hl.exec_cmd("dms run || caelestia shell -d")
 	hl.exec_cmd("xrdb -merge ~/.Xresources")
-	hl.exec_cmd("librepods -d --start-minimized")
+	hl.exec_cmd("librepods --start-minimized")
 	-- hl.exec_cmd("hypridle")
 end)
 
