@@ -1,7 +1,2 @@
-# 💤 LazyVim
-
-my version of lazyvim.
-
-this writes automatically on every keystroke. mega productive.
-
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+# custom colour scheme.
+- i made my own custom fork of tokyo night, for oled screens
