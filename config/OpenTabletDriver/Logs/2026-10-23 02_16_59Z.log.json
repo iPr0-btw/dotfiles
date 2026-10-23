@@ -2911,3 +2911,43 @@
   "Level": 1,
   "Notification": false
 },
+{
+  "Time": "2026-10-22T21:18:19.2651096-05:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 2, Add: 0, Remove: 2",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-22T21:18:19.2868914-05:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-22T21:18:34.7259267-05:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 2, Add: 2, Remove: 0",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-22T21:18:34.7469284-05:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-22T21:18:34.7575366-05:00",
+  "Group": "DriverDaemon",
+  "Message": "No known tablets added, skipping detect",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
