@@ -257,6 +257,16 @@
             }
           ],
           "Enable": false
+        },
+        {
+          "Path": "AimAssistPlugin.AimAssistPlugin",
+          "Settings": [
+            {
+              "Property": "Power",
+              "Value": 0.0
+            }
+          ],
+          "Enable": true
         }
       ],
       "AbsoluteModeSettings": {

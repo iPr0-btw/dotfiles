@@ -3391,3 +3391,283 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-23T22:54:39.0174468-05:00",
+  "Group": "IPC",
+  "Message": "Connected to a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1600073-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_DATA_HOME found: '/home/bruh/.local/share'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1658015-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CONFIG_HOME found: '/home/bruh/.config'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1662201-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_RUNTIME_DIR found: '/run/user/1000'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.166543-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CACHE_HOME found: '/home/bruh/.cache'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1789786-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Kuuube's CHATTER EXTERMINATOR'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1870275-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'The Saturn Collection'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1884222-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'reconstructor'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1917249-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Touch Gestures Installer'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1926327-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Temporal Resampler'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.1933011-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'HawkuFilters'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.193971-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Precision Control'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:39.488889-05:00",
+  "Group": "Settings",
+  "Message": "Presets have been refreshed. Loaded 0 presets.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0137256-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Output mode: Absolute Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0138316-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Display area: [1440x900@<720.00006, 450>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0138543-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tablet area: [216x135@<108, 67.5>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0138639-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Clipping: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0138797-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Ignoring reports outside area: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0139953-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tip Binding: [Mouse Button Binding: Left]@20%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0142613-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Eraser Binding: [Mouse Button Binding: Right]@40%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0145544-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Pen Bindings: Mouse Scroll Binding: Direction: Vertical, Amount: -120, Interval: 10, Mouse Scroll Binding: Direction: Vertical, Amount: 120, Interval: 10",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0149411-05:00",
+  "Group": "Plugin",
+  "Message": "Unable to find plugin matching name 'AimAssistPlugin.AimAssistPlugin'",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0150077-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Filter Settings Hawku Smoothing Filter: (Frequency: 60000), (Latency: 1)",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:51.0150188-05:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4434675-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Output mode: Absolute Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4435917-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Display area: [1440x900@<720.00006, 450>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4436239-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tablet area: [216x135@<108, 67.5>:0°],",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.443634-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Clipping: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.443643-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Ignoring reports outside area: Enabled",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4438316-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Tip Binding: [Mouse Button Binding: Left]@20%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4438775-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Eraser Binding: [Mouse Button Binding: Right]@40%",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4441298-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Pen Bindings: Mouse Scroll Binding: Direction: Vertical, Amount: -120, Interval: 10, Mouse Scroll Binding: Direction: Vertical, Amount: 120, Interval: 10",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4445579-05:00",
+  "Group": "Plugin",
+  "Message": "Unable to find plugin matching name 'AimAssistPlugin.AimAssistPlugin'",
+  "StackTrace": null,
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4446743-05:00",
+  "Group": "Wacom CTH-680",
+  "Message": "Filter Settings Hawku Smoothing Filter: (Frequency: 60000), (Latency: 1)",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:56.4446875-05:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
