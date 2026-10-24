@@ -3279,3 +3279,115 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-23T22:53:52.8236141-05:00",
+  "Group": "IPC",
+  "Message": "Connected to a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9160831-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_DATA_HOME found: '/home/bruh/.local/share'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9199962-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CONFIG_HOME found: '/home/bruh/.config'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9202478-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_RUNTIME_DIR found: '/run/user/1000'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9204385-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CACHE_HOME found: '/home/bruh/.cache'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9289924-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Kuuube's CHATTER EXTERMINATOR'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9339875-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'The Saturn Collection'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9349911-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'reconstructor'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9400227-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Touch Gestures Installer'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9407131-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Temporal Resampler'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9411552-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'HawkuFilters'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:52.9417075-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Precision Control'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:53:53.1551225-05:00",
+  "Group": "Settings",
+  "Message": "Presets have been refreshed. Loaded 0 presets.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T22:54:27.2161089-05:00",
+  "Group": "IPC",
+  "Message": "Disconnected from a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
