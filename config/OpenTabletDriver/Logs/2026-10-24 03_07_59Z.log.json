@@ -3767,3 +3767,131 @@
   "Level": 0,
   "Notification": false
 },
+{
+  "Time": "2026-10-23T23:26:53.8867136-05:00",
+  "Group": "IPC",
+  "Message": "Connected to a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9767932-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_DATA_HOME found: '/home/bruh/.local/share'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9803812-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CONFIG_HOME found: '/home/bruh/.config'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9806136-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_RUNTIME_DIR found: '/run/user/1000'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9807878-05:00",
+  "Group": "UnixXdgPath",
+  "Message": "XDG_CACHE_HOME found: '/home/bruh/.cache'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9888645-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Kuuube's CHATTER EXTERMINATOR'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.993866-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'The Saturn Collection'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9947522-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'reconstructor'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9968782-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Touch Gestures Installer'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9974534-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Temporal Resampler'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.9978862-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'HawkuFilters'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:53.998352-05:00",
+  "Group": "Plugin",
+  "Message": "Loading plugin 'Precision Control'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:26:54.2010529-05:00",
+  "Group": "Settings",
+  "Message": "Presets have been refreshed. Loaded 0 presets.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:27:10.9981222-05:00",
+  "Group": "RemoteInvocationException",
+  "Message": "Sequence contains no matching element",
+  "StackTrace": "   at StreamJsonRpc.JsonRpc.InvokeCoreAsync[TResult](RequestId id, String targetName, IReadOnlyList`1 arguments, IReadOnlyList`1 positionalArgumentDeclaredTypes, IReadOnlyDictionary`2 namedArgumentDeclaredTypes, CancellationToken cancellationToken, Boolean isParameterObject)\n   at OpenTabletDriver.UX.Windows.Plugins.PluginManagerWindow.Uninstall(PluginMetadata metadata) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver.UX/Windows/Plugins/PluginManagerWindow.cs:line 142\n   at OpenTabletDriver.UX.Windows.Plugins.MetadataViewer.UninstallHandler(Object sender, EventArgs e) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver.UX/Windows/Plugins/MetadataViewer.cs:line 229\n   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)\n   at Eto.GtkSharp.Forms.GtkSynchronizationContext.<>c__DisplayClass0_0.<Post>b__0()\n   at GLib.Idle.IdleProxy.Handler()",
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:27:11.003911-05:00",
+  "Group": "InvalidOperationException",
+  "Message": "Sequence contains no matching element",
+  "StackTrace": "   at System.Linq.ThrowHelper.ThrowNoMatchException()\n   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)\n   at OpenTabletDriver.Daemon.DriverDaemon.UninstallPlugin(String directoryPath) in /home/builder/build/src/OpenTabletDriver-0.6.7/OpenTabletDriver.Daemon/DriverDaemon.cs:line 187\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)",
+  "Level": 3,
+  "Notification": false
+},
+{
+  "Time": "2026-10-23T23:27:21.107665-05:00",
+  "Group": "IPC",
+  "Message": "Disconnected from a client.",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
