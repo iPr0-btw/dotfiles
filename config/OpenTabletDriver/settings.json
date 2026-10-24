@@ -27,12 +27,12 @@
           "Path": "TabletDriverFilters.Hawku.Smoothing",
           "Settings": [
             {
-              "Property": "Latency",
-              "Value": 20.0
+              "Property": "Frequency",
+              "Value": 60000.0
             },
             {
-              "Property": "Frequency",
-              "Value": 60.0
+              "Property": "Latency",
+              "Value": 1.0
             }
           ],
           "Enable": true

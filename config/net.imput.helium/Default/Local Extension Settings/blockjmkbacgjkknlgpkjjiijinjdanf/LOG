@@ -1,3 +1,68 @@
 2026/10/23-22:04:01.224 54930 Reusing MANIFEST /home/bruh/.config/net.imput.helium/Default/Local Extension Settings/blockjmkbacgjkknlgpkjjiijinjdanf/MANIFEST-000001
 2026/10/23-22:04:01.224 54930 Recovering log #216
 2026/10/23-22:04:01.225 54930 Reusing old log /home/bruh/.config/net.imput.helium/Default/Local Extension Settings/blockjmkbacgjkknlgpkjjiijinjdanf/000216.log 
+2026/10/23-22:04:07.133 54931 Level-0 table #220: started
+2026/10/23-22:04:07.159 54931 Level-0 table #220: 5727700 bytes OK
+2026/10/23-22:04:07.159 54931 Delete type=0 #216
+2026/10/23-22:05:15.499 54931 Level-0 table #222: started
+2026/10/23-22:05:15.526 54931 Level-0 table #222: 9602501 bytes OK
+2026/10/23-22:05:15.528 54931 Delete type=0 #219
+2026/10/23-22:05:15.529 54931 Compacting 4@0 + 4@1 files
+2026/10/23-22:05:15.537 54931 Generated table #223@0: 6 keys, 2222049 bytes
+2026/10/23-22:05:15.546 54931 Generated table #224@0: 3 keys, 2169657 bytes
+2026/10/23-22:05:15.552 54931 Generated table #225@0: 7 keys, 2180236 bytes
+2026/10/23-22:05:15.566 54931 Generated table #226@0: 1 keys, 3793449 bytes
+2026/10/23-22:05:15.574 54931 Generated table #227@0: 4 keys, 2675253 bytes
+2026/10/23-22:05:15.593 54931 Generated table #228@0: 4 keys, 7171202 bytes
+2026/10/23-22:05:15.600 54931 Generated table #229@0: 6 keys, 2404895 bytes
+2026/10/23-22:05:15.600 54931 Generated table #230@0: 2 keys, 290 bytes
+2026/10/23-22:05:15.600 54931 Compacted 4@0 + 4@1 files => 22617031 bytes
+2026/10/23-22:05:15.601 54931 compacted to: files[ 0 8 10 0 0 0 0 ]
+2026/10/23-22:05:15.601 54931 Delete type=2 #206
+2026/10/23-22:05:15.601 54931 Delete type=2 #215
+2026/10/23-22:05:15.601 54931 Delete type=2 #205
+2026/10/23-22:05:15.601 54931 Delete type=2 #217
+2026/10/23-22:05:15.601 54931 Delete type=2 #207
+2026/10/23-22:05:15.601 54931 Delete type=2 #220
+2026/10/23-22:05:15.601 54931 Delete type=2 #222
+2026/10/23-22:05:15.601 54931 Delete type=2 #204
+2026/10/23-22:05:15.604 54931 Compacting 1@1 + 3@2 files
+2026/10/23-22:05:15.613 54931 Generated table #231@1: 5 keys, 3048667 bytes
+2026/10/23-22:05:15.624 54931 Generated table #232@1: 4 keys, 3756910 bytes
+2026/10/23-22:05:15.632 54931 Generated table #233@1: 3 keys, 2131721 bytes
+2026/10/23-22:05:15.633 54931 Generated table #234@1: 1 keys, 61348 bytes
+2026/10/23-22:05:15.633 54931 Compacted 1@1 + 3@2 files => 8998646 bytes
+2026/10/23-22:05:15.633 54931 compacted to: files[ 0 7 11 0 0 0 0 ]
+2026/10/23-22:05:15.634 54931 Delete type=2 #172
+2026/10/23-22:05:15.634 54931 Delete type=2 #213
+2026/10/23-22:05:15.634 54931 Delete type=2 #212
+2026/10/23-22:05:15.634 54931 Delete type=2 #223
+2026/10/23-22:05:15.634 54931 Compacting 1@1 + 2@2 files
+2026/10/23-22:05:15.642 54931 Generated table #235@1: 3 keys, 2169657 bytes
+2026/10/23-22:05:15.642 54931 Compacted 1@1 + 2@2 files => 2169657 bytes
+2026/10/23-22:05:15.643 54931 compacted to: files[ 0 6 10 0 0 0 0 ]
+2026/10/23-22:05:15.643 54931 Delete type=2 #224
+2026/10/23-22:05:15.643 54931 Delete type=2 #173
+2026/10/23-22:05:15.643 54931 Delete type=2 #234
+2026/10/23-22:05:15.644 54931 Compacting 1@1 + 1@2 files
+2026/10/23-22:05:15.651 54931 Generated table #236@1: 9 keys, 2105374 bytes
+2026/10/23-22:05:15.652 54931 Generated table #237@1: 1 keys, 127463 bytes
+2026/10/23-22:05:15.652 54931 Compacted 1@1 + 1@2 files => 2232837 bytes
+2026/10/23-22:05:15.653 54931 compacted to: files[ 0 5 11 0 0 0 0 ]
+2026/10/23-22:05:15.653 54931 Delete type=2 #174
+2026/10/23-22:05:15.653 54931 Delete type=2 #225
+2026/10/23-22:05:15.653 54931 Compacting 1@1 + 1@2 files
+2026/10/23-22:05:15.668 54931 Generated table #238@1: 1 keys, 3793449 bytes
+2026/10/23-22:05:15.669 54931 Compacted 1@1 + 1@2 files => 3793449 bytes
+2026/10/23-22:05:15.669 54931 compacted to: files[ 0 4 11 0 0 0 0 ]
+2026/10/23-22:05:15.670 54931 Delete type=2 #175
+2026/10/23-22:05:15.670 54931 Delete type=2 #226
+2026/10/23-22:05:15.670 54931 Compacting 1@1 + 1@2 files
+2026/10/23-22:05:15.679 54931 Generated table #239@1: 4 keys, 2675253 bytes
+2026/10/23-22:05:15.679 54931 Compacted 1@1 + 1@2 files => 2675253 bytes
+2026/10/23-22:05:15.679 54931 compacted to: files[ 0 3 11 0 0 0 0 ]
+2026/10/23-22:05:15.679 54931 Delete type=2 #227
+2026/10/23-22:05:15.679 54931 Delete type=2 #176
+2026/10/23-22:05:18.518 54930 Level-0 table #241: started
+2026/10/23-22:05:18.585 54930 Level-0 table #241: 18731327 bytes OK
+2026/10/23-22:05:18.586 54930 Delete type=0 #221
