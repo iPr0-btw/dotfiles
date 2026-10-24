@@ -267,6 +267,16 @@
             }
           ],
           "Enable": true
+        },
+        {
+          "Path": "VoiDPlugins.Filter.Reconstructor",
+          "Settings": [
+            {
+              "Property": "EMAWeight",
+              "Value": 0.2
+            }
+          ],
+          "Enable": true
         }
       ],
       "AbsoluteModeSettings": {
